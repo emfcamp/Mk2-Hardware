@@ -1,0 +1,3 @@
+[submodule "Ciseco-Eagle-Library"]
+	path = Ciseco-Eagle-Library
+	url = git@github.com:CisecoPlc/Ciseco-Eagle-Library.git
