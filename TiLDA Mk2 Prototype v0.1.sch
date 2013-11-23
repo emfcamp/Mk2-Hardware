@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -23676,7 +23676,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="USB1" library="TiLDA Mk2 Parts" deviceset="SERIAL_MICRO-USB" device="-ZX62-B-5PA"/>
 <part name="U3" library="TiLDA Mk2 Parts" deviceset="ARDUINOR3" device="-CISECO-NO_DIMENSION-SPI"/>
 <part name="X1" library="TiLDA Mk2 Parts" deviceset="SMARTPRJ_CRYSTAL-3.2-2.5" device=""/>
-<part name="U4" library="TiLDA Mk2 Parts" deviceset="SMARTPRJ_ATSAM3X/A" device="AU"/>
+<part name="IC1" library="TiLDA Mk2 Parts" deviceset="SMARTPRJ_ATSAM3X/A" device="AU"/>
 <part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="5.0"/>
 <part name="J2" library="TiLDA Mk2 Parts" deviceset="EPD" device="-62684"/>
 <part name="GND1" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -23750,21 +23750,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C2" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/100n/10V/Y5V"/>
 <part name="GND16" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="TP1" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value=""/>
-<part name="C4" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/100n/10V/Y5V"/>
-<part name="GND17" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
+<part name="C4" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/100n/4V/X7R"/>
 <part name="GND18" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND19" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND21" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="GND22" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="GND23" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C5" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/2.2n/10V/Y5V"/>
-<part name="C6" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/100n/10V/Y5V"/>
+<part name="C5" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/2.2n/50V/X7R"/>
+<part name="C6" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/100n/2V/X7R"/>
 <part name="GND24" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="Q1" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="DMG2301U"/>
 <part name="Q3" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="Q7" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
-<part name="C8" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/10n/10V/Y5V"/>
-<part name="U$1" library="TiLDA Mk2 Parts" deviceset="MPU-6050" device=""/>
+<part name="C8" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/10n/4V/X7R"/>
+<part name="IC2" library="TiLDA Mk2 Parts" deviceset="MPU-6050" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23773,14 +23770,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="739.14" y="149.86" size="1.778" layer="91">Reset to be wired to a pin by default</text>
 <text x="739.14" y="144.78" size="1.778" layer="91">We can use as isp header for reporgraming SiNE or Mk1</text>
 <text x="739.14" y="142.24" size="1.778" layer="91">solder jumper to bridge back to normal reset</text>
-<text x="27.94" y="246.38" size="2.54" layer="91">EPD Power Control</text>
-<text x="226.06" y="218.44" size="2.54" layer="91">EPD</text>
-<text x="116.84" y="165.1" size="1.778" layer="91">P2_2 is Remote Reset</text>
-<text x="226.06" y="208.28" size="1.778" layer="91">Taken form the Repaper Dev Board</text>
-<text x="116.84" y="175.26" size="2.54" layer="91">SRF and</text>
-<text x="226.06" y="213.36" size="1.778" layer="91">Connector and support parts</text>
-<text x="116.84" y="170.18" size="2.54" layer="91">programing heder</text>
-<text x="116.84" y="160.02" size="1.778" layer="91">P0_5 Cloud be used for hop ??</text>
+<text x="27.94" y="246.38" size="2.54" layer="97" ratio="15">EPD Power Control</text>
+<text x="226.06" y="218.44" size="2.54" layer="97" ratio="15">EPD</text>
+<text x="116.84" y="165.1" size="1.778" layer="97">P2_2 is Remote Reset</text>
+<text x="226.06" y="208.28" size="1.778" layer="97">Taken form the Repaper Dev Board</text>
+<text x="116.84" y="175.26" size="2.54" layer="97" ratio="15">SRF and</text>
+<text x="226.06" y="213.36" size="1.778" layer="97">Connector and support parts</text>
+<text x="116.84" y="170.18" size="2.54" layer="97" ratio="15">programing heder</text>
+<text x="116.84" y="160.02" size="1.778" layer="97">P0_5 Cloud be used for hop ??</text>
+<text x="264.16" y="30.48" size="1.778" layer="97">Address 0x68</text>
+<text x="264.16" y="33.02" size="3.81" layer="97" ratio="15">MPU-6050 IMU</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -23790,13 +23789,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="FID1" gate="G$1" x="345.44" y="22.86"/>
 <instance part="FID2" gate="G$1" x="350.52" y="22.86"/>
 <instance part="FID4" gate="G$1" x="355.6" y="22.86"/>
-<instance part="LOGO2" gate="G$1" x="256.54" y="7.62"/>
+<instance part="LOGO2" gate="G$1" x="690.88" y="2.54"/>
 <instance part="U1" gate="G$1" x="289.56" y="17.78"/>
 <instance part="U6" gate="G$1" x="170.18" y="200.66"/>
 <instance part="USB1" gate="G$1" x="497.84" y="48.26"/>
 <instance part="U3" gate="G$1" x="701.04" y="129.54"/>
 <instance part="X1" gate="G$1" x="434.34" y="68.58"/>
-<instance part="U4" gate="G$1" x="447.04" y="88.9"/>
+<instance part="IC1" gate="G$1" x="447.04" y="88.9"/>
 <instance part="H1" gate="G$1" x="375.92" y="22.86"/>
 <instance part="J2" gate="G$1" x="375.92" y="200.66"/>
 <instance part="GND1" gate="1" x="337.82" y="243.84" rot="R270"/>
@@ -23848,7 +23847,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="FID3" gate="G$1" x="360.68" y="22.86"/>
 <instance part="FID5" gate="G$1" x="365.76" y="22.86"/>
 <instance part="FID6" gate="G$1" x="370.84" y="22.86"/>
-<instance part="LOGO4" gate="G$1" x="256.54" y="7.62"/>
+<instance part="LOGO4" gate="G$1" x="690.88" y="2.54"/>
 <instance part="U9" gate="G$1" x="424.18" y="53.34"/>
 <instance part="JP8" gate="G$1" x="421.64" y="121.92"/>
 <instance part="SG1" gate="G$1" x="548.64" y="27.94"/>
@@ -23870,21 +23869,18 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="C2" gate="G$1" x="129.54" y="218.44"/>
 <instance part="GND16" gate="1" x="124.46" y="226.06" rot="R270"/>
 <instance part="TP1" gate="G$1" x="139.7" y="218.44"/>
-<instance part="C4" gate="G$1" x="299.72" y="68.58" rot="R270"/>
-<instance part="GND17" gate="1" x="292.1" y="63.5"/>
+<instance part="C4" gate="G$1" x="264.16" y="60.96" rot="R270"/>
 <instance part="GND18" gate="1" x="124.46" y="203.2"/>
 <instance part="GND19" gate="1" x="309.88" y="33.02"/>
-<instance part="GND21" gate="1" x="271.78" y="33.02"/>
-<instance part="GND22" gate="1" x="284.48" y="53.34" rot="R270"/>
-<instance part="GND23" gate="1" x="284.48" y="55.88" rot="R270"/>
-<instance part="C5" gate="G$1" x="279.4" y="40.64" rot="R270"/>
-<instance part="C6" gate="G$1" x="279.4" y="45.72" rot="R270"/>
-<instance part="GND24" gate="1" x="360.68" y="33.02"/>
+<instance part="GND21" gate="1" x="256.54" y="33.02"/>
+<instance part="C5" gate="G$1" x="264.16" y="45.72" rot="R270"/>
+<instance part="C6" gate="G$1" x="264.16" y="50.8" rot="R270"/>
+<instance part="GND24" gate="1" x="370.84" y="33.02"/>
 <instance part="Q1" gate="G$1" x="63.5" y="233.68" rot="R90"/>
 <instance part="Q3" gate="G$1" x="45.72" y="223.52"/>
 <instance part="Q7" gate="G$1" x="281.94" y="91.44" rot="MR180"/>
-<instance part="C8" gate="G$1" x="355.6" y="40.64" rot="R270"/>
-<instance part="U$1" gate="G$1" x="330.2" y="53.34"/>
+<instance part="C8" gate="G$1" x="358.14" y="43.18" rot="R270"/>
+<instance part="IC2" gate="G$1" x="330.2" y="53.34"/>
 </instances>
 <busses>
 </busses>
@@ -24039,41 +24035,42 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="309.88" y="45.72" size="1.778" layer="95" rot="MR0"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="309.88" y1="45.72" x2="309.88" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="294.64" y1="68.58" x2="292.1" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="68.58" x2="292.1" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-</segment>
-<segment>
-<label x="309.88" y="55.88" size="1.778" layer="95" rot="MR0"/>
-<pinref part="GND23" gate="1" pin="GND"/>
-<wire x1="312.42" y1="55.88" x2="287.02" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="FSYNC"/>
+<pinref part="IC2" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="GND21" gate="1" pin="GND"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="35.56" x2="271.78" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="40.64" x2="271.78" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="45.72" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="40.64" x2="271.78" y2="40.64" width="0.1524" layer="91"/>
-<junction x="271.78" y="40.64"/>
-</segment>
-<segment>
+<wire x1="256.54" y1="35.56" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="45.72" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="50.8" x2="259.08" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="45.72" x2="256.54" y2="45.72" width="0.1524" layer="91"/>
+<junction x="256.54" y="45.72"/>
 <label x="309.88" y="53.34" size="1.778" layer="95" rot="MR0"/>
-<wire x1="312.42" y1="53.34" x2="287.02" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="GND22" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="CLKIN"/>
+<wire x1="312.42" y1="53.34" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="CLKIN"/>
+<wire x1="256.54" y1="53.34" x2="256.54" y2="50.8" width="0.1524" layer="91"/>
+<junction x="256.54" y="50.8"/>
+<label x="309.88" y="55.88" size="1.778" layer="95" rot="MR0"/>
+<wire x1="312.42" y1="55.88" x2="256.54" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="FSYNC"/>
+<wire x1="256.54" y1="55.88" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<junction x="256.54" y="53.34"/>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="256.54" y1="55.88" x2="256.54" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="60.96" x2="259.08" y2="60.96" width="0.1524" layer="91"/>
+<junction x="256.54" y="55.88"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
-<wire x1="360.68" y1="35.56" x2="360.68" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="35.56" x2="370.84" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="40.64" x2="358.14" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="43.18" x2="360.68" y2="43.18" width="0.1524" layer="91"/>
+<label x="350.52" y="50.8" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="AD0"/>
+<wire x1="370.84" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="370.84" y1="50.8" x2="370.84" y2="43.18" width="0.1524" layer="91"/>
+<junction x="370.84" y="43.18"/>
 </segment>
 </net>
 <net name="BORDER" class="0">
@@ -24498,12 +24495,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="129.54" y="210.82"/>
 </segment>
 <segment>
-<wire x1="309.88" y1="60.96" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
 <label x="309.88" y="60.96" size="1.778" layer="95" rot="MR0"/>
-<wire x1="309.88" y1="60.96" x2="309.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="309.88" y1="68.58" x2="302.26" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="312.42" y1="60.96" x2="266.7" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="PANEL_ON" class="0">
@@ -24664,75 +24659,73 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="139.7" y="213.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="MPU_AUX_CL" class="0">
 <segment>
 <wire x1="350.52" y1="60.96" x2="347.98" y2="60.96" width="0.1524" layer="91"/>
 <label x="350.52" y="60.96" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="AUX_CL"/>
+<pinref part="IC2" gate="G$1" pin="AUX_CL"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<wire x1="350.52" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
-<label x="350.52" y="58.42" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="AUX_DA"/>
-</segment>
-</net>
-<net name="N$12" class="0">
-<segment>
 <wire x1="350.52" y1="55.88" x2="347.98" y2="55.88" width="0.1524" layer="91"/>
 <label x="350.52" y="55.88" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SCL"/>
+<pinref part="IC2" gate="G$1" pin="SCL"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <wire x1="350.52" y1="53.34" x2="347.98" y2="53.34" width="0.1524" layer="91"/>
 <label x="350.52" y="53.34" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="SDA"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<wire x1="350.52" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
-<label x="350.52" y="50.8" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="AD0"/>
+<pinref part="IC2" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="MPU_INT" class="0">
 <segment>
 <wire x1="309.88" y1="58.42" x2="312.42" y2="58.42" width="0.1524" layer="91"/>
 <label x="309.88" y="58.42" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$1" gate="G$1" pin="INT"/>
+<pinref part="IC2" gate="G$1" pin="INT"/>
 </segment>
 </net>
-<net name="REGOUT" class="0">
+<net name="MPU_REGOUT" class="0">
 <segment>
 <label x="309.88" y="50.8" size="1.778" layer="95" rot="MR0"/>
-<wire x1="312.42" y1="50.8" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="50.8" x2="266.7" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="281.94" y1="45.72" x2="287.02" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="45.72" x2="287.02" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="REGOUT"/>
+<pinref part="IC2" gate="G$1" pin="REGOUT"/>
 </segment>
 </net>
-<net name="CPOUT" class="0">
+<net name="MPU_CPOUT" class="0">
 <segment>
 <label x="309.88" y="48.26" size="1.778" layer="95" rot="MR0"/>
-<wire x1="312.42" y1="48.26" x2="289.56" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="48.26" x2="289.56" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="289.56" y1="40.64" x2="281.94" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="48.26" x2="274.32" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="48.26" x2="274.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="45.72" x2="266.7" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="CPOUT"/>
+<pinref part="IC2" gate="G$1" pin="CPOUT"/>
 </segment>
 </net>
-<net name="VLOGIC" class="0">
+<net name="MPU_VLOGIC" class="0">
 <segment>
 <wire x1="347.98" y1="48.26" x2="350.52" y2="48.26" width="0.1524" layer="91"/>
 <label x="350.52" y="48.26" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="VLOGIC"/>
+<pinref part="IC2" gate="G$1" pin="VLOGIC"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="350.52" y1="48.26" x2="350.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="48.26" x2="350.52" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="43.18" x2="353.06" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MPU_AUX_DA" class="0">
+<segment>
+<wire x1="350.52" y1="58.42" x2="347.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="350.52" y="58.42" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="AUX_DA"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<wire x1="287.02" y1="22.86" x2="248.92" y2="22.86" width="0.1524" layer="91" style="longdash"/>
+<wire x1="248.92" y1="22.86" x2="248.92" y2="68.58" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 </nets>
