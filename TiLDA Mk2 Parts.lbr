@@ -31501,6 +31501,85 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <text x="-0.33138125" y="-0.4445" size="0.254" layer="51" rot="R40">PASTE</text>
 <rectangle x1="-1.4224" y1="-0.9906" x2="1.4224" y2="0.9906" layer="31"/>
 </package>
+<package name="QFN-24-NODIE">
+<circle x="-1.78" y="1.78" radius="0.0632" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="0.2" width="0.1" layer="51"/>
+<wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
+<wire x1="2" y1="2" x2="2" y2="-2" width="0.127" layer="51"/>
+<wire x1="2" y1="-2" x2="-2" y2="-2" width="0.127" layer="51"/>
+<wire x1="-2" y1="-2" x2="-2" y2="2" width="0.127" layer="51"/>
+<wire x1="1.8" y1="2.1" x2="2.1" y2="2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="2.1" x2="2.1" y2="1.8" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-2.1" x2="2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-2.1" x2="2.1" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-2.1" x2="-2.1" y2="-2.1" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="-2.1" x2="-2.1" y2="-1.8" width="0.127" layer="21"/>
+<wire x1="-2.1" y1="1.8" x2="-1.8" y2="2.1" width="0.127" layer="21"/>
+<wire x1="0" y1="0.2" x2="0" y2="1.4" width="0.1" layer="51"/>
+<wire x1="-0.2" y1="1.2" x2="0" y2="1.4" width="0.1" layer="51"/>
+<wire x1="0" y1="1.4" x2="0.2" y2="1.2" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0.7" x2="-0.3" y2="0.7" width="0.1" layer="51" curve="161.075356"/>
+<wire x1="0.4" y1="0.8" x2="0.3" y2="0.7" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0.7" x2="0.2" y2="0.7" width="0.1" layer="51"/>
+<wire x1="0.2" y1="0" x2="1.4" y2="0" width="0.1" layer="51"/>
+<wire x1="1.2" y1="0.2" x2="1.4" y2="0" width="0.1" layer="51"/>
+<wire x1="1.4" y1="0" x2="1.2" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="0.7" y2="0.3" width="0.1" layer="51" curve="161.075356"/>
+<wire x1="0.8" y1="-0.4" x2="0.7" y2="-0.3" width="0.1" layer="51"/>
+<wire x1="0.7" y1="-0.3" x2="0.7" y2="-0.2" width="0.1" layer="51"/>
+<smd name="1" x="-2.05" y="1.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="2" x="-2.05" y="0.75" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="3" x="-2.05" y="0.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="4" x="-2.05" y="-0.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="5" x="-2.05" y="-0.75" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="6" x="-2.05" y="-1.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="7" x="-1.25" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="8" x="-0.75" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-0.25" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="0.25" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="0.75" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="1.25" y="-2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="2.05" y="-1.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="14" x="2.05" y="-0.75" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="15" x="2.05" y="-0.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="16" x="2.05" y="0.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="17" x="2.05" y="0.75" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="18" x="2.05" y="1.25" dx="0.85" dy="0.25" layer="1" roundness="100" rot="R180"/>
+<smd name="19" x="1.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="20" x="0.75" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="21" x="0.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="22" x="-0.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="23" x="-0.75" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<smd name="24" x="-1.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
+<text x="-0.6" y="1" size="0.254" layer="51">Y</text>
+<text x="1.1" y="0.4" size="0.254" layer="51">X</text>
+<text x="-0.1" y="-0.6" size="0.254" layer="51">Z</text>
+<rectangle x1="-1.95" y1="0.075" x2="-1.7" y2="0.425" layer="51" rot="R90"/>
+<rectangle x1="-0.375" y1="1.6" x2="-0.125" y2="2" layer="51"/>
+<rectangle x1="-1.95" y1="0.575" x2="-1.7" y2="0.925" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="1.075" x2="-1.7" y2="1.425" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="-0.425" x2="-1.7" y2="-0.075" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="-0.925" x2="-1.7" y2="-0.575" layer="51" rot="R90"/>
+<rectangle x1="-1.95" y1="-1.425" x2="-1.7" y2="-1.075" layer="51" rot="R90"/>
+<rectangle x1="1.7" y1="-1.425" x2="1.95" y2="-1.075" layer="51" rot="R270"/>
+<rectangle x1="1.7" y1="-0.925" x2="1.95" y2="-0.575" layer="51" rot="R270"/>
+<rectangle x1="1.7" y1="-0.425" x2="1.95" y2="-0.075" layer="51" rot="R270"/>
+<rectangle x1="1.7" y1="0.075" x2="1.95" y2="0.425" layer="51" rot="R270"/>
+<rectangle x1="1.7" y1="0.575" x2="1.95" y2="0.925" layer="51" rot="R270"/>
+<rectangle x1="1.7" y1="1.075" x2="1.95" y2="1.425" layer="51" rot="R270"/>
+<rectangle x1="-0.875" y1="1.6" x2="-0.625" y2="2" layer="51"/>
+<rectangle x1="-1.375" y1="1.6" x2="-1.125" y2="2" layer="51"/>
+<rectangle x1="0.125" y1="1.6" x2="0.375" y2="2" layer="51"/>
+<rectangle x1="0.625" y1="1.6" x2="0.875" y2="2" layer="51"/>
+<rectangle x1="1.125" y1="1.6" x2="1.375" y2="2" layer="51"/>
+<rectangle x1="0.125" y1="-2" x2="0.375" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="0.625" y1="-2" x2="0.875" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="1.125" y1="-2" x2="1.375" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="-0.375" y1="-2" x2="-0.125" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="-0.875" y1="-2" x2="-0.625" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="-1.375" y1="-2" x2="-1.125" y2="-1.6" layer="51" rot="R180"/>
+<rectangle x1="-1.5" y1="-1.45" x2="1.5" y2="1.45" layer="43"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -49549,7 +49628,6 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <pin name="AUXCL" x="17.78" y="-2.54" length="middle" rot="R180"/>
 <pin name="CS" x="17.78" y="7.62" length="middle" rot="R180"/>
 <pin name="SCL/SCLK" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="CLKOUT" x="17.78" y="-7.62" length="middle" rot="R180"/>
 <pin name="AD0/SDO" x="17.78" y="2.54" length="middle" rot="R180"/>
 <text x="-12.7" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-12.7" size="1.778" layer="95">&gt;VALUE</text>
@@ -55828,17 +55906,16 @@ XF2M-4015-rev is good for connecting up 'PSP' SHARP LQ043 LCDs</description>
 <gate name="G$1" symbol="MPU-6000" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-LWK" package="QFN-24-LWK">
+<device name="" package="QFN-24-NODIE">
 <connects>
 <connect gate="G$1" pin="AD0/SDO" pad="9"/>
 <connect gate="G$1" pin="AUXCL" pad="7"/>
 <connect gate="G$1" pin="AUXDA" pad="6"/>
 <connect gate="G$1" pin="CLKIN" pad="1"/>
-<connect gate="G$1" pin="CLKOUT" pad="22"/>
 <connect gate="G$1" pin="CPOUT" pad="20"/>
 <connect gate="G$1" pin="CS" pad="8"/>
 <connect gate="G$1" pin="FSYNC" pad="11"/>
-<connect gate="G$1" pin="GND" pad="18 25"/>
+<connect gate="G$1" pin="GND" pad="18"/>
 <connect gate="G$1" pin="INT" pad="12"/>
 <connect gate="G$1" pin="REGOUT" pad="10"/>
 <connect gate="G$1" pin="SCL/SCLK" pad="23"/>
@@ -57918,12 +57995,12 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU-6050">
+<deviceset name="MPU-6050" prefix="U">
 <gates>
 <gate name="G$1" symbol="MPU-6050" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN-24-LWK">
+<device name="" package="QFN-24-NODIE">
 <connects>
 <connect gate="G$1" pin="AD0" pad="9"/>
 <connect gate="G$1" pin="AUX_CL" pad="7"/>
@@ -57931,7 +58008,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="CLKIN" pad="1"/>
 <connect gate="G$1" pin="CPOUT" pad="20"/>
 <connect gate="G$1" pin="FSYNC" pad="11"/>
-<connect gate="G$1" pin="GND" pad="18 25"/>
+<connect gate="G$1" pin="GND" pad="18"/>
 <connect gate="G$1" pin="INT" pad="12"/>
 <connect gate="G$1" pin="REGOUT" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="23"/>

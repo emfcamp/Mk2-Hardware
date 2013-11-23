@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
@@ -12481,7 +12481,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
-<package name="QFN-24-LWK">
+<package name="QFN-24-NODIE">
 <circle x="-1.78" y="1.78" radius="0.0632" width="0.127" layer="21"/>
 <circle x="0" y="0" radius="0.2" width="0.1" layer="51"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.127" layer="51"/>
@@ -12531,7 +12531,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="22" x="-0.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
 <smd name="23" x="-0.75" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
 <smd name="24" x="-1.25" y="2.025" dx="0.9" dy="0.25" layer="1" roundness="100" rot="R90"/>
-<smd name="25" x="0" y="0" dx="2.7" dy="2.6" layer="1" cream="no"/>
 <text x="-0.6" y="1" size="0.254" layer="51">Y</text>
 <text x="1.1" y="0.4" size="0.254" layer="51">X</text>
 <text x="-0.1" y="-0.6" size="0.254" layer="51">Z</text>
@@ -12559,10 +12558,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-0.375" y1="-2" x2="-0.125" y2="-1.6" layer="51" rot="R180"/>
 <rectangle x1="-0.875" y1="-2" x2="-0.625" y2="-1.6" layer="51" rot="R180"/>
 <rectangle x1="-1.375" y1="-2" x2="-1.125" y2="-1.6" layer="51" rot="R180"/>
-<rectangle x1="0.25" y1="0.25" x2="0.75" y2="0.75" layer="31"/>
-<rectangle x1="-0.75" y1="0.25" x2="-0.25" y2="0.75" layer="31"/>
-<rectangle x1="-0.75" y1="-0.75" x2="-0.25" y2="-0.25" layer="31"/>
-<rectangle x1="0.25" y1="-0.75" x2="0.75" y2="-0.25" layer="31"/>
+<rectangle x1="-1.5" y1="-1.45" x2="1.5" y2="1.45" layer="43"/>
 </package>
 </packages>
 <symbols>
@@ -18357,38 +18353,38 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="20.32" y1="-7.62" x2="20.32" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
 <text x="-17.78" y="2.54" size="5.08" layer="94">ARDUINO</text>
 <text x="-10.16" y="-2.54" size="2.54" layer="94">UNO R3</text>
-<pin name="D0" x="20.32" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D1" x="17.78" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D2" x="15.24" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D3" x="12.7" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D4" x="10.16" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D5" x="7.62" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D6" x="5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D7" x="2.54" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D8" x="-2.54" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D9" x="-5.08" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D10" x="-7.62" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D11" x="-10.16" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D12" x="-12.7" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="D13" x="-15.24" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="GND" x="-17.78" y="30.48" visible="pin" length="middle" direction="pwr" rot="R270"/>
-<pin name="AREF" x="-20.32" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="A5/SCL" x="22.86" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="A4/SDA" x="20.32" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="A3" x="17.78" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="A2" x="15.24" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="A1" x="12.7" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="A0" x="10.16" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="VIN" x="5.08" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND1" x="2.54" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="GND2" x="0" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="5V" x="-2.54" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="3V" x="-5.08" y="-30.48" visible="pin" length="middle" direction="pwr" rot="R90"/>
-<pin name="/RESET" x="-7.62" y="-30.48" visible="pin" length="middle" rot="R90"/>
-<pin name="IOREF" x="-10.16" y="-30.48" visible="pin" length="middle" direction="out" rot="R90"/>
-<pin name="RESERVED" x="-12.7" y="-30.48" visible="pin" length="middle" direction="nc" rot="R90"/>
-<pin name="SCL" x="-25.4" y="30.48" visible="pin" length="middle" rot="R270"/>
-<pin name="SDA" x="-22.86" y="30.48" visible="pin" length="middle" rot="R270"/>
+<pin name="D0" x="20.32" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D1" x="17.78" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D2" x="15.24" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D3" x="12.7" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D4" x="10.16" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D5" x="7.62" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D6" x="5.08" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D7" x="2.54" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D8" x="-2.54" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D9" x="-5.08" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D10" x="-7.62" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D11" x="-10.16" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D12" x="-12.7" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="D13" x="-15.24" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="GND" x="-17.78" y="27.94" visible="pin" length="short" direction="pwr" rot="R270"/>
+<pin name="AREF" x="-20.32" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="A5/SCL" x="22.86" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="A4/SDA" x="20.32" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="A3" x="17.78" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="A2" x="15.24" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="A1" x="12.7" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="A0" x="10.16" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="VIN" x="5.08" y="-27.94" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="GND1" x="2.54" y="-27.94" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="GND2" x="0" y="-27.94" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="5V" x="-2.54" y="-27.94" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="3V" x="-5.08" y="-27.94" visible="pin" length="short" direction="pwr" rot="R90"/>
+<pin name="/RESET" x="-7.62" y="-27.94" visible="pin" length="short" rot="R90"/>
+<pin name="IOREF" x="-10.16" y="-27.94" visible="pin" length="short" direction="out" rot="R90"/>
+<pin name="RESERVED" x="-12.7" y="-27.94" visible="pin" length="short" direction="nc" rot="R90"/>
+<pin name="SCL" x="-25.4" y="27.94" visible="pin" length="short" rot="R270"/>
+<pin name="SDA" x="-22.86" y="27.94" visible="pin" length="short" rot="R270"/>
 </symbol>
 <symbol name="SMARTPRJ_CRYSTAL-KX7">
 <wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
@@ -22842,7 +22838,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <gate name="G$1" symbol="MPU-6050" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="QFN-24-LWK">
+<device name="" package="QFN-24-NODIE">
 <connects>
 <connect gate="G$1" pin="AD0" pad="9"/>
 <connect gate="G$1" pin="AUX_CL" pad="7"/>
@@ -22850,7 +22846,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="CLKIN" pad="1"/>
 <connect gate="G$1" pin="CPOUT" pad="20"/>
 <connect gate="G$1" pin="FSYNC" pad="11"/>
-<connect gate="G$1" pin="GND" pad="18 25"/>
+<connect gate="G$1" pin="GND" pad="18"/>
 <connect gate="G$1" pin="INT" pad="12"/>
 <connect gate="G$1" pin="REGOUT" pad="10"/>
 <connect gate="G$1" pin="SCL" pad="23"/>
