@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,20 +53,20 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -3494,66 +3494,6 @@
 <rectangle x1="6.515" y1="8.245" x2="7.615" y2="8.295" layer="21"/>
 <rectangle x1="12.915" y1="8.245" x2="14.015" y2="8.295" layer="21"/>
 <rectangle x1="15.715" y1="8.245" x2="20.565" y2="8.295" layer="21"/>
-</package>
-<package name="SERIAL_FCI-10118193-0001LF">
-<wire x1="-4.125" y1="0" x2="4.125" y2="0" width="0.1" layer="21"/>
-<smd name="1" x="-1.3" y="4.125" dx="0.4" dy="1.35" layer="1"/>
-<smd name="2" x="-0.65" y="4.125" dx="0.4" dy="1.35" layer="1"/>
-<smd name="3" x="0" y="4.125" dx="0.4" dy="1.35" layer="1"/>
-<smd name="4" x="0.65" y="4.125" dx="0.4" dy="1.35" layer="1"/>
-<smd name="5" x="1.3" y="4.125" dx="0.4" dy="1.35" layer="1"/>
-<smd name="G1" x="-3.2" y="3.86" dx="1.6" dy="1.4" layer="1"/>
-<smd name="G2" x="3.2" y="3.86" dx="1.6" dy="1.4" layer="1"/>
-<smd name="G3" x="-1.2" y="1.45" dx="1.9" dy="1.9" layer="1"/>
-<smd name="G4" x="1.2" y="1.45" dx="1.9" dy="1.9" layer="1"/>
-<pad name="G5" x="-3.3" y="1.45" drill="1.2" diameter="1.6"/>
-<pad name="G6" x="3.3" y="1.45" drill="1.2" diameter="1.6"/>
-</package>
-<package name="SERIAL_MOLEX-47346-0001">
-<wire x1="0" y1="-4.15" x2="0" y2="4.15" width="0" layer="20"/>
-<wire x1="5" y1="3.8" x2="5" y2="-3.75" width="0.4064" layer="51"/>
-<wire x1="5" y1="-3.75" x2="0.1" y2="-3.75" width="0.4064" layer="51"/>
-<wire x1="0.1" y1="-3.75" x2="-0.7" y2="-4.5" width="0.4064" layer="51"/>
-<wire x1="5" y1="3.8" x2="0.05" y2="3.8" width="0.4064" layer="51"/>
-<wire x1="0.05" y1="3.8" x2="-0.7" y2="4.45" width="0.4064" layer="51"/>
-<wire x1="-0.7" y1="4.45" x2="-0.7" y2="-4.5" width="0.4064" layer="51"/>
-<wire x1="-0.7" y1="-4.5" x2="-0.7" y2="-4.55" width="0.4064" layer="51"/>
-<rectangle x1="2.65" y1="-1.6" x2="3.3" y2="1.6" layer="41"/>
-<smd name="1" x="4.25" y="1.3" dx="0.45" dy="1.7" layer="1" rot="R90"/>
-<smd name="2" x="4.25" y="0.65" dx="0.45" dy="1.7" layer="1" rot="R90"/>
-<smd name="3" x="4.25" y="0" dx="0.45" dy="1.7" layer="1" rot="R90"/>
-<smd name="4" x="4.25" y="-0.65" dx="0.45" dy="1.7" layer="1" rot="R90"/>
-<smd name="5" x="4.25" y="-1.3" dx="0.45" dy="1.7" layer="1" rot="R90"/>
-<smd name="GND1" x="1.45" y="2.95" dx="2.375" dy="1.9" layer="1" rot="R90"/>
-<smd name="GND2" x="3.75" y="2.5" dx="2.1" dy="1.475" layer="1"/>
-<smd name="GND3" x="3.75" y="-2.5" dx="2.1" dy="1.475" layer="1"/>
-<smd name="GND4" x="1.45" y="-2.95" dx="2.375" dy="1.9" layer="1" rot="R90"/>
-<smd name="GND5" x="1.45" y="0.8375" dx="1.175" dy="1.9" layer="1" rot="R90"/>
-<smd name="GND6" x="1.45" y="-0.8375" dx="1.175" dy="1.9" layer="1" rot="R90"/>
-<text x="0.2" y="4.6" size="1.27" layer="21">&gt;NAME</text>
-</package>
-<package name="SERIAL_ZX62-B-5PA">
-<description>&lt;b&gt;Hirose ZX62-B-5PA(11)&lt;/b&gt;&lt;br&gt;
-Micro B - Standard (Bottom Mount), Shell SMT</description>
-<wire x1="-5" y1="-1.45" x2="5" y2="-1.45" width="0" layer="51"/>
-<wire x1="3.75" y1="-2.15" x2="-3.75" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="-2.15" x2="-3.75" y2="2.85" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="2.85" x2="3.75" y2="2.85" width="0.1" layer="51"/>
-<wire x1="3.75" y1="2.85" x2="3.75" y2="-2.15" width="0.1" layer="51"/>
-<wire x1="-3.75" y1="-2.15" x2="-4.05" y2="-2.75" width="0.1" layer="51"/>
-<wire x1="-4.05" y1="-2.75" x2="4.05" y2="-2.75" width="0.1" layer="51"/>
-<wire x1="4.05" y1="-2.75" x2="3.75" y2="-2.15" width="0.1" layer="51"/>
-<smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="4" x="0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
-<smd name="GND@1" x="-3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND@2" x="3.1" y="2.55" dx="2.1" dy="1.6" layer="1"/>
-<smd name="GND@3" x="3.9" y="0" dx="1.9" dy="1.6" layer="1" rot="R90"/>
-<smd name="GND@4" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND@5" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
-<smd name="GND@6" x="-3.9" y="0" dx="1.9" dy="1.6" layer="1" rot="R90"/>
 </package>
 <package name="ARDUINOR3">
 <description>The new Arduino R3 'classic' adds duplicate I2C pins and an IORef pin (and an unused pin</description>
@@ -12560,6 +12500,148 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <rectangle x1="-1.375" y1="-2" x2="-1.125" y2="-1.6" layer="51" rot="R180"/>
 <rectangle x1="-1.5" y1="-1.45" x2="1.5" y2="1.45" layer="43"/>
 </package>
+<package name="USB-AB-MICRO-SMD">
+<description>micro USB AB connector for OTG support. 5-pins: USBVCC, GND, D+, D-, USBID. Can act as host or device</description>
+<smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-" x="2.85" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.85" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID" x="2.85" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND" x="2.85" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="P$6" x="0" y="1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$7" x="0" y="-1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<wire x1="-2.75" y1="4" x2="-2.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.05" y1="5" x2="-2.05" y2="-5" width="0.2032" layer="51"/>
+<text x="-5.2" y="5.5" size="0.3048" layer="51">PCB Front</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<smd name="P$8" x="0" y="4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$9" x="0" y="-4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<wire x1="2.9" y1="4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="4" x2="-0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4" x2="2.9" y2="4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="-4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="1.2" y1="4.1" x2="3" y2="4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="4.1" x2="3" y2="1.8" width="0.254" layer="21"/>
+<wire x1="3" y1="-1.8" x2="3" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="-4.1" x2="1.2" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="4.1" x2="-1.9" y2="4.1" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="4" x2="-0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4.6" x2="0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4.6" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4" x2="0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4.6" x2="-0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="-4.6" x2="-0.6" y2="-4" width="0.2032" layer="51"/>
+<text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="USB_AB_MICRO_1:1_V2">
+<smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-" x="2.85" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.85" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID" x="2.85" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND" x="2.85" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="P$6" x="0" y="1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$7" x="0" y="-1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<wire x1="-2.75" y1="4" x2="-2.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.05" y1="5" x2="-2.05" y2="-5" width="0.2032" layer="51"/>
+<text x="-5.2" y="5.5" size="0.3048" layer="51">PCB Front</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<smd name="P$8" x="0" y="4" dx="2.2" dy="1.27" layer="1" rot="R90"/>
+<smd name="P$9" x="0" y="-4" dx="2.2" dy="1.27" layer="1" rot="R90"/>
+<wire x1="2.9" y1="4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="4" x2="-0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4" x2="2.9" y2="4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="-4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="1.2" y1="4.1" x2="3" y2="4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="4.1" x2="3" y2="1.8" width="0.254" layer="21"/>
+<wire x1="3" y1="-1.8" x2="3" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="3" y1="-4.1" x2="1.2" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="4.1" x2="-1.9" y2="4.1" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="4" x2="-0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4.6" x2="0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4.6" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4" x2="0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4.6" x2="-0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="-4.6" x2="-0.6" y2="-4" width="0.2032" layer="51"/>
+<text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+<package name="USB-AB-MICRO-SMD_V03">
+<text x="-4.66" y="5.96" size="0.3048" layer="51">PCB Front</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="1"/>
+<rectangle x1="-0.75" y1="-1.25" x2="0.75" y2="1.25" layer="1"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="1"/>
+<smd name="D+1" x="2.7" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-1" x="2.7" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="VBUS1" x="2.7" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID1" x="2.7" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND1" x="2.7" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<hole x="2.2" y="1.9" drill="0.85"/>
+<hole x="2.2" y="-1.9" drill="0.85"/>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
+<rectangle x1="-0.35" y1="-0.75" x2="0.35" y2="0.75" layer="31"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
+<wire x1="-2.15" y1="3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="2.85" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="-2.15" y2="3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="-3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.981959375" y1="3.99288125" x2="2" y2="3.99288125" width="0.3048" layer="21"/>
+<wire x1="2" y1="3.99288125" x2="2" y2="4" width="0.3048" layer="21"/>
+<wire x1="3" y1="4" x2="3" y2="3" width="0.3048" layer="21"/>
+<wire x1="2" y1="-4" x2="3" y2="-4" width="0.3048" layer="21"/>
+<wire x1="3" y1="-4" x2="3" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
+<wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
+<rectangle x1="-0.85" y1="2.684" x2="0.85" y2="4.684" layer="29"/>
+<rectangle x1="-0.85" y1="-4.684" x2="0.85" y2="-2.684" layer="29"/>
+<rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
+</package>
+<package name="USB-AB-MICRO-SMD_LWK">
+<smd name="D+" x="2.85" y="0" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="D-" x="2.85" y="0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.85" y="1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="ID" x="2.85" y="-0.65" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="GND" x="2.85" y="-1.3" dx="0.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="P$6" x="0" y="1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$7" x="0" y="-1.25" dx="2" dy="1.9" layer="1" rot="R90"/>
+<wire x1="-2.75" y1="4" x2="-2.75" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.05" y1="5" x2="-2.05" y2="-5" width="0.2032" layer="51"/>
+<text x="-5.2" y="5.5" size="0.3048" layer="51">PCB Front</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<smd name="P$8" x="0" y="4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$9" x="0" y="-4" dx="2.2" dy="1.9" layer="1" rot="R90"/>
+<wire x1="2.9" y1="4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="4" x2="-0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4" x2="2.9" y2="4" width="0.2032" layer="51"/>
+<wire x1="-2.7" y1="-4" x2="2.9" y2="-4" width="0.2032" layer="51"/>
+<wire x1="-1.3" y1="-4.1" x2="-1.7" y2="-4.1" width="0.254" layer="21"/>
+<wire x1="-1.3" y1="4.1" x2="-1.7" y2="4.1" width="0.254" layer="21"/>
+<wire x1="-0.6" y1="4" x2="-0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="4.6" x2="0.6" y2="4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="4.6" x2="0.6" y2="4" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4" x2="0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="0.6" y1="-4.6" x2="-0.6" y2="-4.6" width="0.2032" layer="51"/>
+<wire x1="-0.6" y1="-4.6" x2="-0.6" y2="-4" width="0.2032" layer="51"/>
+<text x="-1.27" y="5.969" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.27" y="5.461" size="0.4064" layer="27">&gt;VALUE</text>
+<smd name="P$1" x="2.675" y="3.1" dx="2.1" dy="1.6" layer="1" rot="R90"/>
+<smd name="P$2" x="2.675" y="-3.1" dx="2.1" dy="1.6" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -18298,43 +18380,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <symbol name="EPD-OUTLINE">
 <text x="0" y="0" size="1.27" layer="94">EDP Outline</text>
 </symbol>
-<symbol name="SERIAL_MOLEX-47346-0001">
-<wire x1="2.54" y1="6.35" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-6.35" x2="1.27" y2="-7.62" width="0.254" layer="94" curve="-90"/>
-<wire x1="1.27" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-1.016" y2="-8.128" width="0.254" layer="94" curve="53.130102"/>
-<wire x1="-1.016" y1="-8.128" x2="-2.54" y2="-8.89" width="0.254" layer="94" curve="-53.130102"/>
-<wire x1="-2.54" y1="-8.89" x2="-5.08" y2="-8.89" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-8.89" x2="-6.35" y2="-7.62" width="0.254" layer="94" curve="-90"/>
-<wire x1="-6.35" y1="-7.62" x2="-6.35" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="6.35" x2="1.27" y2="7.62" width="0.254" layer="94" curve="90"/>
-<wire x1="1.27" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="7.62" x2="-1.016" y2="8.128" width="0.254" layer="94" curve="-53.130102"/>
-<wire x1="-1.016" y1="8.128" x2="-2.54" y2="8.89" width="0.254" layer="94" curve="53.130102"/>
-<wire x1="-2.54" y1="8.89" x2="-5.08" y2="8.89" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="8.89" x2="-6.35" y2="7.62" width="0.254" layer="94" curve="90"/>
-<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-1.27" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-6.35" x2="-3.81" y2="-6.35" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="6.35" x2="-1.27" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="6.35" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
-<pin name="D+" x="5.08" y="0" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="D-" x="5.08" y="2.54" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="G" x="5.08" y="-5.08" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="GND1" x="2.54" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="GND2" x="0" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="GND3" x="-2.54" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="GND4" x="-5.08" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="GND5" x="-7.62" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="GND6" x="5.08" y="-12.7" visible="off" length="short" direction="pwr" rot="R90"/>
-<pin name="ID" x="5.08" y="-2.54" visible="pin" length="middle" direction="in" rot="R180"/>
-<pin name="V" x="5.08" y="5.08" visible="pin" length="middle" direction="in" rot="R180"/>
-<text x="2.54" y="11.43" size="1.778" layer="95" font="vector" rot="MR0">&gt;NAME</text>
-<text x="-12.7" y="-7.62" size="1.778" layer="96" font="vector" rot="MR90">&gt;VALUE</text>
-</symbol>
 <symbol name="ARDUINOR3">
 <wire x1="-33.02" y1="25.4" x2="-33.02" y2="-25.4" width="0.254" layer="94"/>
 <wire x1="-33.02" y1="-25.4" x2="25.4" y2="-25.4" width="0.254" layer="94"/>
@@ -19012,6 +19057,18 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-12.7" y="10.16" size="1.778" layer="95">&gt;NAME</text>
 <text x="-12.7" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="USB_AB">
+<description>USB AB, 5-pins: USBVCC, GND, D+, D-, USBID.</description>
+<wire x1="2.54" y1="6.35" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<text x="1.27" y="-6.096" size="2.54" layer="94" rot="R90">USBAB</text>
+<pin name="D+" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="D-" x="-5.08" y="-2.54" visible="pad" length="short"/>
+<pin name="VBUS" x="-5.08" y="-5.08" visible="pad" length="short"/>
+<pin name="GND" x="-5.08" y="5.08" visible="pad" length="short"/>
+<pin name="USBID" x="-5.08" y="2.54" visible="pad" length="short"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
@@ -19187,68 +19244,6 @@ Various fiducial points for machine vision alignment.</description>
 </technologies>
 </device>
 <device name="-2.7&quot;-UNDER" package="EPD-2.7-UNDER">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SERIAL_MICRO-USB" prefix="USB">
-<description>MICRO USB B, BOTTOM MOUNT</description>
-<gates>
-<gate name="G$1" symbol="SERIAL_MOLEX-47346-0001" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-FCI-10118193" package="SERIAL_FCI-10118193-0001LF">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="G" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="G1"/>
-<connect gate="G$1" pin="GND2" pad="G2"/>
-<connect gate="G$1" pin="GND3" pad="G3"/>
-<connect gate="G$1" pin="GND4" pad="G4"/>
-<connect gate="G$1" pin="GND5" pad="G5"/>
-<connect gate="G$1" pin="GND6" pad="G6"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="V" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-MOLEX-47346" package="SERIAL_MOLEX-47346-0001">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="G" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="GND1"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-<connect gate="G$1" pin="GND3" pad="GND3"/>
-<connect gate="G$1" pin="GND4" pad="GND4"/>
-<connect gate="G$1" pin="GND5" pad="GND5"/>
-<connect gate="G$1" pin="GND6" pad="GND6"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="V" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-ZX62-B-5PA" package="SERIAL_ZX62-B-5PA">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="G" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="GND@1"/>
-<connect gate="G$1" pin="GND2" pad="GND@2"/>
-<connect gate="G$1" pin="GND3" pad="GND@3"/>
-<connect gate="G$1" pin="GND4" pad="GND@4"/>
-<connect gate="G$1" pin="GND5" pad="GND@5"/>
-<connect gate="G$1" pin="GND6" pad="GND@6"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="V" pad="1"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -22833,7 +22828,7 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU-6050">
+<deviceset name="MPU-6050" prefix="U">
 <gates>
 <gate name="G$1" symbol="MPU-6050" x="0" y="0"/>
 </gates>
@@ -22853,6 +22848,64 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="SDA" pad="24"/>
 <connect gate="G$1" pin="VDD" pad="13"/>
 <connect gate="G$1" pin="VLOGIC" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USB-AB" prefix="U" uservalue="yes">
+<description>This is a USB AB connector that is compatible with USB OTG. i.e. this connector can serve as a host or device</description>
+<gates>
+<gate name="G$1" symbol="USB_AB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-AB-MICRO-SMD">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="USBID" pad="ID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="&quot;" package="USB_AB_MICRO_1:1_V2">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="USBID" pad="ID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CONN-11794" package="USB-AB-MICRO-SMD_V03">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+1"/>
+<connect gate="G$1" pin="D-" pad="D-1"/>
+<connect gate="G$1" pin="GND" pad="GND1"/>
+<connect gate="G$1" pin="USBID" pad="ID1"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-11794"/>
+</technology>
+</technologies>
+</device>
+<device name="-LWK" package="USB-AB-MICRO-SMD_LWK">
+<connects>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="GND" pad="GND P$1 P$2 P$6 P$7 P$8 P$9"/>
+<connect gate="G$1" pin="USBID" pad="ID"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23657,6 +23710,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <class number="0" name="default" width="0.15" drill="0.3">
 <clearance class="0" value="0.15"/>
 </class>
+<class number="1" name="ANT" width="1.27" drill="0">
+<clearance class="1" value="0.4"/>
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
@@ -23669,7 +23725,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="LOGO2" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-BOTH"/>
 <part name="U1" library="TiLDA Mk2 Parts" deviceset="EPD-OUTLINE" device="-2.7&quot;-UNDER"/>
 <part name="U6" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.0A-MOVE" value="SRF-V1.2"/>
-<part name="USB1" library="TiLDA Mk2 Parts" deviceset="SERIAL_MICRO-USB" device="-ZX62-B-5PA"/>
 <part name="U3" library="TiLDA Mk2 Parts" deviceset="ARDUINOR3" device="-CISECO-NO_DIMENSION-SPI"/>
 <part name="X1" library="TiLDA Mk2 Parts" deviceset="SMARTPRJ_CRYSTAL-3.2-2.5" device=""/>
 <part name="IC1" library="TiLDA Mk2 Parts" deviceset="SMARTPRJ_ATSAM3X/A" device="AU"/>
@@ -23758,6 +23813,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="Q7" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="C8" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-SMALLER" value="0402/10n/4V/X7R"/>
 <part name="IC2" library="TiLDA Mk2 Parts" deviceset="MPU-6050" device=""/>
+<part name="U2" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK"/>
+<part name="GND17" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23788,10 +23845,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="LOGO2" gate="G$1" x="690.88" y="2.54"/>
 <instance part="U1" gate="G$1" x="289.56" y="17.78"/>
 <instance part="U6" gate="G$1" x="170.18" y="200.66"/>
-<instance part="USB1" gate="G$1" x="497.84" y="48.26"/>
 <instance part="U3" gate="G$1" x="701.04" y="129.54"/>
 <instance part="X1" gate="G$1" x="434.34" y="68.58"/>
-<instance part="IC1" gate="G$1" x="447.04" y="88.9"/>
+<instance part="IC1" gate="G$1" x="500.38" y="88.9"/>
 <instance part="H1" gate="G$1" x="375.92" y="22.86"/>
 <instance part="J2" gate="G$1" x="375.92" y="200.66"/>
 <instance part="GND1" gate="1" x="337.82" y="243.84" rot="R270"/>
@@ -23877,6 +23933,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="Q7" gate="G$1" x="281.94" y="91.44" rot="MR180"/>
 <instance part="C8" gate="G$1" x="358.14" y="43.18" rot="R270"/>
 <instance part="IC2" gate="G$1" x="330.2" y="53.34"/>
+<instance part="U2" gate="G$1" x="424.18" y="187.96" rot="R180"/>
+<instance part="GND17" gate="1" x="431.8" y="177.8"/>
 </instances>
 <busses>
 </busses>
@@ -24067,6 +24125,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <wire x1="370.84" y1="50.8" x2="347.98" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="370.84" y1="50.8" x2="370.84" y2="43.18" width="0.1524" layer="91"/>
 <junction x="370.84" y="43.18"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<wire x1="429.26" y1="182.88" x2="431.8" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="182.88" x2="431.8" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="BORDER" class="0">
@@ -24646,7 +24710,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="175.26" y="187.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
-<net name="ANT" class="0">
+<net name="ANT" class="1">
 <segment>
 <pinref part="U6" gate="G$1" pin="ANT"/>
 <pinref part="TP1" gate="G$1" pin="TP"/>
@@ -24722,6 +24786,30 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="287.02" y1="22.86" x2="248.92" y2="22.86" width="0.1524" layer="91" style="longdash"/>
 <wire x1="248.92" y1="22.86" x2="248.92" y2="68.58" width="0.1524" layer="91" style="longdash"/>
+</segment>
+</net>
+<net name="D-" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="D-"/>
+<wire x1="429.26" y1="190.5" x2="452.12" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ID" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="USBID"/>
+<wire x1="429.26" y1="185.42" x2="452.12" y2="185.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="D+"/>
+<wire x1="429.26" y1="187.96" x2="452.12" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VUBUS" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="VBUS"/>
+<wire x1="429.26" y1="193.04" x2="452.12" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
