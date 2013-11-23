@@ -10250,10 +10250,10 @@ SMD Buzzer&lt;br&gt;
 <wire x1="-10.1" y1="14.4" x2="-12" y2="14.4" width="0.127" layer="49"/>
 </package>
 <package name="BATTERY-55X44">
-<wire x1="0" y1="0" x2="55" y2="0" width="0.127" layer="21"/>
-<wire x1="55" y1="0" x2="55" y2="44" width="0.127" layer="21"/>
-<wire x1="55" y1="44" x2="0" y2="44" width="0.127" layer="21"/>
-<wire x1="0" y1="44" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="55" y2="0" width="0.127" layer="49"/>
+<wire x1="55" y1="0" x2="55" y2="44" width="0.127" layer="49"/>
+<wire x1="55" y1="44" x2="0" y2="44" width="0.127" layer="49"/>
+<wire x1="0" y1="44" x2="0" y2="0" width="0.127" layer="49"/>
 </package>
 <package name="1X02">
 <wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
