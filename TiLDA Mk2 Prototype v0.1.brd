@@ -4150,7 +4150,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 &lt;a href="http://www.ciseco.co.uk"&gt;www.ciseco.co.uk&lt;/a&gt;&lt;br /&gt;
 &lt;a href="http://www.openmicros.org"&gt;www.openmicros.org&lt;/a&gt;&lt;br /&gt;</description>
 <packages>
-<package name="SRF-LANDING-1.0A-MOVE">
+<package name="SRF-LANDING-1.2">
 <wire x1="0" y1="2.25" x2="0" y2="1.75" width="0.127" layer="51" curve="-180"/>
 <wire x1="0" y1="4.25" x2="0" y2="3.75" width="0.127" layer="51" curve="-180"/>
 <wire x1="0" y1="6.25" x2="0" y2="5.75" width="0.127" layer="51" curve="-180"/>
@@ -4158,7 +4158,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="0" y1="10.25" x2="0" y2="9.75" width="0.127" layer="51" curve="-180"/>
 <wire x1="0" y1="12.25" x2="0" y2="11.75" width="0.127" layer="51" curve="-180"/>
 <wire x1="0" y1="14.25" x2="0" y2="13.75" width="0.127" layer="51" curve="-180"/>
-<wire x1="0" y1="-0.1" x2="0" y2="1.17" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.1" x2="0" y2="1.07" width="0.127" layer="21"/>
 <wire x1="0" y1="1.17" x2="0" y2="1.75" width="0.127" layer="51"/>
 <wire x1="0" y1="2.25" x2="0" y2="3.75" width="0.127" layer="51"/>
 <wire x1="0" y1="4.25" x2="0" y2="5.75" width="0.127" layer="51"/>
@@ -4174,7 +4174,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="15.9" y1="9.75" x2="15.9" y2="10.25" width="0.127" layer="51" curve="-180"/>
 <wire x1="15.9" y1="11.75" x2="15.9" y2="12.25" width="0.127" layer="51" curve="-180"/>
 <wire x1="15.9" y1="13.75" x2="15.9" y2="14.25" width="0.127" layer="51" curve="-180"/>
-<wire x1="15.9" y1="-0.1" x2="15.9" y2="1.17" width="0.127" layer="21"/>
+<wire x1="15.9" y1="-0.1" x2="15.9" y2="1.07" width="0.127" layer="21"/>
 <wire x1="15.9" y1="1.17" x2="15.9" y2="1.75" width="0.127" layer="51"/>
 <wire x1="15.9" y1="2.25" x2="15.9" y2="3.75" width="0.127" layer="51"/>
 <wire x1="15.9" y1="4.25" x2="15.9" y2="5.75" width="0.127" layer="51"/>
@@ -4183,7 +4183,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="15.9" y1="10.25" x2="15.9" y2="11.75" width="0.127" layer="51"/>
 <wire x1="15.9" y1="12.25" x2="15.9" y2="13.75" width="0.127" layer="51"/>
 <wire x1="15.9" y1="14.25" x2="15.9" y2="14.85" width="0.127" layer="51"/>
-<wire x1="15.9" y1="14.85" x2="15.9" y2="16" width="0.127" layer="21"/>
+<wire x1="15.9" y1="14.95" x2="15.9" y2="16" width="0.127" layer="21"/>
 <wire x1="1.7" y1="-0.1" x2="2.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
 <wire x1="3.7" y1="-0.1" x2="4.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
 <wire x1="5.7" y1="-0.1" x2="6.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
@@ -4191,7 +4191,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="9.7" y1="-0.1" x2="10.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
 <wire x1="11.7" y1="-0.1" x2="12.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
 <wire x1="13.7" y1="-0.1" x2="14.2" y2="-0.1" width="0.127" layer="51" curve="-180"/>
-<wire x1="0" y1="-0.1" x2="1.1" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.1" x2="1" y2="-0.1" width="0.127" layer="21"/>
 <wire x1="1.1" y1="-0.1" x2="1.7" y2="-0.1" width="0.127" layer="51"/>
 <wire x1="2.2" y1="-0.1" x2="3.7" y2="-0.1" width="0.127" layer="51"/>
 <wire x1="4.2" y1="-0.1" x2="5.7" y2="-0.1" width="0.127" layer="51"/>
@@ -4200,29 +4200,29 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="10.2" y1="-0.1" x2="11.7" y2="-0.1" width="0.127" layer="51"/>
 <wire x1="12.2" y1="-0.1" x2="13.7" y2="-0.1" width="0.127" layer="51"/>
 <wire x1="14.2" y1="-0.1" x2="14.8" y2="-0.1" width="0.127" layer="51"/>
-<wire x1="14.8" y1="-0.1" x2="15.9" y2="-0.1" width="0.127" layer="21"/>
+<wire x1="14.9" y1="-0.1" x2="15.9" y2="-0.1" width="0.127" layer="21"/>
 <wire x1="2.8" y1="16" x2="13.1" y2="16" width="0.127" layer="21"/>
-<smd name="1" x="15.9" y="2" dx="2" dy="1.27" layer="1"/>
-<smd name="2" x="15.9" y="4" dx="2" dy="1.27" layer="1"/>
-<smd name="3" x="15.9" y="6" dx="2" dy="1.27" layer="1"/>
-<smd name="4" x="15.9" y="8" dx="2" dy="1.27" layer="1"/>
-<smd name="5" x="15.9" y="10" dx="2" dy="1.27" layer="1"/>
-<smd name="6" x="15.9" y="12" dx="2" dy="1.27" layer="1"/>
-<smd name="7" x="15.9" y="14" dx="2" dy="1.27" layer="1"/>
-<smd name="8" x="0" y="14" dx="2" dy="1.27" layer="1"/>
-<smd name="9" x="0" y="12" dx="2" dy="1.27" layer="1"/>
-<smd name="10" x="0" y="10" dx="2" dy="1.27" layer="1"/>
-<smd name="11" x="0" y="8" dx="2" dy="1.27" layer="1"/>
-<smd name="12" x="0" y="6" dx="2" dy="1.27" layer="1"/>
-<smd name="13" x="0" y="4" dx="2" dy="1.27" layer="1"/>
-<smd name="14" x="0" y="2" dx="2" dy="1.27" layer="1"/>
-<smd name="15" x="1.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="16" x="3.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="17" x="5.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="18" x="7.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="19" x="9.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="20" x="11.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
-<smd name="21" x="13.95" y="-0.1" dx="2" dy="1.27" layer="1" rot="R90"/>
+<smd name="1" x="15.9" y="2" dx="1.4" dy="1.4" layer="1"/>
+<smd name="2" x="15.9" y="4" dx="1.4" dy="1.4" layer="1"/>
+<smd name="3" x="15.9" y="6" dx="1.4" dy="1.4" layer="1"/>
+<smd name="4" x="15.9" y="8" dx="1.4" dy="1.4" layer="1"/>
+<smd name="5" x="15.9" y="10" dx="1.4" dy="1.4" layer="1"/>
+<smd name="6" x="15.9" y="12" dx="1.4" dy="1.4" layer="1"/>
+<smd name="7" x="15.9" y="14" dx="1.4" dy="1.4" layer="1"/>
+<smd name="8" x="0" y="14" dx="1.4" dy="1.4" layer="1"/>
+<smd name="9" x="0" y="12" dx="1.4" dy="1.4" layer="1"/>
+<smd name="10" x="0" y="10" dx="1.4" dy="1.4" layer="1"/>
+<smd name="11" x="0" y="8" dx="1.4" dy="1.4" layer="1"/>
+<smd name="12" x="0" y="6" dx="1.4" dy="1.4" layer="1"/>
+<smd name="13" x="0" y="4" dx="1.4" dy="1.4" layer="1"/>
+<smd name="14" x="0" y="2" dx="1.4" dy="1.4" layer="1"/>
+<smd name="15" x="1.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="16" x="3.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="17" x="5.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="18" x="7.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="19" x="9.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="20" x="11.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
+<smd name="21" x="13.95" y="-0.1" dx="1.4" dy="1.4" layer="1" rot="R90"/>
 <wire x1="3" y1="26.36" x2="12.9" y2="26.36" width="0.127" layer="21"/>
 <wire x1="0" y1="16" x2="2" y2="16" width="0.127" layer="21"/>
 <wire x1="2" y1="16" x2="3" y2="17" width="0.127" layer="21" curve="90"/>
@@ -4232,7 +4232,7 @@ Provided "as is" with no express or implied warranty or support.&lt;br /&gt;
 <wire x1="12.9" y1="17" x2="12.9" y2="26.36" width="0.127" layer="21"/>
 <rectangle x1="3" y1="16" x2="12.9" y2="26.4" layer="41"/>
 <rectangle x1="3" y1="16" x2="12.9" y2="26.4" layer="42"/>
-<wire x1="0" y1="14.85" x2="0" y2="16" width="0.127" layer="21"/>
+<wire x1="0" y1="14.95" x2="0" y2="16" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -4471,7 +4471,7 @@ design rules under a new name.</description>
 <element name="FID4" library="TiLDA Mk2 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="34" y="84" rot="R270"/>
 <element name="LOGO2" library="TiLDA Mk2 Parts" package="EMFLOGO" value="EMFLOGO-BOTH" x="91.17" y="95.91" rot="MR0"/>
 <element name="U1" library="TiLDA Mk2 Parts" package="EPD-2.7-UNDER" value="EPD-OUTLINE-2.7&quot;-UNDER" x="56.7" y="4.5" rot="R90"/>
-<element name="U6" library="Ciseco Footprints" package="SRF-LANDING-1.0A-MOVE" value="SRF-V1.2" x="26.8" y="36.9" rot="MR270"/>
+<element name="U6" library="Ciseco Footprints" package="SRF-LANDING-1.2" value="SRF-V1.2" x="26.8" y="36.9" rot="MR270"/>
 <element name="U3" library="TiLDA Mk2 Parts" package="ARDUINOR3-LWKTXT-REF-SPI" value="ARDUINOR3-CISECO-NO_DIMENSION-SPI" x="7.2" y="13.05" rot="MR90"/>
 <element name="X1" library="TiLDA Mk2 Parts" package="SMARTPRJ_CRYSTAL-3.2-2.5" value="SMARTPRJ_CRYSTAL-3.2-2.5" x="36.9" y="67.3" rot="R270"/>
 <element name="IC1" library="TiLDA Mk2 Parts" package="SMARTPRJ_LQFP144" value="" x="35.2" y="51.55" rot="R270"/>
