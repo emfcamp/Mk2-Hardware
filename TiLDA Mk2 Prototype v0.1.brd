@@ -8443,8 +8443,18 @@ design rules under a new name.</description>
 <element name="R19" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/12R/5%" x="42" y="76.55" rot="MR270"/>
 <element name="R20" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/82R/5%" x="41" y="76.55" rot="MR270"/>
 <element name="SJ4" library="TiLDA Mk2 Parts" package="SJ_2S-TRACE" value="" x="59.9" y="10.3" rot="MR180"/>
-<element name="RN2" library="TiLDA Mk2 Parts" package="CAT16" value="100K" x="51" y="81.5" rot="MR0"/>
-<element name="RN3" library="TiLDA Mk2 Parts" package="CAT16" value="100K" x="17" y="81.5" rot="MR0"/>
+<element name="C7" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="45.1" y="80" rot="MR90"/>
+<element name="C9" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="49" y="80" rot="MR90"/>
+<element name="C27" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="51.6" y="80" rot="MR270"/>
+<element name="C28" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="47.7" y="80" rot="MR270"/>
+<element name="C30" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="18.2" y="80" rot="MR90"/>
+<element name="C31" library="TiLDA Mk2 Parts" package="C0402-ARDUINO-ROUND" value="100n" x="15.8" y="80" rot="MR270"/>
+<element name="R21" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="45.1" y="82" rot="MR90"/>
+<element name="R22" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="49" y="82" rot="MR90"/>
+<element name="R23" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="47.7" y="82" rot="MR270"/>
+<element name="R24" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="51.6" y="82" rot="MR270"/>
+<element name="R25" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="15.8" y="82" rot="MR270"/>
+<element name="R26" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/1M/5%" x="18.2" y="82" rot="MR90"/>
 </elements>
 <signals>
 <signal name="VUBUS">
@@ -8708,10 +8718,6 @@ design rules under a new name.</description>
 <vertex x="66.65" y="83"/>
 <vertex x="6.65" y="83" curve="18.4"/>
 </polygon>
-<contactref element="RN3" pad="2"/>
-<contactref element="RN3" pad="3"/>
-<contactref element="RN3" pad="7"/>
-<contactref element="RN3" pad="6"/>
 <contactref element="S2" pad="1"/>
 <contactref element="S2" pad="2"/>
 <contactref element="S3" pad="1"/>
@@ -9825,34 +9831,46 @@ design rules under a new name.</description>
 <wire x1="9.54" y1="11.095" x2="4.46" y2="11.095" width="0.15" layer="1"/>
 </signal>
 <signal name="CAP_UP">
-<contactref element="IC1" pad="88"/>
-<contactref element="RN2" pad="1"/>
-<wire x1="22.4" y1="60.65" x2="52.2" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R22" pad="1"/>
+<contactref element="C9" pad="2"/>
+<contactref element="IC1" pad="7"/>
+<wire x1="49" y1="80.4445" x2="49" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="44" y1="67.65" x2="49" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAP_LEFT">
-<contactref element="IC1" pad="91"/>
-<contactref element="RN2" pad="2"/>
-<wire x1="22.4" y1="62.15" x2="51.4" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R24" pad="2"/>
+<contactref element="C27" pad="1"/>
+<contactref element="IC1" pad="8"/>
+<wire x1="51.6" y1="80.4445" x2="51.6" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="44" y1="67.15" x2="51.6" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAP_DOWN">
-<contactref element="IC1" pad="90"/>
-<contactref element="RN2" pad="3"/>
-<wire x1="22.4" y1="61.65" x2="50.6" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R23" pad="2"/>
+<contactref element="C28" pad="1"/>
+<contactref element="IC1" pad="6"/>
+<wire x1="47.7" y1="80.4445" x2="47.7" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="44" y1="68.15" x2="47.7" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAP_A">
-<contactref element="IC1" pad="84"/>
-<contactref element="RN3" pad="1"/>
-<wire x1="22.4" y1="58.65" x2="18.2" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R26" pad="1"/>
+<contactref element="C30" pad="2"/>
+<contactref element="IC1" pad="95"/>
+<wire x1="18.2" y1="80.4445" x2="18.2" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="22.4" y1="64.15" x2="18.2" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAP_RIGHT">
-<contactref element="IC1" pad="89"/>
-<contactref element="RN2" pad="4"/>
-<wire x1="22.4" y1="61.15" x2="49.8" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R21" pad="1"/>
+<contactref element="C7" pad="2"/>
+<contactref element="IC1" pad="5"/>
+<wire x1="45.1" y1="80.4445" x2="45.1" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="44" y1="68.65" x2="45.1" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="CAP_B">
-<contactref element="IC1" pad="85"/>
-<contactref element="RN3" pad="4"/>
-<wire x1="22.4" y1="59.15" x2="15.8" y2="80.825" width="0" layer="19" extent="16-16"/>
+<contactref element="R25" pad="2"/>
+<contactref element="C31" pad="1"/>
+<contactref element="IC1" pad="94"/>
+<wire x1="15.8" y1="80.4445" x2="15.8" y2="81.5555" width="0" layer="19" extent="16-16"/>
+<wire x1="22.4" y1="63.65" x2="15.8" y2="80.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$4">
 </signal>
@@ -9921,43 +9939,39 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="B2" pad="Q3"/>
-<wire x1="54.5921" y1="93.79605" x2="51.4" y2="90.60395" width="0.15" layer="16"/>
-<wire x1="51.4" y1="90.60395" x2="51.4" y2="82.175" width="0.15" layer="16"/>
-<contactref element="RN2" pad="7"/>
+<contactref element="R24" pad="1"/>
+<wire x1="51.6" y1="82.4445" x2="54.5921" y2="93.79605" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$19">
 <contactref element="B2" pad="Q2"/>
-<contactref element="RN2" pad="6"/>
-<wire x1="49.20395" y1="95.5921" x2="50.6" y2="94.19605" width="0.15" layer="16"/>
-<wire x1="50.6" y1="94.19605" x2="50.6" y2="82.175" width="0.15" layer="16"/>
+<contactref element="R23" pad="1"/>
+<wire x1="47.7" y1="82.4445" x2="49.20395" y2="95.5921" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$20">
 <contactref element="B2" pad="Q1"/>
-<wire x1="47.4079" y1="90.20395" x2="49.8" y2="87.81185" width="0.15" layer="16"/>
-<wire x1="49.8" y1="87.81185" x2="49.8" y2="82.175" width="0.15" layer="16"/>
-<contactref element="RN2" pad="5"/>
+<contactref element="R21" pad="2"/>
+<wire x1="45.1" y1="82.4445" x2="47.4079" y2="90.20395" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$21">
-<contactref element="RN2" pad="8"/>
 <contactref element="B2" pad="Q4"/>
-<wire x1="52.2" y1="82.175" x2="52.2" y2="87.81185" width="0.15" layer="16"/>
-<wire x1="52.2" y1="87.81185" x2="52.79605" y2="88.4079" width="0.15" layer="16"/>
+<contactref element="R22" pad="2"/>
+<wire x1="49" y1="82.4445" x2="52.79605" y2="88.4079" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$22">
 <contactref element="B1" pad="Q2"/>
-<wire x1="17" y1="87.682" x2="17" y2="84.4" width="0.15" layer="16"/>
-<contactref element="RN3" pad="8"/>
-<wire x1="18.2" y1="82.175" x2="18.2" y2="83.2" width="0.15" layer="16"/>
-<wire x1="18.2" y1="83.2" x2="17" y2="84.4" width="0.15" layer="16"/>
+<wire x1="17" y1="87.682" x2="17" y2="83.7" width="0.15" layer="16"/>
+<wire x1="18.2" y1="82.5" x2="17" y2="83.7" width="0.15" layer="16"/>
+<contactref element="R26" pad="2"/>
+<wire x1="18.2" y1="82.5" x2="18.2" y2="82.4445" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="B1" pad="Q1"/>
-<contactref element="RN3" pad="5"/>
 <wire x1="17" y1="96.318" x2="17" y2="94.2" width="0.15" layer="16"/>
 <wire x1="17" y1="94.2" x2="15.3" y2="92.5" width="0.15" layer="16"/>
-<wire x1="15.3" y1="92.5" x2="15.3" y2="82.7" width="0.15" layer="16"/>
-<wire x1="15.3" y1="82.7" x2="15.8" y2="82.2" width="0.15" layer="16"/>
-<wire x1="15.8" y1="82.2" x2="15.8" y2="82.175" width="0.15" layer="16"/>
+<wire x1="15.3" y1="92.5" x2="15.3" y2="83" width="0.15" layer="16"/>
+<wire x1="15.3" y1="83" x2="15.8" y2="82.5" width="0.15" layer="16"/>
+<contactref element="R25" pad="1"/>
+<wire x1="15.8" y1="82.4445" x2="15.8" y2="82.5" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SCREEN_RIGHT">
 <contactref element="S2" pad="3"/>
@@ -9977,6 +9991,36 @@ design rules under a new name.</description>
 <signal name="N$25">
 </signal>
 <signal name="N$26">
+</signal>
+<signal name="CAP_B_RET">
+<contactref element="C31" pad="2"/>
+<contactref element="IC1" pad="85"/>
+<wire x1="22.4" y1="59.15" x2="15.8" y2="79.5555" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAP_A_RET">
+<contactref element="C30" pad="1"/>
+<contactref element="IC1" pad="84"/>
+<wire x1="22.4" y1="58.65" x2="18.2" y2="79.5555" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAP_LEFT_RET">
+<contactref element="C27" pad="2"/>
+<contactref element="IC1" pad="16"/>
+<wire x1="44" y1="63.15" x2="51.6" y2="79.5555" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAP_DOWN_RET">
+<contactref element="C28" pad="2"/>
+<contactref element="IC1" pad="14"/>
+<wire x1="44" y1="64.15" x2="47.7" y2="79.5555" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAP_RIGHT_RET">
+<contactref element="C7" pad="1"/>
+<contactref element="IC1" pad="13"/>
+<wire x1="44" y1="64.65" x2="45.1" y2="79.5555" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="CAP_UP_RET">
+<contactref element="C9" pad="1"/>
+<contactref element="IC1" pad="15"/>
+<wire x1="44" y1="63.65" x2="49" y2="79.5555" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 </board>
