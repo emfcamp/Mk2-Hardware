@@ -40648,9 +40648,9 @@ www.ciseco.co.uk</description>
 <pinref part="JP5" gate="G$1" pin="CENT"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PD6"/>
-<wire x1="637.54" y1="172.72" x2="635" y2="172.72" width="0.1524" layer="91"/>
-<label x="637.54" y="172.72" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA15"/>
+<wire x1="513.08" y1="111.76" x2="515.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="513.08" y="111.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="BUTTON_LEFT" class="0">
@@ -40747,9 +40747,9 @@ www.ciseco.co.uk</description>
 <wire x1="358.14" y1="93.98" x2="355.6" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA15"/>
-<wire x1="513.08" y1="111.76" x2="515.62" y2="111.76" width="0.1524" layer="91"/>
-<label x="513.08" y="111.76" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="PD6"/>
+<wire x1="637.54" y1="172.72" x2="635" y2="172.72" width="0.1524" layer="91"/>
+<label x="637.54" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
