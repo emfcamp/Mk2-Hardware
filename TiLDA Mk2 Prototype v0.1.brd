@@ -28,7 +28,7 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
@@ -214,6 +214,7 @@
 <text x="16.1" y="17.35" size="1.016" layer="22" ratio="15" rot="MR90">SJ1</text>
 <text x="10.5" y="17.25" size="1.016" layer="22" ratio="15" rot="MR90">SJ2</text>
 <text x="60" y="83.05" size="1.016" layer="22" ratio="15" rot="MR0">SJ6</text>
+<text x="19.1" y="71.835" size="0.8128" layer="22" ratio="15" rot="MR90">S25FL or AT45DB</text>
 </plain>
 <libraries>
 <library name="TiLDA Mk2 Parts">
@@ -5324,7 +5325,7 @@ design rules under a new name.</description>
 <element name="RX" library="TiLDA Mk2 Parts" package="LED-0603-CORRECT" value="" x="9.9" y="2.6" rot="R270"/>
 <element name="R105" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/39R/1%" x="43.8" y="50.4" rot="MR180"/>
 <element name="R106" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/39R/1%" x="41.6" y="48.9" rot="MR0"/>
-<element name="IC4" library="TiLDA Mk2 Parts" package="SO08-EIAJ" value="SPI_FLASH-X25XX" x="17" y="74" rot="MR90"/>
+<element name="IC4" library="TiLDA Mk2 Parts" package="SO08-EIAJ" value="S25FL216K0PMFI011" x="16.4" y="75.6" rot="MR0"/>
 <element name="U10" library="TiLDA Mk2 Parts" package="ARDUINOR3-LWKTXT-REF-SPI" value="ARDUINOSPI-REFRENCE" x="7.1" y="13.05" rot="MR90"/>
 <element name="SJ3" library="TiLDA Mk2 Parts" package="SJ_3" value="" x="40.6" y="83.8" rot="MR0"/>
 <element name="Z5" library="TiLDA Mk2 Parts" package="CT/CN0603" value="CG0603MLC-05E" x="72.7" y="29" rot="MR180"/>
@@ -5421,6 +5422,7 @@ design rules under a new name.</description>
 <element name="SJ6" library="TiLDA Mk2 Parts" package="SJ_2S-NO" value="" x="58.7" y="85.4" rot="MR180"/>
 <element name="C30" library="TiLDA Mk2 Parts" package="C0603-ROUND" value="0603/10u/6.3V/X5R" x="30.2" y="15.2" rot="MR90"/>
 <element name="R26" library="TiLDA Mk2 Parts" package="R0402-ARDUINO-ROUND" value="0402/10K/5%" x="27.65" y="11.55" rot="MR180"/>
+<element name="IC5" library="TiLDA Mk2 Parts" package="SO08-EIAJ" value="AT45DB161E-SSHFHA (NP)" x="16.4" y="78.9" rot="MR180"/>
 </elements>
 <signals>
 <signal name="3V3">
@@ -5623,11 +5625,15 @@ design rules under a new name.</description>
 <contactref element="R26" pad="2"/>
 <wire x1="28.1" y1="11.3" x2="28.1" y2="11.5445" width="0.254" layer="16"/>
 <wire x1="28.1" y1="11.5445" x2="28.0945" y2="11.55" width="0.254" layer="16"/>
+<contactref element="IC5" pad="6"/>
+<contactref element="IC5" pad="5"/>
 <wire x1="47.75" y1="65.65" x2="60.2555" y2="61.44" width="0" layer="19" extent="16-16"/>
 <wire x1="32.8" y1="68.9" x2="33.55" y2="66" width="0" layer="19" extent="1-16"/>
 <wire x1="22.4" y1="69.15" x2="32.45" y2="69.25" width="0" layer="19" extent="16-16"/>
-<wire x1="20.3528" y1="72.095" x2="20.2945" y2="69.45" width="0" layer="19" extent="16-16"/>
-<wire x1="13.6218" y1="74.635" x2="20.3528" y2="72.095" width="0" layer="19" extent="16-16"/>
+<wire x1="15.765" y1="72.2218" x2="20.2945" y2="69.45" width="0" layer="19" extent="16-16"/>
+<wire x1="17.035" y1="75.5472" x2="15.765" y2="72.2218" width="0" layer="19" extent="16-16"/>
+<wire x1="18.305" y1="75.5472" x2="17.035" y2="75.5472" width="0" layer="19" extent="16-16"/>
+<wire x1="18.305" y1="78.9528" x2="18.305" y2="75.5472" width="0" layer="19" extent="16-16"/>
 <wire x1="31.95" y1="51.1" x2="33.55" y2="65.65" width="0" layer="19" extent="1-16"/>
 <wire x1="29.45" y1="51.1" x2="31.95" y2="51.1" width="0" layer="19" extent="16-16"/>
 <wire x1="26.5" y1="48.1555" x2="29.45" y2="49.5445" width="0" layer="19" extent="16-16"/>
@@ -5864,7 +5870,7 @@ design rules under a new name.</description>
 <via x="14.75" y="9.55" extent="1-16" drill="0.5"/>
 <via x="8.95" y="12.15" extent="1-16" drill="0.5"/>
 <via x="12.25" y="12.45" extent="1-16" drill="0.5"/>
-<via x="15.4" y="75.9" extent="1-16" drill="0.5"/>
+<via x="13.4" y="77.3" extent="1-16" drill="0.5"/>
 <via x="14.05" y="92.05" extent="1-16" drill="0.5"/>
 <via x="26.55" y="47.25" extent="1-16" drill="0.5"/>
 <via x="27.25" y="40.95" extent="1-16" drill="0.5"/>
@@ -5890,6 +5896,7 @@ design rules under a new name.</description>
 <via x="30.8" y="35.6" extent="1-16" drill="0.5"/>
 <via x="37.1" y="36.3" extent="1-16" drill="0.5"/>
 <via x="25.25" y="3.8" extent="1-16" drill="0.5"/>
+<contactref element="IC5" pad="7"/>
 <wire x1="75.5" y1="27.5" x2="73.7" y2="29" width="0" layer="19" extent="16-16"/>
 <wire x1="72.825" y1="26.6" x2="73.7" y2="29" width="0" layer="19" extent="16-16"/>
 <wire x1="75.5" y1="24.75" x2="75.5" y2="27.5" width="0" layer="19" extent="16-16"/>
@@ -7191,9 +7198,11 @@ design rules under a new name.</description>
 <wire x1="20.1" y1="92.1" x2="20.1" y2="86.35" width="0.15" layer="16"/>
 <wire x1="20.1" y1="86.35" x2="19.6" y2="85.85" width="0.15" layer="16"/>
 <wire x1="19.6" y1="85.85" x2="19.6" y2="78" width="0.15" layer="16"/>
+<contactref element="IC5" pad="1"/>
 <wire x1="24.45" y1="72.7" x2="35.04" y2="79.217" width="0" layer="19" extent="16-16"/>
-<wire x1="20.3528" y1="75.905" x2="24.45" y2="72.7" width="0" layer="19" extent="16-16"/>
-<wire x1="19.6" y1="78" x2="20.3528" y2="75.905" width="0" layer="19" extent="16-16"/>
+<wire x1="19.6" y1="78" x2="24.45" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="14.495" y1="78.9528" x2="19.6" y2="78" width="0" layer="19" extent="16-16"/>
+<wire x1="14.495" y1="82.2782" x2="14.495" y2="78.9528" width="0" layer="19" extent="16-16"/>
 <wire x1="34.55" y1="10.7" x2="24.45" y2="72.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MISO">
@@ -7207,9 +7216,11 @@ design rules under a new name.</description>
 <wire x1="20.7" y1="87.7" x2="20.7" y2="86.05" width="0.15" layer="16"/>
 <wire x1="20.7" y1="86.05" x2="20.2" y2="85.55" width="0.15" layer="16"/>
 <wire x1="20.2" y1="85.55" x2="20.2" y2="78" width="0.15" layer="16"/>
+<contactref element="IC5" pad="8"/>
 <wire x1="22.4" y1="70.65" x2="37.58" y2="76.677" width="0" layer="19" extent="16-16"/>
-<wire x1="20.2" y1="78" x2="22.4" y2="70.65" width="0" layer="19" extent="16-16"/>
-<wire x1="13.6218" y1="73.365" x2="20.2" y2="78" width="0" layer="19" extent="16-16"/>
+<wire x1="17.035" y1="72.2218" x2="22.4" y2="70.65" width="0" layer="19" extent="16-16"/>
+<wire x1="14.495" y1="75.5472" x2="17.035" y2="72.2218" width="0" layer="19" extent="16-16"/>
+<wire x1="20.2" y1="78" x2="14.495" y2="75.5472" width="0" layer="19" extent="16-16"/>
 <wire x1="35.05" y1="10.7" x2="22.4" y2="70.65" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="TXL">
@@ -7531,7 +7542,9 @@ design rules under a new name.</description>
 <signal name="FLASH_CS">
 <contactref element="IC4" pad="1"/>
 <contactref element="IC1" pad="111"/>
-<wire x1="13.6218" y1="72.095" x2="25.45" y2="72.7" width="0" layer="19" extent="16-16"/>
+<contactref element="IC5" pad="4"/>
+<wire x1="18.305" y1="72.2218" x2="18.305" y2="82.2782" width="0" layer="19" extent="16-16"/>
+<wire x1="25.45" y1="72.7" x2="18.305" y2="72.2218" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SCK">
 <contactref element="IC4" pad="6"/>
@@ -7544,15 +7557,19 @@ design rules under a new name.</description>
 <wire x1="20.4" y1="90" x2="20.4" y2="86.2" width="0.15" layer="16"/>
 <wire x1="20.4" y1="86.2" x2="19.9" y2="85.7" width="0.15" layer="16"/>
 <wire x1="19.9" y1="85.7" x2="19.9" y2="78" width="0.15" layer="16"/>
+<contactref element="IC5" pad="2"/>
 <wire x1="24.95" y1="72.7" x2="35.04" y2="76.677" width="0" layer="19" extent="16-16"/>
-<wire x1="20.3528" y1="74.635" x2="24.95" y2="72.7" width="0" layer="19" extent="16-16"/>
-<wire x1="19.9" y1="78" x2="20.3528" y2="74.635" width="0" layer="19" extent="16-16"/>
+<wire x1="19.9" y1="78" x2="24.95" y2="72.7" width="0" layer="19" extent="16-16"/>
+<wire x1="15.765" y1="78.9528" x2="19.9" y2="78" width="0" layer="19" extent="16-16"/>
+<wire x1="15.765" y1="82.2782" x2="15.765" y2="78.9528" width="0" layer="19" extent="16-16"/>
 <wire x1="34.05" y1="10.7" x2="24.95" y2="72.7" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="FLASH_HOLD">
 <contactref element="IC4" pad="7"/>
 <contactref element="IC1" pad="96"/>
-<wire x1="22.4" y1="64.65" x2="20.3528" y2="73.365" width="0" layer="19" extent="16-16"/>
+<contactref element="IC5" pad="3"/>
+<wire x1="17.035" y1="78.9528" x2="17.035" y2="82.2782" width="0" layer="19" extent="16-16"/>
+<wire x1="22.4" y1="64.65" x2="17.035" y2="78.9528" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="ISP_!RESET">
 <contactref element="U10" pad="!RESET@ISP"/>
