@@ -37084,7 +37084,7 @@ www.ciseco.co.uk</description>
 <instance part="R19" gate="G$1" x="170.18" y="83.82"/>
 <instance part="R20" gate="G$1" x="170.18" y="76.2"/>
 <instance part="SJ4" gate="1" x="231.14" y="25.4" rot="R90"/>
-<instance part="S5" gate="S" x="152.4" y="30.48" rot="MR0"/>
+<instance part="S5" gate="S" x="152.4" y="30.48"/>
 <instance part="S6" gate="S" x="152.4" y="12.7" rot="MR0"/>
 <instance part="GND46" gate="1" x="134.62" y="43.18"/>
 <instance part="GND47" gate="1" x="165.1" y="30.48" rot="R90"/>
@@ -37731,14 +37731,14 @@ www.ciseco.co.uk</description>
 <pinref part="JP5" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="S5" gate="S" pin="2"/>
-<wire x1="157.48" y1="27.94" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="27.94" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="S5" gate="S" pin="1"/>
-<wire x1="157.48" y1="30.48" x2="160.02" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="30.48" x2="162.56" y2="30.48" width="0.1524" layer="91"/>
-<junction x="160.02" y="30.48"/>
 <pinref part="GND47" gate="1" pin="GND"/>
+<pinref part="S5" gate="S" pin="3"/>
+<wire x1="160.02" y1="30.48" x2="157.48" y2="30.48" width="0.1524" layer="91"/>
+<junction x="160.02" y="30.48"/>
+<pinref part="S5" gate="S" pin="4"/>
+<wire x1="160.02" y1="27.94" x2="157.48" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S6" gate="S" pin="1"/>
@@ -39091,6 +39091,11 @@ www.ciseco.co.uk</description>
 <wire x1="541.02" y1="233.68" x2="533.4" y2="233.68" width="0.1524" layer="91"/>
 <label x="533.4" y="233.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="9"/>
+<wire x1="419.1" y1="63.5" x2="421.64" y2="63.5" width="0.1524" layer="91"/>
+<label x="419.1" y="63.5" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="SHDN" class="0">
 <segment>
@@ -39904,6 +39909,11 @@ www.ciseco.co.uk</description>
 <wire x1="515.62" y1="137.16" x2="513.08" y2="137.16" width="0.1524" layer="91"/>
 <label x="513.08" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="11"/>
+<wire x1="419.1" y1="60.96" x2="421.64" y2="60.96" width="0.1524" layer="91"/>
+<label x="419.1" y="60.96" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="ERXD1" class="0">
 <segment>
@@ -40506,14 +40516,14 @@ www.ciseco.co.uk</description>
 </net>
 <net name="BUTTON_A" class="0">
 <segment>
-<pinref part="S5" gate="S" pin="4"/>
-<wire x1="147.32" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="27.94" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="S5" gate="S" pin="3"/>
-<wire x1="147.32" y1="30.48" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
-<junction x="144.78" y="30.48"/>
 <label x="142.24" y="30.48" size="1.778" layer="95" rot="MR0"/>
+<pinref part="S5" gate="S" pin="1"/>
+<wire x1="147.32" y1="30.48" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
+<junction x="144.78" y="30.48"/>
+<pinref part="S5" gate="S" pin="2"/>
+<wire x1="147.32" y1="27.94" x2="144.78" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC16"/>
@@ -41066,20 +41076,6 @@ www.ciseco.co.uk</description>
 <pinref part="IC6" gate="G$1" pin="DRDY"/>
 <wire x1="71.12" y1="12.7" x2="68.58" y2="12.7" width="0.1524" layer="91"/>
 <label x="71.12" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="MRST" class="0">
-<segment>
-<pinref part="JP9" gate="G$1" pin="9"/>
-<wire x1="419.1" y1="63.5" x2="421.64" y2="63.5" width="0.1524" layer="91"/>
-<label x="419.1" y="63.5" size="1.778" layer="95" rot="MR0"/>
-</segment>
-</net>
-<net name="EEXTNIT" class="0">
-<segment>
-<pinref part="JP9" gate="G$1" pin="11"/>
-<wire x1="419.1" y1="60.96" x2="421.64" y2="60.96" width="0.1524" layer="91"/>
-<label x="419.1" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="BUTTON_RESET" class="0">
