@@ -39641,14 +39641,15 @@ www.ciseco.co.uk</description>
 <label x="505.46" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$31" class="0">
+<net name="DFSD_P" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DFSDP"/>
 <pinref part="R106" gate="G$1" pin="2"/>
 <wire x1="515.62" y1="167.64" x2="497.84" y2="167.64" width="0.1524" layer="91"/>
+<label x="513.08" y="167.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D_P" class="1">
+<net name="DHSD_P" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DHSDP"/>
 <pinref part="R106" gate="G$1" pin="1"/>
@@ -39669,14 +39670,15 @@ www.ciseco.co.uk</description>
 <label x="452.12" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$33" class="0">
+<net name="DFSD_N" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DFSDM"/>
 <pinref part="R105" gate="G$1" pin="2"/>
 <wire x1="515.62" y1="172.72" x2="497.84" y2="172.72" width="0.1524" layer="91"/>
+<label x="513.08" y="172.72" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="D_N" class="1">
+<net name="DHSD_N" class="1">
 <segment>
 <pinref part="IC1" gate="G$1" pin="DHSDM"/>
 <wire x1="515.62" y1="175.26" x2="485.14" y2="175.26" width="0.1524" layer="91"/>
