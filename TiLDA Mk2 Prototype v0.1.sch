@@ -36591,9 +36591,6 @@ www.ciseco.co.uk</description>
 <part name="TP13" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP14" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
-<attribute name="TP_SIGNAL_NAME" value=""/>
-</part>
 <part name="R30" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/3K01/1%"/>
 <part name="C7" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="U3" library="TiLDA Mk2 Parts" deviceset="MCP1825T-3302E/DC" device=""/>
@@ -37107,7 +37104,6 @@ www.ciseco.co.uk</description>
 <instance part="TP10" gate="G$1" x="55.88" y="20.32" rot="R180"/>
 <instance part="TP11" gate="G$1" x="58.42" y="20.32" rot="R180"/>
 <instance part="TP13" gate="G$1" x="60.96" y="20.32" rot="R180"/>
-<instance part="TP14" gate="G$1" x="66.04" y="20.32" rot="R180"/>
 <instance part="R30" gate="G$1" x="7.62" y="53.34" rot="MR270"/>
 <instance part="C7" gate="G$1" x="17.78" y="53.34" rot="MR180"/>
 <instance part="U3" gate="A" x="30.48" y="162.56"/>
@@ -40145,6 +40141,12 @@ www.ciseco.co.uk</description>
 <wire x1="563.88" y1="63.5" x2="563.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="563.88" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="ENOTG"/>
+<pinref part="TP13" gate="G$1" pin="TP"/>
+<wire x1="60.96" y1="22.86" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
+<label x="60.96" y="27.94" size="1.778" layer="95" rot="MR270"/>
+</segment>
 </net>
 <net name="UOTGID" class="0">
 <segment>
@@ -40817,19 +40819,10 @@ www.ciseco.co.uk</description>
 <label x="58.42" y="27.94" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
-<net name="ENOTG" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="ENOTG"/>
-<pinref part="TP13" gate="G$1" pin="TP"/>
-<wire x1="60.96" y1="22.86" x2="60.96" y2="30.48" width="0.1524" layer="91"/>
-<label x="60.96" y="27.94" size="1.778" layer="95" rot="MR270"/>
-</segment>
-</net>
 <net name="ID" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="ID"/>
-<pinref part="TP14" gate="G$1" pin="TP"/>
-<wire x1="66.04" y1="22.86" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="27.94" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
 <label x="66.04" y="27.94" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
