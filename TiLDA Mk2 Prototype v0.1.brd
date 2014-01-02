@@ -5051,14 +5051,14 @@ design rules under a new name.</description>
 </signal>
 <signal name="EPD_BORDER_CONTROL">
 <contactref element="Q7" pad="1"/>
-<contactref element="IC1" pad="26"/>
 <wire x1="58.85" y1="14.525" x2="58.85" y2="14.9" width="0.15" layer="16"/>
 <wire x1="58.85" y1="14.9" x2="58.55" y2="15.2" width="0.15" layer="16"/>
 <wire x1="58.55" y1="15.2" x2="56.9" y2="15.2" width="0.15" layer="16"/>
 <wire x1="56.9" y1="15.2" x2="56.4" y2="15.7" width="0.15" layer="16"/>
 <wire x1="56.4" y1="15.7" x2="56.4" y2="16.8" width="0.15" layer="16"/>
 <via x="56.4" y="16.8" extent="1-16" drill="0.5"/>
-<wire x1="56.4" y1="16.8" x2="44" y2="58.15" width="0" layer="19" extent="16-16"/>
+<contactref element="IC1" pad="66"/>
+<wire x1="56.4" y1="16.8" x2="27.45" y2="51.1" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="MPU_AUX_CL">
 <contactref element="IC2" pad="7"/>
@@ -5090,13 +5090,13 @@ design rules under a new name.</description>
 </signal>
 <signal name="MPU_INT">
 <contactref element="IC2" pad="12"/>
-<contactref element="IC1" pad="66"/>
 <wire x1="32.75" y1="32.975" x2="32.725" y2="33" width="0.15" layer="16"/>
 <wire x1="32.725" y1="33" x2="31.6" y2="33" width="0.15" layer="16"/>
 <via x="31.6" y="33" extent="1-16" drill="0.5"/>
 <wire x1="31.6" y1="33" x2="31.1" y2="33.5" width="0.15" layer="1"/>
 <wire x1="31.1" y1="33.5" x2="31.1" y2="37.7" width="0.15" layer="1"/>
-<wire x1="31.1" y1="37.7" x2="27.45" y2="51.1" width="0" layer="19" extent="1-16"/>
+<contactref element="IC1" pad="26"/>
+<wire x1="31.1" y1="37.7" x2="44" y2="58.15" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="MPU_AUX_DA">
 <contactref element="IC2" pad="6"/>

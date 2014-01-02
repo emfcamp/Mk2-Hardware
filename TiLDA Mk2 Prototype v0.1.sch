@@ -38236,9 +38236,9 @@ www.ciseco.co.uk</description>
 <pinref part="Q7" gate="G$1" pin="G"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA7"/>
-<wire x1="513.08" y1="132.08" x2="515.62" y2="132.08" width="0.1524" layer="91"/>
-<label x="513.08" y="132.08" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="PC8"/>
+<wire x1="637.54" y1="96.52" x2="635" y2="96.52" width="0.1524" layer="91"/>
+<label x="637.54" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -38820,9 +38820,9 @@ www.ciseco.co.uk</description>
 <pinref part="IC2" gate="G$1" pin="INT"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC8"/>
-<wire x1="637.54" y1="96.52" x2="635" y2="96.52" width="0.1524" layer="91"/>
-<label x="637.54" y="96.52" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PA7"/>
+<wire x1="513.08" y1="132.08" x2="515.62" y2="132.08" width="0.1524" layer="91"/>
+<label x="513.08" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="MPU_REGOUT" class="0">
