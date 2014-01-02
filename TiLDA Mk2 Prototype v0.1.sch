@@ -9471,6 +9471,10 @@ SMD Buzzer&lt;br&gt;
 <rectangle x1="-0.875" y1="-2" x2="-0.625" y2="-1.6" layer="51" rot="R180"/>
 <rectangle x1="-1.375" y1="-2" x2="-1.125" y2="-1.6" layer="51" rot="R180"/>
 <rectangle x1="-1.5" y1="-1.45" x2="1.5" y2="1.45" layer="43"/>
+<wire x1="-2.9" y1="-2.9" x2="2.9" y2="-2.9" width="0.127" layer="39"/>
+<wire x1="2.9" y1="-2.9" x2="2.9" y2="2.9" width="0.127" layer="39"/>
+<wire x1="2.9" y1="2.9" x2="-2.9" y2="2.9" width="0.127" layer="39"/>
+<wire x1="-2.9" y1="2.9" x2="-2.9" y2="-2.9" width="0.127" layer="39"/>
 </package>
 <package name="USB-AB-MICRO-SMD">
 <description>micro USB AB connector for OTG support. 5-pins: USBVCC, GND, D+, D-, USBID. Can act as host or device</description>
@@ -18173,29 +18177,29 @@ Source: WE-TPC 744053220.pdf</description>
 <text x="-5.588" y="-5.842" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
 </package>
 <package name="16LPCC">
-<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="-1.7" y1="-1.7" x2="-1.1" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="-1.7" x2="1.7" y2="-1.7" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="-1.7" x2="1.7" y2="-1.1" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="1.1" x2="1.7" y2="1.7" width="0.2032" layer="21"/>
-<wire x1="1.7" y1="1.7" x2="1.1" y2="1.7" width="0.2032" layer="21"/>
-<wire x1="-1.28" y1="1.635" x2="-1.635" y2="1.26" width="0.2032" layer="21"/>
-<smd name="4" x="-1.37" y="-0.75" dx="0.65" dy="0.28" layer="1"/>
-<smd name="3" x="-1.37" y="-0.25" dx="0.65" dy="0.28" layer="1"/>
-<smd name="2" x="-1.37" y="0.25" dx="0.65" dy="0.28" layer="1"/>
-<smd name="1" x="-1.37" y="0.75" dx="0.65" dy="0.28" layer="1"/>
-<smd name="5" x="-0.75" y="-1.37" dx="0.65" dy="0.28" layer="1" rot="R270"/>
-<smd name="15" x="-0.25" y="1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="14" x="0.25" y="1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="13" x="0.75" y="1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="12" x="1.37" y="0.75" dx="0.65" dy="0.28" layer="1"/>
-<smd name="11" x="1.37" y="0.25" dx="0.65" dy="0.28" layer="1"/>
-<smd name="10" x="1.37" y="-0.25" dx="0.65" dy="0.28" layer="1"/>
-<smd name="9" x="1.37" y="-0.75" dx="0.65" dy="0.28" layer="1"/>
-<smd name="6" x="-0.25" y="-1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="8" x="0.75" y="-1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="16" x="-0.75" y="1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
-<smd name="7" x="0.25" y="-1.37" dx="0.65" dy="0.28" layer="1" rot="R90"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-1.6" x2="-1.2" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.2" y1="-1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="-1.6" x2="1.6" y2="-1.2" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.2" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.2" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.2" y1="1.6" x2="-1.6" y2="1.2" width="0.2032" layer="21"/>
+<smd name="4" x="-1.42" y="-0.75" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="3" x="-1.42" y="-0.25" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="2" x="-1.42" y="0.25" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="1" x="-1.42" y="0.75" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="5" x="-0.75" y="-1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R270"/>
+<smd name="15" x="-0.25" y="1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="14" x="0.25" y="1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="13" x="0.75" y="1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="12" x="1.42" y="0.75" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="11" x="1.42" y="0.25" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="10" x="1.42" y="-0.25" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="9" x="1.42" y="-0.75" dx="0.75" dy="0.28" layer="1" roundness="75"/>
+<smd name="6" x="-0.25" y="-1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="8" x="0.75" y="-1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="16" x="-0.75" y="1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
+<smd name="7" x="0.25" y="-1.42" dx="0.75" dy="0.28" layer="1" roundness="75" rot="R90"/>
 <text x="-1.27" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
 <text x="-1.905" y="-2.54" size="0.6096" layer="27">&gt;VALUE</text>
 <circle x="0" y="0" radius="0.2" width="0.1" layer="51"/>
@@ -18208,6 +18212,17 @@ Source: WE-TPC 744053220.pdf</description>
 <text x="0.5" y="0.6" size="0.254" layer="51" rot="R270">Y</text>
 <text x="0.4" y="-0.6" size="0.254" layer="51" rot="R270">X</text>
 <text x="-0.6" y="0.1" size="0.254" layer="51" rot="R270">Z</text>
+<rectangle x1="-0.9" y1="-0.9" x2="0.9" y2="0.9" layer="43"/>
+<wire x1="-2.1" y1="-2.1" x2="2.1" y2="-2.1" width="0.127" layer="39"/>
+<wire x1="2.1" y1="-2.1" x2="2.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="2.1" y1="2.1" x2="-2.1" y2="2.1" width="0.127" layer="39"/>
+<wire x1="-2.1" y1="2.1" x2="-2.1" y2="-2.1" width="0.127" layer="39"/>
+<rectangle x1="-1.7" y1="-1.7" x2="1.7" y2="1.7" layer="41"/>
+<rectangle x1="-1.7" y1="-1.7" x2="1.7" y2="1.7" layer="42"/>
+<wire x1="-1.5" y1="-1.5" x2="1.5" y2="-1.5" width="0" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="1.5" y2="1.5" width="0" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="-1.5" y2="1.5" width="0" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="-1.5" y2="-1.5" width="0" layer="51"/>
 </package>
 <package name="2X8">
 <wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
@@ -38271,12 +38286,6 @@ www.ciseco.co.uk</description>
 <wire x1="129.54" y1="210.82" x2="129.54" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="309.88" y="50.8" size="1.778" layer="95" rot="MR0"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="312.42" y1="50.8" x2="266.7" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-</segment>
-<segment>
 <pinref part="R104" gate="G$1" pin="2"/>
 <wire x1="541.02" y1="220.98" x2="541.02" y2="223.52" width="0.1524" layer="91"/>
 <label x="541.02" y="223.52" size="1.778" layer="95" rot="R90"/>
@@ -38428,14 +38437,6 @@ www.ciseco.co.uk</description>
 <label x="149.86" y="106.68" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<wire x1="347.98" y1="38.1" x2="350.52" y2="38.1" width="0.1524" layer="91"/>
-<label x="350.52" y="38.1" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="VLOGIC"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="350.52" y1="38.1" x2="350.52" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="350.52" y1="33.02" x2="353.06" y2="33.02" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="276.86" y1="15.24" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
 <label x="279.4" y="15.24" size="1.778" layer="95"/>
@@ -38474,24 +38475,6 @@ www.ciseco.co.uk</description>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="157.48" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
 <junction x="58.42" y="157.48"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="S1"/>
-<wire x1="284.48" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VDD"/>
-<wire x1="284.48" y1="83.82" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VDDIO"/>
-<wire x1="284.48" y1="81.28" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="83.82" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="78.74" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
-<junction x="284.48" y="81.28"/>
-<junction x="284.48" y="83.82"/>
-<label x="276.86" y="83.82" size="1.778" layer="95" rot="MR0"/>
-<wire x1="284.48" y1="83.82" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="C27" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="83.82" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="83.82" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
-<junction x="281.94" y="83.82"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="VCC"/>
@@ -40767,6 +40750,38 @@ www.ciseco.co.uk</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="584.2" y1="228.6" x2="581.66" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="581.66" y1="228.6" x2="581.66" y2="205.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="309.88" y="50.8" size="1.778" layer="95" rot="MR0"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="312.42" y1="50.8" x2="266.7" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+</segment>
+<segment>
+<wire x1="347.98" y1="38.1" x2="350.52" y2="38.1" width="0.1524" layer="91"/>
+<label x="350.52" y="38.1" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$1" pin="VLOGIC"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="350.52" y1="38.1" x2="350.52" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="350.52" y1="33.02" x2="353.06" y2="33.02" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="S1"/>
+<wire x1="284.48" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="VDD"/>
+<wire x1="284.48" y1="83.82" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="IC6" gate="G$1" pin="VDDIO"/>
+<wire x1="284.48" y1="81.28" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="83.82" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="78.74" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
+<junction x="284.48" y="81.28"/>
+<junction x="284.48" y="83.82"/>
+<label x="276.86" y="83.82" size="1.778" layer="95" rot="MR0"/>
+<wire x1="284.48" y1="83.82" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="83.82" x2="281.94" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="83.82" x2="281.94" y2="78.74" width="0.1524" layer="91"/>
+<junction x="281.94" y="83.82"/>
 </segment>
 </net>
 <net name="VBUS1" class="0">
