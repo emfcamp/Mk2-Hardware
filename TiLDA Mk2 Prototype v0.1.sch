@@ -38678,9 +38678,6 @@ www.ciseco.co.uk</description>
 <wire x1="218.44" y1="40.64" x2="116.84" y2="40.64" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
-<wire x1="-68.58" y1="124.46" x2="-7.62" y2="124.46" width="0.1524" layer="91" style="longdash"/>
-</segment>
-<segment>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="121.92" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
@@ -40808,9 +40805,9 @@ www.ciseco.co.uk</description>
 <label x="55.88" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC13"/>
-<wire x1="637.54" y1="109.22" x2="635" y2="109.22" width="0.1524" layer="91"/>
-<label x="637.54" y="109.22" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC12"/>
+<wire x1="637.54" y1="106.68" x2="635" y2="106.68" width="0.1524" layer="91"/>
+<label x="637.54" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ILIM1" class="0">
@@ -40820,9 +40817,9 @@ www.ciseco.co.uk</description>
 <label x="58.42" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC12"/>
-<wire x1="637.54" y1="106.68" x2="635" y2="106.68" width="0.1524" layer="91"/>
-<label x="637.54" y="106.68" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC13"/>
+<wire x1="637.54" y1="109.22" x2="635" y2="109.22" width="0.1524" layer="91"/>
+<label x="637.54" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ID" class="0">
