@@ -36528,7 +36528,7 @@ www.ciseco.co.uk</description>
 <part name="C9" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND69" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND70" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="U4" library="Ciseco Footprints" deviceset="POWER-POD" device="-REFRENCE" value="B012 - 1117 5V0"/>
+<part name="U4" library="Ciseco Footprints" deviceset="POWER-POD" device="-REFRENCE" value="B016 - NCP11402 5V0"/>
 <part name="IC6" library="TiLDA Mk2 Parts" deviceset="HMC5883L" device="SMD" value="HMC5883LSMD (NP)"/>
 <part name="C27" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="C28" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/4u7/10V/Y5V"/>
@@ -36680,7 +36680,7 @@ www.ciseco.co.uk</description>
 <text x="7.62" y="144.78" size="3.81" layer="97" ratio="15">3V3 Power</text>
 <text x="7.62" y="142.24" size="1.778" layer="97">3V3 generated from the PMIC OUTPUT</text>
 <text x="71.12" y="170.18" size="3.81" layer="97" ratio="15">5V0 Power</text>
-<text x="71.12" y="167.64" size="1.778" layer="97">Optional regulator</text>
+<text x="71.12" y="167.64" size="1.778" layer="97">Optional Step up regulator</text>
 <text x="292.1" y="91.44" size="3.81" layer="97" ratio="15">HMC5883L</text>
 <text x="312.42" y="60.96" size="1.778" layer="97">Address 0x1E</text>
 <text x="312.42" y="58.42" size="1.778" layer="97">Optional, slaved from MPU</text>
@@ -36689,7 +36689,7 @@ www.ciseco.co.uk</description>
 <text x="411.48" y="195.58" size="1.778" layer="97" rot="R90">Open</text>
 <text x="7.62" y="5.08" size="1.778" layer="97">VOut ~ 3V5 &gt; VBat+0V3 &gt; 4V5</text>
 <text x="7.62" y="7.62" size="1.778" layer="97">VBus 6V Max</text>
-<text x="71.12" y="165.1" size="1.778" layer="97">Vin &gt; 5V0</text>
+<text x="71.12" y="165.1" size="1.778" layer="97">3V3 &gt; 5V0</text>
 <text x="7.62" y="139.7" size="1.778" layer="97">Shutdown during Sleep</text>
 <text x="175.26" y="7.62" size="1.778" layer="97">Supports 512B Page erase</text>
 <text x="175.26" y="5.08" size="1.778" layer="97">But more expensive</text>
@@ -38477,6 +38477,11 @@ www.ciseco.co.uk</description>
 <junction x="7.62" y="53.34"/>
 <label x="7.62" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="VIN"/>
+<wire x1="78.74" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<label x="76.2" y="157.48" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="EPD_PANEL_ON" class="0">
 <segment>
@@ -39161,11 +39166,6 @@ www.ciseco.co.uk</description>
 <wire x1="764.54" y1="63.5" x2="762" y2="63.5" width="0.1524" layer="91"/>
 <label x="764.54" y="63.5" size="1.778" layer="95"/>
 <pinref part="U10" gate="G$1" pin="VIN"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="VIN"/>
-<wire x1="78.74" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
-<label x="76.2" y="157.48" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="AD0" class="0">
@@ -40763,9 +40763,9 @@ www.ciseco.co.uk</description>
 <wire x1="27.94" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB18"/>
-<wire x1="584.2" y1="63.5" x2="584.2" y2="66.04" width="0.1524" layer="91"/>
-<label x="584.2" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<pinref part="IC1" gate="G$1" pin="PB19"/>
+<wire x1="586.74" y1="63.5" x2="586.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="586.74" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="!FAULT" class="0">
@@ -40778,9 +40778,9 @@ www.ciseco.co.uk</description>
 <pinref part="R36" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB19"/>
-<wire x1="586.74" y1="63.5" x2="586.74" y2="66.04" width="0.1524" layer="91"/>
-<label x="586.74" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<pinref part="IC1" gate="G$1" pin="PB18"/>
+<wire x1="584.2" y1="63.5" x2="584.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="584.2" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="!CHRG" class="0">
@@ -40793,9 +40793,9 @@ www.ciseco.co.uk</description>
 <wire x1="27.94" y1="38.1" x2="38.1" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB20"/>
-<wire x1="589.28" y1="63.5" x2="589.28" y2="66.04" width="0.1524" layer="91"/>
-<label x="589.28" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<pinref part="IC1" gate="G$1" pin="PB17"/>
+<wire x1="581.66" y1="63.5" x2="581.66" y2="66.04" width="0.1524" layer="91"/>
+<label x="581.66" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="ILIM0" class="0">
@@ -40962,9 +40962,9 @@ www.ciseco.co.uk</description>
 <wire x1="187.96" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PB17"/>
-<wire x1="581.66" y1="63.5" x2="581.66" y2="66.04" width="0.1524" layer="91"/>
-<label x="581.66" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<pinref part="IC1" gate="G$1" pin="PB20"/>
+<wire x1="589.28" y1="63.5" x2="589.28" y2="66.04" width="0.1524" layer="91"/>
+<label x="589.28" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="D23" class="0">
