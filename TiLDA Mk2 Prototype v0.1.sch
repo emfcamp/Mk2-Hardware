@@ -24219,6 +24219,8 @@ Source: WE-TPC 744053220.pdf</description>
 <pin name="VBUS" x="-5.08" y="-5.08" visible="pad" length="short"/>
 <pin name="GND" x="-5.08" y="5.08" visible="pad" length="short"/>
 <pin name="USBID" x="-5.08" y="2.54" visible="pad" length="short"/>
+<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;Name</text>
+<text x="-2.54" y="-8.89" size="1.778" layer="96">&gt;Value</text>
 </symbol>
 <symbol name="CPOL">
 <wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
@@ -36360,7 +36362,7 @@ www.ciseco.co.uk</description>
 <part name="FID4" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="LOGO2" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-SYMBOL"/>
 <part name="U1" library="TiLDA Mk2 Parts" deviceset="EPD-OUTLINE" device="-2.7&quot;-UNDER"/>
-<part name="U6" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.2" value="SRF-V1.2"/>
+<part name="IC3" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.2" value="SRF-V1.2"/>
 <part name="X1" library="TiLDA Mk2 Parts" deviceset="CRYSTAL-3.2-2.5" device="" value="12Mhz KX-7 20pF"/>
 <part name="IC1" library="TiLDA Mk2 Parts" deviceset="ATSAM3X/A" device="AU" value="ATSAM3X8EA-AU"/>
 <part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="5.0-LITTLE-SLIK" value=""/>
@@ -36409,13 +36411,13 @@ www.ciseco.co.uk</description>
 <part name="FRAME2" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
 <part name="LED1" library="TiLDA Mk2 Parts" deviceset="LED-RGB_CLV1A-FKB" device="" value="CLV1A-FKB"/>
 <part name="LED2" library="TiLDA Mk2 Parts" deviceset="LED-RGB_CLV1A-FKB" device="" value="CLV1A-FKB"/>
-<part name="LED3" library="TiLDA Mk2 Parts" deviceset="IR-SENDER" device="-PLCC" value="VSMB3940X01-GS08"/>
+<part name="IR_TX" library="TiLDA Mk2 Parts" deviceset="IR-SENDER" device="-PLCC" value="VSMB3940X01-GS08"/>
 <part name="FID3" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID5" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID6" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="LOGO4" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-SYMBOL-BIG"/>
-<part name="U9" library="TiLDA Mk2 Parts" deviceset="IR-RECEIVER" device="TSOP75438TT" value="TSOP75238TT"/>
-<part name="JP8" library="TiLDA Mk2 Parts" deviceset="M06" device="SIP"/>
+<part name="IR_RX" library="TiLDA Mk2 Parts" deviceset="IR-RECEIVER" device="TSOP75438TT" value="TSOP75238TT"/>
+<part name="JP6" library="TiLDA Mk2 Parts" deviceset="M06" device="SIP" value="FTDI"/>
 <part name="SG1" library="TiLDA Mk2 Parts" deviceset="BUZZER" device="-PKLCS1212E" value="PKLCS1212E4001-R1"/>
 <part name="C1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/10V/Y5V"/>
 <part name="R13" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
@@ -36428,11 +36430,11 @@ www.ciseco.co.uk</description>
 <part name="GND14" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND15" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="U$2" library="TiLDA Mk2 Parts" deviceset="BATTERY-OUTLINE" device="-55X44"/>
-<part name="JP10" library="TiLDA Mk2 Parts" deviceset="M04X2" device="-PAD"/>
-<part name="U8" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="USD" value="USD-SOCKETUSD (NP)"/>
+<part name="JP8" library="TiLDA Mk2 Parts" deviceset="M04X2" device="-PAD" value="SRF Re-Program"/>
+<part name="J5" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="USD" value="114-00841-68 (NP)"/>
 <part name="C2" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND16" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="TP1" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value=""/>
+<part name="JP3" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value="ANT"/>
 <part name="C4" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/4V/X7R"/>
 <part name="GND18" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND19" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -36445,20 +36447,20 @@ www.ciseco.co.uk</description>
 <part name="Q7" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="C8" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/4V/X7R"/>
 <part name="IC2" library="TiLDA Mk2 Parts" deviceset="MPU-6050" device=""/>
-<part name="U2" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK"/>
+<part name="J1" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK" value="FCI 62684-401100ALF"/>
 <part name="GND17" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND20" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C133" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="SMCB" value="SMC_B/10u/"/>
-<part name="C132" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/"/>
+<part name="C132" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND22" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND23" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R104" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K"/>
-<part name="J10" library="TiLDA Mk2 Parts" deviceset="53?-02" device="261"/>
+<part name="J4" library="TiLDA Mk2 Parts" deviceset="53?-02" device="261"/>
 <part name="LOGO3" library="Ciseco Footprints" deviceset="CISECOLOGO" device="-1.3MM"/>
-<part name="SJ1" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value=""/>
-<part name="SJ2" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value=""/>
+<part name="SJ1" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="SRF RESET"/>
+<part name="SJ2" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="SRF ERASE"/>
 <part name="Q8" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BC847BSDM??"/>
-<part name="JP1" library="TiLDA Mk2 Parts" deviceset="M02" device="PTH"/>
+<part name="JP1" library="TiLDA Mk2 Parts" deviceset="M02" device="PTH" value="ERASE"/>
 <part name="C121" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="C122" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="GND25" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -36471,7 +36473,7 @@ www.ciseco.co.uk</description>
 <part name="C124" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="C123" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="GND28" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="JP2" library="TiLDA Mk2 Parts" deviceset="PINHEAD_PINHD-2X5" device="PASSO127"/>
+<part name="JP2" library="TiLDA Mk2 Parts" deviceset="PINHEAD_PINHD-2X5" device="PASSO127" value="JTAG"/>
 <part name="GND29" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND30" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R7" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
@@ -36501,20 +36503,20 @@ www.ciseco.co.uk</description>
 <part name="L105" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="R108" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NP)"/>
 <part name="GND34" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C119" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="100n"/>
-<part name="C134" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="100n"/>
+<part name="C119" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C134" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="L103" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="GND35" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND36" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="TX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT"/>
-<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT"/>
+<part name="TX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603/LED/RED"/>
+<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603//LED/RED"/>
 <part name="R105" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
 <part name="R106" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
-<part name="IC4" library="TiLDA Mk2 Parts" deviceset="SPI_FLASH-X25XX" device="SMD1" value="S25FL216K0PMFI011"/>
+<part name="IC5" library="TiLDA Mk2 Parts" deviceset="SPI_FLASH-X25XX" device="SMD1" value="S25FL216K0PMFI011"/>
 <part name="GND37" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="U10" library="TiLDA Mk2 Parts" deviceset="ARDUINOSPI" device="-REFRENCE"/>
-<part name="SJ3" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S"/>
-<part name="Z5" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
+<part name="J3" library="TiLDA Mk2 Parts" deviceset="ARDUINOSPI" device="-REFRENCE"/>
+<part name="SJ3" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="ISP_RESET"/>
+<part name="Z3" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="Z1" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="Z2" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="GND38" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -36530,8 +36532,8 @@ www.ciseco.co.uk</description>
 <part name="GND43" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND44" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND45" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="JP6" library="TiLDA Mk2 Parts" deviceset="M02" device="1X02_NO_SILK"/>
-<part name="JP7" library="TiLDA Mk2 Parts" deviceset="M02" device="1X02_NO_SILK"/>
+<part name="JP4" library="TiLDA Mk2 Parts" deviceset="M02" device="1X02_NO_SILK" value="DAC"/>
+<part name="JP5" library="TiLDA Mk2 Parts" deviceset="M02" device="1X02_NO_SILK" value="CAN"/>
 <part name="R15" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/12R/5%"/>
 <part name="R16" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/12R/5%"/>
 <part name="R17" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/82R/5%"/>
@@ -36539,13 +36541,13 @@ www.ciseco.co.uk</description>
 <part name="R19" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/12R/5%"/>
 <part name="R20" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/82R/5%"/>
 <part name="SJ4" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="TRACE" value="IR_TX"/>
-<part name="S5\" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="A"/>
+<part name="S5" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="A"/>
 <part name="S6" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="B"/>
 <part name="GND46" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND47" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND48" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="JP5" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="-APLS"/>
-<part name="SJ5" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S"/>
+<part name="S7" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="-APLS"/>
+<part name="SJ5" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="RESET SELECT"/>
 <part name="R21" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
 <part name="R22" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
 <part name="R23" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
@@ -36553,8 +36555,8 @@ www.ciseco.co.uk</description>
 <part name="C125" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="R107" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0603-ROUND" value="0603/6K8/1%"/>
 <part name="GND49" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="TP2" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value=""/>
-<part name="TP3" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value=""/>
+<part name="TP2" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="SRF Reset"/>
+<part name="TP3" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="SRF Reset"/>
 <part name="Q10" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="C126" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/10V/Y5V"/>
@@ -36564,20 +36566,20 @@ www.ciseco.co.uk</description>
 <part name="R102" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K"/>
 <part name="GND53" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R25" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K/5%"/>
-<part name="IC3" library="TiLDA Mk2 Parts" deviceset="LTC4160" device=""/>
-<part name="L2" library="TiLDA Mk2 Parts" deviceset="L-EU" device="LPS4018" value="LPS4018-332MLB"/>
+<part name="IC4" library="TiLDA Mk2 Parts" deviceset="LTC4160" device=""/>
+<part name="L1" library="TiLDA Mk2 Parts" deviceset="L-EU" device="LPS4018" value="LPS4018-332MLB"/>
 <part name="Q12" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="FDMA905P"/>
-<part name="CBAT1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/10u/6.3V/X5R"/>
-<part name="CSYS1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="C35" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/10u/6.3V/X5R"/>
+<part name="C36" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
 <part name="R27" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="TR2" library="TiLDA Mk2 Parts" deviceset="THERMISTOR_" device="-0402-ROUND" value="NTC/100K/3380"/>
 <part name="GND54" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND62" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="CBAC" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/6V/X5R"/>
+<part name="C34" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/6V/X5R"/>
 <part name="GND63" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND64" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="CBUS1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
-<part name="Q13" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
+<part name="C33" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="Q11" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
 <part name="R28" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/6K2/1%"/>
 <part name="GND65" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R29" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
@@ -36585,25 +36587,25 @@ www.ciseco.co.uk</description>
 <part name="GND67" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R30" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/3K01/1%"/>
 <part name="C7" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
-<part name="U3" library="TiLDA Mk2 Parts" deviceset="MCP1825T-3302E/DC" device=""/>
+<part name="IC8" library="TiLDA Mk2 Parts" deviceset="MCP1825T-3302E/DC" device=""/>
 <part name="GND68" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C9" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND69" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND70" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="U4" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF" value="B016 - NCP11402 5V0"/>
-<part name="IC6" library="TiLDA Mk2 Parts" deviceset="HMC5883L" device="SMD" value="HMC5883LSMD (NP)"/>
+<part name="J6" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF" value="B016 - NCP11402 5V0"/>
+<part name="IC7" library="TiLDA Mk2 Parts" deviceset="HMC5883L" device="SMD" value="HMC5883LSMD (NP)"/>
 <part name="C27" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="C28" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/4u7/10V/Y5V"/>
 <part name="C31" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/u22/10V/X5R"/>
 <part name="GND73" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="JP9" library="TiLDA Mk2 Parts" deviceset="M08X2" device=""/>
+<part name="JP7" library="TiLDA Mk2 Parts" deviceset="M08X2" device="" value="ETH"/>
 <part name="GND71" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R31" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="R32" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
-<part name="SJ6" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value=""/>
+<part name="SJ6" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="RESET BUTTON"/>
 <part name="C30" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/10u/6.3V/X5R"/>
 <part name="R26" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
-<part name="IC5" library="TiLDA Mk2 Parts" deviceset="AT45DB041B" device="-EIAJ" value="AT45DB161E-SSHFHA (NP)"/>
+<part name="IC6" library="TiLDA Mk2 Parts" deviceset="AT45DB041B" device="-EIAJ" value="AT45DB161E-SSHFHA (NP)"/>
 <part name="GND55" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C32" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND56" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -36616,42 +36618,42 @@ www.ciseco.co.uk</description>
 <part name="R38" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
 <part name="R39" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
 <part name="GND51" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="SJ8" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S"/>
-<part name="TP4" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value=""/>
-<part name="TP5" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="SJ8" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="AREF"/>
+<part name="TP4" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="D22"/>
+<part name="TP5" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PB24">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP6" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP6" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="SS3">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP7" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP7" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PB22">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP8" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP8" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PC10">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP9" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP9" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PC27">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP10" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP10" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="D23">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP11" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP11" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="TXD1">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP12" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP12" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="RXD1">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP13" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP13" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="TXD2">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP14" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP14" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="RXD2">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP15" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP15" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="TXD0">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="TP16" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="">
+<part name="TP16" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="RXD0">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
 </parts>
@@ -36663,24 +36665,24 @@ www.ciseco.co.uk</description>
 <text x="690.88" y="114.3" size="1.778" layer="97">Solder jumper sawp back to normal reset</text>
 <text x="5.08" y="251.46" size="3.81" layer="97" ratio="15">EPD Power Control</text>
 <text x="238.76" y="218.44" size="3.81" layer="97" ratio="15">EPD</text>
-<text x="116.84" y="175.26" size="1.778" layer="97">P2_2 is Remote Reset</text>
+<text x="116.84" y="167.64" size="1.778" layer="97">P2_2 is Remote Reset</text>
 <text x="238.76" y="208.28" size="1.778" layer="97">Taken form the Repaper Dev Board</text>
-<text x="116.84" y="185.42" size="3.81" layer="97" ratio="15">SRF and</text>
+<text x="116.84" y="177.8" size="3.81" layer="97" ratio="15">SRF and</text>
 <text x="238.76" y="213.36" size="1.778" layer="97">Connector and support parts</text>
-<text x="116.84" y="180.34" size="2.54" layer="97" ratio="15">programing heder</text>
-<text x="116.84" y="170.18" size="1.778" layer="97">need a pin for ATCommand mode</text>
+<text x="116.84" y="172.72" size="2.54" layer="97" ratio="15">programing heder</text>
+<text x="116.84" y="162.56" size="1.778" layer="97">need a pin for ATCommand mode</text>
 <text x="264.16" y="25.4" size="1.778" layer="97">Address 0x68</text>
 <text x="264.16" y="27.94" size="3.81" layer="97" ratio="15">MPU-6050 IMU</text>
 <text x="546.1" y="215.9" size="1.778" layer="91" rot="R90">??NC</text>
 <text x="553.72" y="215.9" size="1.778" layer="91" rot="R90">Internal Pullup</text>
-<text x="116.84" y="172.72" size="1.778" layer="97">need a pin for Erase</text>
+<text x="116.84" y="165.1" size="1.778" layer="97">need a pin for Erase</text>
 <text x="139.7" y="38.1" size="1.778" layer="97">8,16,32Mbit depending on budget</text>
 <text x="637.54" y="53.34" size="1.778" layer="97">Erase Jumper not Button</text>
 <text x="490.22" y="78.74" size="1.778" layer="91">(ETH)</text>
 <text x="490.22" y="76.2" size="1.778" layer="91">(SD)</text>
 <text x="10.16" y="200.66" size="3.81" layer="97" ratio="15">FTDI</text>
 <text x="33.02" y="177.8" size="1.778" layer="97">74LVC1G125DCK ??</text>
-<text x="116.84" y="165.1" size="1.778" layer="97">Option to isolate TX and RX</text>
+<text x="116.84" y="157.48" size="1.778" layer="97">Option to isolate TX and RX</text>
 <text x="33.02" y="180.34" size="1.778" layer="97">Do we need 5V0 protection?</text>
 <text x="116.84" y="35.56" size="2.54" layer="97" ratio="15">SPI FLASH</text>
 <text x="187.96" y="38.1" size="1.778" layer="97">and space needed</text>
@@ -36689,8 +36691,8 @@ www.ciseco.co.uk</description>
 <text x="690.88" y="116.84" size="1.778" layer="97">repragramming SiNE or TiLDA MK1</text>
 <text x="472.44" y="78.74" size="1.778" layer="91">SPI0_NPCS0</text>
 <text x="472.44" y="76.2" size="1.778" layer="91">SPI0_NPCS1</text>
-<text x="591.82" y="35.56" size="1.778" layer="91" rot="R90">SPI0_NPCS2</text>
-<text x="596.9" y="40.64" size="1.778" layer="91" rot="R90">SPI0_NPCS3</text>
+<text x="591.82" y="99.06" size="1.778" layer="91" rot="R90">SPI0_NPCS2</text>
+<text x="596.9" y="99.06" size="1.778" layer="91" rot="R90">SPI0_NPCS3</text>
 <text x="745.49" y="162.56" size="3.81" layer="97" ratio="15">CAN and DAC</text>
 <text x="116.84" y="119.38" size="3.81" layer="97" ratio="15">RGB LED's</text>
 <text x="254" y="5.08" size="2.54" layer="97" ratio="15">IR TX LED</text>
@@ -36698,7 +36700,7 @@ www.ciseco.co.uk</description>
 <text x="116.84" y="149.86" size="3.81" layer="97" ratio="15">Light Switch</text>
 <text x="736.6" y="251.46" size="3.81" layer="97" ratio="15">SD CARD SOCKET</text>
 <text x="406.4" y="251.46" size="3.81" layer="97" ratio="15">USB Led's</text>
-<text x="406.4" y="226.06" size="3.81" layer="97" ratio="15">Reset</text>
+<text x="406.4" y="223.52" size="3.81" layer="97" ratio="15">Reset</text>
 <text x="330.2" y="129.54" size="2.54" layer="97" ratio="15">Screen Buttons</text>
 <text x="116.84" y="104.14" size="1.778" layer="97">Red Vf2 I50 15R</text>
 <text x="116.84" y="109.22" size="1.778" layer="97">Blue Vf3.2 I25 2R</text>
@@ -36733,8 +36735,8 @@ www.ciseco.co.uk</description>
 <text x="122.682" y="31.75" size="1.778" layer="97">Only supports 4kB Sector erase</text>
 <text x="619.76" y="167.64" size="1.778" layer="91" rot="MR0">TXD0</text>
 <text x="619.76" y="170.18" size="1.778" layer="91" rot="MR0">RXD0</text>
-<text x="200.66" y="182.88" size="1.778" layer="97">Open</text>
-<text x="200.66" y="175.26" size="1.778" layer="97">Open</text>
+<text x="201.168" y="187.96" size="1.778" layer="97">Open</text>
+<text x="201.168" y="178.308" size="1.778" layer="97">Open</text>
 <text x="238.76" y="27.94" size="1.778" layer="97" rot="R90">Closed</text>
 <text x="690.88" y="121.92" size="1.778" layer="97">via FET for voltage protection</text>
 <text x="675.64" y="251.46" size="3.81" layer="97" ratio="15">USB power filter</text>
@@ -36748,7 +36750,7 @@ www.ciseco.co.uk</description>
 <text x="312.42" y="58.42" size="1.778" layer="97">Optional, slaved from MPU</text>
 <text x="7.62" y="10.16" size="3.81" layer="97" ratio="15">Power and Charge </text>
 <text x="457.2" y="66.04" size="1.778" layer="97">Removed to due space</text>
-<text x="411.48" y="195.58" size="1.778" layer="97" rot="R90">Open</text>
+<text x="411.48" y="203.2" size="1.778" layer="97" rot="R90">Open</text>
 <text x="7.62" y="5.08" size="1.778" layer="97">VOut ~ 3V5 &gt; VBat+0V3 &gt; 4V5</text>
 <text x="7.62" y="7.62" size="1.778" layer="97">VBus 6V Max</text>
 <text x="71.12" y="165.1" size="1.778" layer="97">3V3 &gt; 5V0</text>
@@ -36769,7 +36771,7 @@ www.ciseco.co.uk</description>
 <instance part="FID4" gate="G$1" x="355.6" y="22.86"/>
 <instance part="LOGO2" gate="G$1" x="690.88" y="2.54"/>
 <instance part="U1" gate="G$1" x="289.56" y="17.78"/>
-<instance part="U6" gate="G$1" x="170.18" y="200.66"/>
+<instance part="IC3" gate="G$1" x="170.18" y="200.66"/>
 <instance part="X1" gate="G$1" x="477.52" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="476.504" y="200.66" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="469.9" y="205.74" size="1.778" layer="96"/>
@@ -36827,16 +36829,16 @@ www.ciseco.co.uk</description>
 <instance part="FRAME2" gate="G$1" x="401.32" y="0"/>
 <instance part="LED1" gate="G$1" x="154.94" y="88.9" rot="R90"/>
 <instance part="LED2" gate="G$1" x="154.94" y="111.76" rot="R90"/>
-<instance part="LED3" gate="G$1" x="261.62" y="15.24" rot="R270"/>
+<instance part="IR_TX" gate="G$1" x="261.62" y="15.24" rot="R270"/>
 <instance part="FID3" gate="G$1" x="360.68" y="22.86"/>
 <instance part="FID5" gate="G$1" x="365.76" y="22.86"/>
 <instance part="FID6" gate="G$1" x="370.84" y="22.86"/>
 <instance part="LOGO4" gate="G$1" x="690.88" y="2.54"/>
-<instance part="U9" gate="G$1" x="241.3" y="58.42" smashed="yes">
+<instance part="IR_RX" gate="G$1" x="241.3" y="58.42" smashed="yes">
 <attribute name="NAME" x="236.22" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="231.14" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="JP8" gate="G$1" x="15.24" y="185.42"/>
+<instance part="JP6" gate="G$1" x="15.24" y="185.42"/>
 <instance part="SG1" gate="G$1" x="358.14" y="81.28" smashed="yes">
 <attribute name="NAME" x="355.6" y="88.9" size="1.778" layer="95"/>
 <attribute name="VALUE" x="349.25" y="86.36" size="1.778" layer="96"/>
@@ -36858,14 +36860,14 @@ www.ciseco.co.uk</description>
 <instance part="GND14" gate="1" x="50.8" y="210.82"/>
 <instance part="GND15" gate="1" x="35.56" y="210.82"/>
 <instance part="U$2" gate="G$1" x="289.56" y="15.24"/>
-<instance part="JP10" gate="G$1" x="167.64" y="246.38"/>
-<instance part="U8" gate="G$1" x="769.62" y="228.6" smashed="yes">
+<instance part="JP8" gate="G$1" x="167.64" y="246.38"/>
+<instance part="J5" gate="G$1" x="769.62" y="228.6" smashed="yes">
 <attribute name="NAME" x="767.08" y="244.348" size="1.778" layer="95"/>
 <attribute name="VALUE" x="754.38" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="C2" gate="G$1" x="129.54" y="218.44"/>
 <instance part="GND16" gate="1" x="124.46" y="226.06" rot="R270"/>
-<instance part="TP1" gate="G$1" x="139.7" y="218.44"/>
+<instance part="JP3" gate="G$1" x="137.16" y="220.98"/>
 <instance part="C4" gate="G$1" x="264.16" y="50.8" rot="R270"/>
 <instance part="GND18" gate="1" x="124.46" y="203.2"/>
 <instance part="GND19" gate="1" x="309.88" y="27.94"/>
@@ -36881,7 +36883,10 @@ www.ciseco.co.uk</description>
 <instance part="Q7" gate="G$1" x="287.02" y="99.06" rot="MR180"/>
 <instance part="C8" gate="G$1" x="358.14" y="33.02" rot="R270"/>
 <instance part="IC2" gate="G$1" x="330.2" y="43.18"/>
-<instance part="U2" gate="G$1" x="411.48" y="165.1" rot="R180"/>
+<instance part="J1" gate="G$1" x="411.48" y="165.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="414.02" y="157.48" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="406.4" y="171.45" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="GND17" gate="1" x="419.1" y="154.94"/>
 <instance part="GND20" gate="1" x="642.62" y="203.2"/>
 <instance part="C133" gate="G$1" x="637.54" y="228.6"/>
@@ -36889,11 +36894,17 @@ www.ciseco.co.uk</description>
 <instance part="GND22" gate="1" x="635" y="218.44"/>
 <instance part="GND23" gate="1" x="535.94" y="210.82" rot="R180"/>
 <instance part="R104" gate="G$1" x="541.02" y="215.9" rot="R90"/>
-<instance part="J10" gate="-1" x="93.98" y="185.42" rot="MR0"/>
-<instance part="J10" gate="-2" x="93.98" y="182.88" rot="MR0"/>
+<instance part="J4" gate="-1" x="93.98" y="185.42" rot="MR0"/>
+<instance part="J4" gate="-2" x="93.98" y="182.88" rot="MR0"/>
 <instance part="LOGO3" gate="G$1" x="144.78" y="223.52"/>
-<instance part="SJ1" gate="1" x="198.12" y="185.42"/>
-<instance part="SJ2" gate="1" x="198.12" y="177.8"/>
+<instance part="SJ1" gate="1" x="198.12" y="185.42" smashed="yes">
+<attribute name="NAME" x="195.58" y="187.96" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.136" y="181.61" size="1.778" layer="96"/>
+</instance>
+<instance part="SJ2" gate="1" x="198.12" y="175.26" smashed="yes">
+<attribute name="NAME" x="195.58" y="177.8" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.39" y="172.212" size="1.778" layer="96"/>
+</instance>
 <instance part="Q8" gate="G$1" x="642.62" y="63.5" rot="MR180"/>
 <instance part="JP1" gate="G$1" x="670.56" y="66.04" rot="R180"/>
 <instance part="C121" gate="G$1" x="462.28" y="203.2" rot="R90"/>
@@ -36902,8 +36913,8 @@ www.ciseco.co.uk</description>
 <instance part="GND26" gate="1" x="467.36" y="198.12" rot="R270"/>
 <instance part="GND27" gate="1" x="487.68" y="198.12" rot="R90"/>
 <instance part="C29" gate="G$1" x="43.18" y="200.66" rot="R270"/>
-<instance part="R5" gate="G$1" x="198.12" y="172.72"/>
-<instance part="R6" gate="G$1" x="198.12" y="165.1"/>
+<instance part="R5" gate="G$1" x="198.12" y="167.64"/>
+<instance part="R6" gate="G$1" x="198.12" y="160.02"/>
 <instance part="X2" gate="G$1" x="472.44" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="470.154" y="180.34" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="477.52" y="184.15" size="1.778" layer="96"/>
@@ -37004,21 +37015,21 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="R108" gate="G$1" x="505.46" y="200.66"/>
 <instance part="GND34" gate="1" x="497.84" y="198.12"/>
-<instance part="C119" gate="G$1" x="495.3" y="226.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="497.84" y="226.06" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="497.84" y="228.6" size="1.778" layer="96" rot="MR180"/>
+<instance part="C119" gate="G$1" x="490.22" y="226.06" smashed="yes" rot="MR180">
+<attribute name="NAME" x="492.76" y="223.52" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="495.3" y="218.44" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="C134" gate="G$1" x="469.9" y="226.06" smashed="yes" rot="MR180">
-<attribute name="NAME" x="474.98" y="226.06" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="474.98" y="228.6" size="1.778" layer="96" rot="MR180"/>
+<instance part="C134" gate="G$1" x="462.28" y="226.06" smashed="yes" rot="MR180">
+<attribute name="NAME" x="464.82" y="223.52" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="467.36" y="218.44" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="L103" gate="G$1" x="482.6" y="233.68" smashed="yes">
-<attribute name="VALUE" x="473.71" y="232.41" size="1.778" layer="96"/>
-<attribute name="NAME" x="478.79" y="238.76" size="1.778" layer="95"/>
+<instance part="L103" gate="G$1" x="480.06" y="233.68" smashed="yes">
+<attribute name="VALUE" x="471.17" y="232.41" size="1.778" layer="96"/>
+<attribute name="NAME" x="476.25" y="238.76" size="1.778" layer="95"/>
 </instance>
-<instance part="GND35" gate="1" x="469.9" y="218.44"/>
-<instance part="GND36" gate="1" x="495.3" y="218.44"/>
-<instance part="TX" gate="G$1" x="419.1" y="243.84" rot="R270"/>
+<instance part="GND35" gate="1" x="462.28" y="218.44"/>
+<instance part="GND36" gate="1" x="490.22" y="218.44"/>
+<instance part="TX" gate="G$1" x="419.1" y="246.38" rot="R270"/>
 <instance part="RX" gate="G$1" x="419.1" y="236.22" rot="R270"/>
 <instance part="R105" gate="G$1" x="492.76" y="172.72" smashed="yes">
 <attribute name="NAME" x="496.062" y="173.2026" size="1.778" layer="95"/>
@@ -37028,11 +37039,11 @@ www.ciseco.co.uk</description>
 <attribute name="NAME" x="495.808" y="167.8686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="496.062" y="165.608" size="1.778" layer="96"/>
 </instance>
-<instance part="IC4" gate="G$1" x="144.78" y="22.86"/>
+<instance part="IC5" gate="G$1" x="144.78" y="22.86"/>
 <instance part="GND37" gate="1" x="129.54" y="12.7"/>
-<instance part="U10" gate="G$1" x="734.06" y="55.88" rot="R90"/>
+<instance part="J3" gate="G$1" x="734.06" y="55.88" rot="R90"/>
 <instance part="SJ3" gate="G$1" x="772.16" y="93.98"/>
-<instance part="Z5" gate="G$1" x="426.72" y="154.94" rot="R90"/>
+<instance part="Z3" gate="G$1" x="426.72" y="154.94" rot="R90"/>
 <instance part="Z1" gate="G$1" x="436.88" y="154.94" rot="R90"/>
 <instance part="Z2" gate="G$1" x="447.04" y="154.94" rot="R90"/>
 <instance part="GND38" gate="1" x="436.88" y="142.24"/>
@@ -37040,19 +37051,19 @@ www.ciseco.co.uk</description>
 <instance part="R4" gate="G$1" x="271.78" y="15.24"/>
 <instance part="Q9" gate="G$1" x="246.38" y="17.78" rot="R270"/>
 <instance part="GND40" gate="1" x="226.06" y="60.96" rot="R270"/>
-<instance part="R8" gate="G$1" x="429.26" y="243.84"/>
+<instance part="R8" gate="G$1" x="429.26" y="246.38"/>
 <instance part="R14" gate="G$1" x="429.26" y="236.22"/>
-<instance part="C120" gate="G$1" x="414.02" y="215.9" smashed="yes">
-<attribute name="NAME" x="416.56" y="218.821" size="1.778" layer="95"/>
-<attribute name="VALUE" x="416.56" y="216.281" size="1.778" layer="96"/>
+<instance part="C120" gate="G$1" x="414.02" y="213.36" smashed="yes">
+<attribute name="NAME" x="416.56" y="216.281" size="1.778" layer="95"/>
+<attribute name="VALUE" x="416.56" y="213.741" size="1.778" layer="96"/>
 </instance>
 <instance part="GND41" gate="1" x="439.42" y="185.42" rot="R90"/>
 <instance part="GND42" gate="1" x="147.32" y="134.62" rot="R90"/>
 <instance part="GND43" gate="1" x="375.92" y="121.92" rot="R90"/>
 <instance part="GND44" gate="1" x="375.92" y="106.68" rot="R90"/>
 <instance part="GND45" gate="1" x="27.94" y="180.34" rot="R90"/>
-<instance part="JP6" gate="G$1" x="749.3" y="152.4"/>
-<instance part="JP7" gate="G$1" x="749.3" y="139.7"/>
+<instance part="JP4" gate="G$1" x="749.3" y="152.4"/>
+<instance part="JP5" gate="G$1" x="749.3" y="139.7"/>
 <instance part="R15" gate="G$1" x="170.18" y="119.38"/>
 <instance part="R16" gate="G$1" x="170.18" y="111.76"/>
 <instance part="R17" gate="G$1" x="170.18" y="104.14"/>
@@ -37060,7 +37071,7 @@ www.ciseco.co.uk</description>
 <instance part="R19" gate="G$1" x="170.18" y="88.9"/>
 <instance part="R20" gate="G$1" x="170.18" y="81.28"/>
 <instance part="SJ4" gate="1" x="243.84" y="30.48" rot="R90"/>
-<instance part="S5\" gate="S" x="149.86" y="45.72" smashed="yes">
+<instance part="S5" gate="S" x="149.86" y="45.72" smashed="yes">
 <attribute name="NAME" x="147.32" y="52.07" size="1.778" layer="95"/>
 <attribute name="VALUE" x="149.86" y="41.91" size="1.778" layer="96"/>
 </instance>
@@ -37071,7 +37082,7 @@ www.ciseco.co.uk</description>
 <instance part="GND46" gate="1" x="134.62" y="53.34"/>
 <instance part="GND47" gate="1" x="162.56" y="45.72" rot="R90"/>
 <instance part="GND48" gate="1" x="208.28" y="45.72" rot="R90"/>
-<instance part="JP5" gate="G$1" x="149.86" y="60.96"/>
+<instance part="S7" gate="G$1" x="149.86" y="60.96"/>
 <instance part="SJ5" gate="G$1" x="541.02" y="241.3"/>
 <instance part="R21" gate="G$1" x="424.18" y="116.84" rot="R90"/>
 <instance part="R22" gate="G$1" x="431.8" y="116.84" rot="R90"/>
@@ -37083,8 +37094,8 @@ www.ciseco.co.uk</description>
 <attribute name="VALUE" x="486.918" y="164.592" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND49" gate="1" x="477.52" y="152.4"/>
-<instance part="TP2" gate="G$1" x="137.16" y="203.2" rot="R90"/>
-<instance part="TP3" gate="G$1" x="134.62" y="200.66" rot="R90"/>
+<instance part="TP2" gate="G$1" x="132.08" y="193.04" rot="R180"/>
+<instance part="TP3" gate="G$1" x="134.62" y="187.96" rot="R180"/>
 <instance part="Q10" gate="G$1" x="769.62" y="109.22" rot="MR180"/>
 <instance part="GND50" gate="1" x="772.16" y="119.38" rot="R180"/>
 <instance part="C126" gate="G$1" x="688.34" y="236.22" smashed="yes">
@@ -37106,11 +37117,11 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="GND53" gate="1" x="365.76" y="76.2" rot="R90"/>
 <instance part="R25" gate="G$1" x="358.14" y="71.12" rot="MR270"/>
-<instance part="IC3" gate="G$1" x="60.96" y="93.98"/>
-<instance part="L2" gate="G$1" x="93.98" y="106.68" rot="MR90"/>
+<instance part="IC4" gate="G$1" x="60.96" y="93.98"/>
+<instance part="L1" gate="G$1" x="93.98" y="106.68" rot="MR90"/>
 <instance part="Q12" gate="G$1" x="99.06" y="91.44"/>
-<instance part="CBAT1" gate="G$1" x="93.98" y="73.66" rot="R180"/>
-<instance part="CSYS1" gate="G$1" x="104.14" y="73.66" rot="R180"/>
+<instance part="C35" gate="G$1" x="93.98" y="73.66" rot="R180"/>
+<instance part="C36" gate="G$1" x="104.14" y="73.66" rot="R180"/>
 <instance part="R27" gate="G$1" x="83.82" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="82.3214" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="87.122" y="57.15" size="1.778" layer="96" rot="R90"/>
@@ -37121,17 +37132,17 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="GND54" gate="1" x="83.82" y="40.64"/>
 <instance part="GND62" gate="1" x="71.12" y="50.8"/>
-<instance part="CBAC" gate="G$1" x="93.98" y="121.92" smashed="yes">
+<instance part="C34" gate="G$1" x="93.98" y="121.92" smashed="yes">
 <attribute name="NAME" x="98.679" y="116.84" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="101.219" y="116.84" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND63" gate="1" x="99.06" y="50.8"/>
 <instance part="GND64" gate="1" x="93.98" y="129.54" rot="R180"/>
-<instance part="CBUS1" gate="G$1" x="27.94" y="119.38" smashed="yes" rot="R180">
+<instance part="C33" gate="G$1" x="27.94" y="119.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="30.48" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="30.48" y="127.381" size="1.778" layer="96"/>
 </instance>
-<instance part="Q13" gate="G$1" x="20.32" y="111.76" rot="R90"/>
+<instance part="Q11" gate="G$1" x="20.32" y="111.76" rot="R90"/>
 <instance part="R28" gate="G$1" x="12.7" y="106.68" rot="R270"/>
 <instance part="GND65" gate="1" x="27.94" y="129.54" rot="R180"/>
 <instance part="R29" gate="G$1" x="25.4" y="78.74" rot="MR270"/>
@@ -37139,7 +37150,7 @@ www.ciseco.co.uk</description>
 <instance part="GND67" gate="1" x="12.7" y="60.96"/>
 <instance part="R30" gate="G$1" x="7.62" y="86.36" rot="MR270"/>
 <instance part="C7" gate="G$1" x="17.78" y="86.36" rot="MR180"/>
-<instance part="U3" gate="A" x="30.48" y="162.56"/>
+<instance part="IC8" gate="A" x="30.48" y="162.56"/>
 <instance part="GND68" gate="1" x="30.48" y="147.32"/>
 <instance part="C9" gate="G$1" x="589.28" y="228.6" smashed="yes" rot="MR90">
 <attribute name="NAME" x="591.82" y="231.14" size="1.778" layer="95" rot="MR0"/>
@@ -37147,20 +37158,20 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="GND69" gate="1" x="594.36" y="223.52"/>
 <instance part="GND70" gate="1" x="63.5" y="40.64"/>
-<instance part="U4" gate="G$1" x="88.9" y="152.4"/>
-<instance part="IC6" gate="G$1" x="299.72" y="76.2"/>
+<instance part="J6" gate="G$1" x="88.9" y="152.4"/>
+<instance part="IC7" gate="G$1" x="299.72" y="76.2"/>
 <instance part="C27" gate="G$1" x="276.86" y="78.74" rot="R90"/>
 <instance part="C28" gate="G$1" x="276.86" y="73.66" rot="R90"/>
 <instance part="C31" gate="G$1" x="325.12" y="76.2" rot="R270"/>
 <instance part="GND73" gate="1" x="271.78" y="63.5"/>
-<instance part="JP9" gate="G$1" x="429.26" y="63.5"/>
+<instance part="JP7" gate="G$1" x="429.26" y="63.5"/>
 <instance part="GND71" gate="1" x="439.42" y="50.8"/>
 <instance part="R31" gate="G$1" x="43.18" y="193.04"/>
 <instance part="R32" gate="G$1" x="43.18" y="185.42"/>
 <instance part="SJ6" gate="1" x="414.02" y="198.12" rot="R270"/>
 <instance part="C30" gate="G$1" x="38.1" y="152.4" rot="R270"/>
 <instance part="R26" gate="G$1" x="53.34" y="157.48"/>
-<instance part="IC5" gate="G$1" x="198.12" y="22.86" smashed="yes">
+<instance part="IC6" gate="G$1" x="198.12" y="22.86" smashed="yes">
 <attribute name="NAME" x="190.754" y="28.702" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="12.7" size="1.778" layer="96"/>
 </instance>
@@ -37179,19 +37190,19 @@ www.ciseco.co.uk</description>
 <instance part="R38" gate="G$1" x="180.34" y="137.16" rot="MR0"/>
 <instance part="R39" gate="G$1" x="195.58" y="137.16"/>
 <instance part="GND51" gate="1" x="213.36" y="129.54"/>
-<instance part="SJ8" gate="G$1" x="462.28" y="236.22" rot="R180"/>
+<instance part="SJ8" gate="G$1" x="454.66" y="236.22" rot="R180"/>
 <instance part="TP4" gate="G$1" x="604.52" y="38.1" rot="R180"/>
-<instance part="TP5" gate="G$1" x="599.44" y="38.1" rot="R180"/>
-<instance part="TP6" gate="G$1" x="596.9" y="38.1" rot="R180"/>
+<instance part="TP5" gate="G$1" x="599.44" y="43.18" rot="R180"/>
+<instance part="TP6" gate="G$1" x="596.9" y="48.26" rot="R180"/>
 <instance part="TP7" gate="G$1" x="594.36" y="38.1" rot="R180"/>
-<instance part="TP8" gate="G$1" x="655.32" y="101.6" rot="R270"/>
+<instance part="TP8" gate="G$1" x="670.56" y="101.6" rot="R270"/>
 <instance part="TP9" gate="G$1" x="655.32" y="144.78" rot="R270"/>
-<instance part="TP10" gate="G$1" x="474.98" y="114.3" rot="R90"/>
+<instance part="TP10" gate="G$1" x="472.44" y="114.3" rot="R90"/>
 <instance part="TP11" gate="G$1" x="477.52" y="116.84" rot="R90"/>
-<instance part="TP12" gate="G$1" x="480.06" y="119.38" rot="R90"/>
-<instance part="TP13" gate="G$1" x="482.6" y="121.92" rot="R90"/>
-<instance part="TP14" gate="G$1" x="485.14" y="124.46" rot="R90"/>
-<instance part="TP15" gate="G$1" x="673.1" y="167.64" rot="R270"/>
+<instance part="TP12" gate="G$1" x="482.6" y="119.38" rot="R90"/>
+<instance part="TP13" gate="G$1" x="487.68" y="121.92" rot="R90"/>
+<instance part="TP14" gate="G$1" x="492.76" y="124.46" rot="R90"/>
+<instance part="TP15" gate="G$1" x="668.02" y="167.64" rot="R270"/>
 <instance part="TP16" gate="G$1" x="675.64" y="170.18" rot="R270"/>
 </instances>
 <busses>
@@ -37320,12 +37331,12 @@ www.ciseco.co.uk</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="1"/>
+<pinref part="JP8" gate="G$1" pin="1"/>
 <wire x1="157.48" y1="251.46" x2="160.02" y2="251.46" width="0.1524" layer="91"/>
 <label x="157.48" y="251.46" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
 <label x="139.7" y="208.28" size="1.778" layer="95" rot="MR0"/>
 <pinref part="GND18" gate="1" pin="GND"/>
 <wire x1="142.24" y1="208.28" x2="124.46" y2="208.28" width="0.1524" layer="91"/>
@@ -37380,7 +37391,7 @@ www.ciseco.co.uk</description>
 <junction x="370.84" y="33.02"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="416.56" y1="160.02" x2="419.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="419.1" y1="160.02" x2="419.1" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
@@ -37439,17 +37450,17 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="60.96" x2="762" y2="60.96" width="0.1524" layer="91"/>
 <label x="764.54" y="60.96" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="GND@1"/>
+<pinref part="J3" gate="G$1" pin="GND@1"/>
 </segment>
 <segment>
 <wire x1="764.54" y1="58.42" x2="762" y2="58.42" width="0.1524" layer="91"/>
 <label x="764.54" y="58.42" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="GND@2"/>
+<pinref part="J3" gate="G$1" pin="GND@2"/>
 </segment>
 <segment>
 <wire x1="703.58" y1="40.64" x2="706.12" y2="40.64" width="0.1524" layer="91"/>
 <label x="703.58" y="40.64" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="GND@3"/>
+<pinref part="J3" gate="G$1" pin="GND@3"/>
 </segment>
 <segment>
 <pinref part="C121" gate="G$1" pin="1"/>
@@ -37473,9 +37484,9 @@ www.ciseco.co.uk</description>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="1"/>
+<pinref part="JP6" gate="G$1" pin="1"/>
 <pinref part="GND45" gate="1" pin="GND"/>
-<pinref part="JP8" gate="G$1" pin="2"/>
+<pinref part="JP6" gate="G$1" pin="2"/>
 <wire x1="22.86" y1="180.34" x2="20.32" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="180.34" x2="22.86" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="180.34" x2="22.86" y2="182.88" width="0.1524" layer="91"/>
@@ -37513,17 +37524,17 @@ www.ciseco.co.uk</description>
 <pinref part="GND31" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="SHIELD@4"/>
+<pinref part="J5" gate="G$1" pin="SHIELD@4"/>
 <wire x1="759.46" y1="210.82" x2="762" y2="210.82" width="0.1524" layer="91"/>
 <label x="759.46" y="210.82" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="SHIELD@3"/>
+<pinref part="J5" gate="G$1" pin="SHIELD@3"/>
 <wire x1="759.46" y1="213.36" x2="762" y2="213.36" width="0.1524" layer="91"/>
 <label x="759.46" y="213.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="GND"/>
+<pinref part="J5" gate="G$1" pin="GND"/>
 <wire x1="759.46" y1="228.6" x2="762" y2="228.6" width="0.1524" layer="91"/>
 <label x="759.46" y="228.6" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -37610,16 +37621,16 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="C134" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="223.52" x2="469.9" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="223.52" x2="462.28" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C119" gate="G$1" pin="1"/>
-<wire x1="495.3" y1="220.98" x2="495.3" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="220.98" x2="490.22" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="GND"/>
 <wire x1="129.54" y1="17.78" x2="132.08" y2="17.78" width="0.1524" layer="91"/>
 <label x="129.54" y="17.78" size="1.778" layer="95" rot="MR0"/>
 <pinref part="GND37" gate="1" pin="GND"/>
@@ -37630,7 +37641,7 @@ www.ciseco.co.uk</description>
 <wire x1="447.04" y1="149.86" x2="447.04" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="147.32" x2="436.88" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="147.32" x2="436.88" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="Z5" gate="G$1" pin="2"/>
+<pinref part="Z3" gate="G$1" pin="2"/>
 <wire x1="426.72" y1="149.86" x2="426.72" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="147.32" x2="436.88" y2="147.32" width="0.1524" layer="91"/>
 <junction x="436.88" y="147.32"/>
@@ -37646,9 +37657,9 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
 <wire x1="228.6" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="GND"/>
+<pinref part="IR_RX" gate="G$1" pin="GND"/>
 <wire x1="231.14" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U9" gate="G$1" pin="NC/GND"/>
+<pinref part="IR_RX" gate="G$1" pin="NC/GND"/>
 <wire x1="233.68" y1="58.42" x2="231.14" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="58.42" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
 <junction x="231.14" y="60.96"/>
@@ -37694,7 +37705,7 @@ www.ciseco.co.uk</description>
 <wire x1="370.84" y1="104.14" x2="368.3" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J10" gate="-2" pin="S"/>
+<pinref part="J4" gate="-2" pin="S"/>
 <wire x1="99.06" y1="182.88" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <label x="99.06" y="182.88" size="1.778" layer="95"/>
 </segment>
@@ -37702,16 +37713,16 @@ www.ciseco.co.uk</description>
 <wire x1="137.16" y1="58.42" x2="134.62" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="58.42" x2="134.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND46" gate="1" pin="GND"/>
-<pinref part="JP5" gate="G$1" pin="GND"/>
+<pinref part="S7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="43.18" x2="157.48" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="45.72" x2="160.02" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="S5\" gate="S" pin="3"/>
+<pinref part="S5" gate="S" pin="3"/>
 <wire x1="157.48" y1="45.72" x2="154.94" y2="45.72" width="0.1524" layer="91"/>
 <junction x="157.48" y="45.72"/>
-<pinref part="S5\" gate="S" pin="4"/>
+<pinref part="S5" gate="S" pin="4"/>
 <wire x1="157.48" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -37735,7 +37746,7 @@ www.ciseco.co.uk</description>
 <pinref part="GND49" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="SHIELD@2"/>
+<pinref part="J5" gate="G$1" pin="SHIELD@2"/>
 <wire x1="759.46" y1="215.9" x2="762" y2="215.9" width="0.1524" layer="91"/>
 <label x="759.46" y="215.9" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -37768,7 +37779,7 @@ www.ciseco.co.uk</description>
 <wire x1="363.22" y1="76.2" x2="360.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="GND"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 <wire x1="71.12" y1="53.34" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
@@ -37779,8 +37790,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="GND63" gate="1" pin="GND"/>
-<pinref part="CSYS1" gate="G$1" pin="1"/>
-<pinref part="CBAT1" gate="G$1" pin="1"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="C35" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="71.12" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="58.42" x2="99.06" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
@@ -37789,12 +37800,12 @@ www.ciseco.co.uk</description>
 <junction x="99.06" y="58.42"/>
 </segment>
 <segment>
-<pinref part="CBAC" gate="G$1" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="124.46" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <pinref part="GND64" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CBUS1" gate="G$1" pin="2"/>
+<pinref part="C33" gate="G$1" pin="2"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 <wire x1="27.94" y1="127" x2="27.94" y2="124.46" width="0.1524" layer="91"/>
 </segment>
@@ -37815,7 +37826,7 @@ www.ciseco.co.uk</description>
 <junction x="12.7" y="66.04"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="GND"/>
+<pinref part="IC8" gate="A" pin="GND"/>
 <pinref part="GND68" gate="1" pin="GND"/>
 <wire x1="30.48" y1="154.94" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
@@ -37830,19 +37841,19 @@ www.ciseco.co.uk</description>
 <wire x1="594.36" y1="228.6" x2="591.82" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="!ENCHARGER"/>
+<pinref part="IC4" gate="G$1" pin="!ENCHARGER"/>
 <label x="63.5" y="60.96" size="1.778" layer="95" rot="MR270"/>
 <pinref part="GND70" gate="1" pin="GND"/>
 <wire x1="63.5" y1="43.18" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
 <wire x1="78.74" y1="154.94" x2="76.2" y2="154.94" width="0.1524" layer="91"/>
 <label x="76.2" y="154.94" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
-<pinref part="IC6" gate="G$1" pin="GND"/>
+<pinref part="IC7" gate="G$1" pin="GND"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="274.32" y1="78.74" x2="271.78" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="78.74" x2="271.78" y2="73.66" width="0.1524" layer="91"/>
@@ -37855,19 +37866,19 @@ www.ciseco.co.uk</description>
 <junction x="271.78" y="73.66"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="15"/>
+<pinref part="JP7" gate="G$1" pin="15"/>
 <wire x1="419.1" y1="55.88" x2="421.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 <wire x1="419.1" y1="53.34" x2="419.1" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="16"/>
+<pinref part="JP7" gate="G$1" pin="16"/>
 <wire x1="439.42" y1="55.88" x2="436.88" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND71" gate="1" pin="GND"/>
 <wire x1="439.42" y1="53.34" x2="439.42" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="GND"/>
+<pinref part="IC6" gate="G$1" pin="GND"/>
 <wire x1="213.36" y1="22.86" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="GND55" gate="1" pin="GND"/>
 </segment>
@@ -38310,12 +38321,12 @@ www.ciseco.co.uk</description>
 <pinref part="Q3" gate="G$1" pin="S"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="2"/>
+<pinref part="JP8" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="251.46" x2="177.8" y2="251.46" width="0.1524" layer="91"/>
 <label x="177.8" y="251.46" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="3V3"/>
+<pinref part="IC3" gate="G$1" pin="3V3"/>
 <label x="124.46" y="210.82" size="1.778" layer="95" rot="MR0"/>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="142.24" y1="210.82" x2="129.54" y2="210.82" width="0.1524" layer="91"/>
@@ -38326,12 +38337,12 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="53.34" x2="762" y2="53.34" width="0.1524" layer="91"/>
 <label x="764.54" y="53.34" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="3V"/>
+<pinref part="J3" gate="G$1" pin="3V"/>
 </segment>
 <segment>
 <wire x1="764.54" y1="48.26" x2="762" y2="48.26" width="0.1524" layer="91"/>
 <label x="764.54" y="48.26" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="IOREF"/>
+<pinref part="J3" gate="G$1" pin="IOREF"/>
 </segment>
 <segment>
 <pinref part="Q8" gate="G$1" pin="S"/>
@@ -38346,7 +38357,7 @@ www.ciseco.co.uk</description>
 <label x="650.24" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP8" gate="G$1" pin="3"/>
+<pinref part="JP6" gate="G$1" pin="3"/>
 <wire x1="22.86" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
 <label x="22.86" y="185.42" size="1.778" layer="95"/>
 </segment>
@@ -38374,7 +38385,7 @@ www.ciseco.co.uk</description>
 <pinref part="R24" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="VCC"/>
+<pinref part="J5" gate="G$1" pin="VCC"/>
 <wire x1="759.46" y1="233.68" x2="762" y2="233.68" width="0.1524" layer="91"/>
 <label x="759.46" y="233.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -38440,18 +38451,18 @@ www.ciseco.co.uk</description>
 <label x="571.5" y="210.82" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<wire x1="462.28" y1="241.3" x2="462.28" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="243.84" x2="459.74" y2="243.84" width="0.1524" layer="91"/>
-<label x="459.74" y="243.84" size="1.778" layer="95" rot="MR0"/>
+<wire x1="454.66" y1="241.3" x2="454.66" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="243.84" x2="452.12" y2="243.84" width="0.1524" layer="91"/>
+<label x="452.12" y="243.84" size="1.778" layer="95" rot="MR0"/>
 <pinref part="SJ8" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="434.34" y1="243.84" x2="436.88" y2="243.84" width="0.1524" layer="91"/>
-<label x="436.88" y="243.84" size="1.778" layer="95"/>
+<wire x1="434.34" y1="246.38" x2="436.88" y2="246.38" width="0.1524" layer="91"/>
+<label x="436.88" y="246.38" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="VCC"/>
+<pinref part="IC5" gate="G$1" pin="VCC"/>
 <wire x1="160.02" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <label x="160.02" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -38471,7 +38482,7 @@ www.ciseco.co.uk</description>
 <label x="279.4" y="15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U9" gate="G$1" pin="VS"/>
+<pinref part="IR_RX" gate="G$1" pin="VS"/>
 <wire x1="231.14" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
 <label x="231.14" y="55.88" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -38482,18 +38493,18 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="C120" gate="G$1" pin="1"/>
-<wire x1="414.02" y1="218.44" x2="414.02" y2="220.98" width="0.1524" layer="91"/>
-<label x="414.02" y="220.98" size="1.778" layer="95" rot="R90"/>
+<wire x1="414.02" y1="215.9" x2="414.02" y2="218.44" width="0.1524" layer="91"/>
+<label x="414.02" y="218.44" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="WP"/>
+<pinref part="IC5" gate="G$1" pin="WP"/>
 <label x="129.54" y="20.32" size="1.778" layer="95" rot="MR0"/>
 <pinref part="C32" gate="G$1" pin="2"/>
 <wire x1="132.08" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="20.32" x2="119.38" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="VOUT"/>
+<pinref part="IC8" gate="A" pin="VOUT"/>
 <label x="60.96" y="165.1" size="1.778" layer="95"/>
 <wire x1="60.96" y1="165.1" x2="58.42" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="165.1" x2="45.72" y2="165.1" width="0.1524" layer="91"/>
@@ -38506,12 +38517,12 @@ www.ciseco.co.uk</description>
 <junction x="58.42" y="157.48"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="VCC"/>
+<pinref part="IC6" gate="G$1" pin="VCC"/>
 <wire x1="210.82" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
 <label x="210.82" y="20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="WP"/>
+<pinref part="IC6" gate="G$1" pin="WP"/>
 <wire x1="210.82" y1="17.78" x2="208.28" y2="17.78" width="0.1524" layer="91"/>
 <label x="210.82" y="17.78" size="1.778" layer="95"/>
 </segment>
@@ -38540,7 +38551,7 @@ www.ciseco.co.uk</description>
 <label x="7.62" y="55.88" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VIN"/>
+<pinref part="J6" gate="G$1" pin="VIN"/>
 <wire x1="78.74" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <label x="76.2" y="157.48" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -38597,12 +38608,12 @@ www.ciseco.co.uk</description>
 </net>
 <net name="SRF_P2_2/DC" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="3"/>
+<pinref part="JP8" gate="G$1" pin="3"/>
 <wire x1="157.48" y1="248.92" x2="160.02" y2="248.92" width="0.1524" layer="91"/>
 <label x="157.48" y="248.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="P2_2/DC"/>
+<pinref part="IC3" gate="G$1" pin="P2_2/DC"/>
 <wire x1="200.66" y1="210.82" x2="198.12" y2="210.82" width="0.1524" layer="91"/>
 <label x="200.66" y="210.82" size="1.778" layer="95"/>
 </segment>
@@ -38614,77 +38625,77 @@ www.ciseco.co.uk</description>
 </net>
 <net name="SRF_P0_3/TX" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="7"/>
+<pinref part="JP8" gate="G$1" pin="7"/>
 <wire x1="160.02" y1="243.84" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
 <label x="157.48" y="243.84" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="P0_3/TX"/>
+<pinref part="IC3" gate="G$1" pin="P0_3/TX"/>
 <wire x1="200.66" y1="203.2" x2="198.12" y2="203.2" width="0.1524" layer="91"/>
 <label x="200.66" y="203.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="172.72" x2="190.5" y2="172.72" width="0.1524" layer="91"/>
-<label x="190.5" y="172.72" size="1.778" layer="95" rot="MR0"/>
+<wire x1="193.04" y1="167.64" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
+<label x="190.5" y="167.64" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SRF_P0_2/RX" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="8"/>
+<pinref part="JP8" gate="G$1" pin="8"/>
 <wire x1="175.26" y1="243.84" x2="177.8" y2="243.84" width="0.1524" layer="91"/>
 <label x="177.8" y="243.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="P0_2/RX"/>
+<pinref part="IC3" gate="G$1" pin="P0_2/RX"/>
 <wire x1="200.66" y1="200.66" x2="198.12" y2="200.66" width="0.1524" layer="91"/>
 <label x="200.66" y="200.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="193.04" y1="165.1" x2="190.5" y2="165.1" width="0.1524" layer="91"/>
-<label x="190.5" y="165.1" size="1.778" layer="95" rot="MR0"/>
+<wire x1="193.04" y1="160.02" x2="190.5" y2="160.02" width="0.1524" layer="91"/>
+<label x="190.5" y="160.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SRF_P0_1/MODE_PIN_1" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="6"/>
+<pinref part="JP8" gate="G$1" pin="6"/>
 <wire x1="175.26" y1="246.38" x2="177.8" y2="246.38" width="0.1524" layer="91"/>
 <label x="177.8" y="246.38" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="P0_1"/>
+<pinref part="IC3" gate="G$1" pin="P0_1"/>
 <wire x1="167.64" y1="187.96" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
 <label x="167.64" y="187.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="SRF_P2_1/DD" class="0">
 <segment>
-<pinref part="JP10" gate="G$1" pin="4"/>
+<pinref part="JP8" gate="G$1" pin="4"/>
 <wire x1="175.26" y1="248.92" x2="177.8" y2="248.92" width="0.1524" layer="91"/>
 <label x="177.8" y="248.92" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="P2_1/DD"/>
+<pinref part="IC3" gate="G$1" pin="P2_1/DD"/>
 <wire x1="200.66" y1="208.28" x2="198.12" y2="208.28" width="0.1524" layer="91"/>
 <label x="200.66" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SRF_!RESET" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="!RESET"/>
+<pinref part="IC3" gate="G$1" pin="!RESET"/>
 <wire x1="162.56" y1="187.96" x2="162.56" y2="190.5" width="0.1524" layer="91"/>
 <label x="162.56" y="187.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="5"/>
+<pinref part="JP8" gate="G$1" pin="5"/>
 <wire x1="160.02" y1="246.38" x2="157.48" y2="246.38" width="0.1524" layer="91"/>
 <label x="157.48" y="246.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SRF_P1_4/SLEEP" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="P1_4/SS"/>
+<pinref part="IC3" gate="G$1" pin="P1_4/SS"/>
 <wire x1="139.7" y1="198.12" x2="142.24" y2="198.12" width="0.1524" layer="91"/>
 <label x="139.7" y="198.12" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -38764,8 +38775,8 @@ www.ciseco.co.uk</description>
 <wire x1="510.54" y1="254" x2="510.54" y2="213.36" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
-<wire x1="444.5" y1="231.14" x2="406.4" y2="231.14" width="0.1524" layer="91" style="longdash"/>
-<wire x1="444.5" y1="231.14" x2="444.5" y2="177.8" width="0.1524" layer="91" style="longdash"/>
+<wire x1="444.5" y1="228.6" x2="406.4" y2="228.6" width="0.1524" layer="91" style="longdash"/>
+<wire x1="444.5" y1="228.6" x2="444.5" y2="177.8" width="0.1524" layer="91" style="longdash"/>
 <wire x1="444.5" y1="177.8" x2="406.4" y2="177.8" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
@@ -38805,11 +38816,11 @@ www.ciseco.co.uk</description>
 </net>
 <net name="ANT" class="4">
 <segment>
-<pinref part="U6" gate="G$1" pin="ANT"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="142.24" y1="213.36" x2="139.7" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="213.36" x2="139.7" y2="215.9" width="0.1524" layer="91"/>
-<label x="139.7" y="213.36" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC3" gate="G$1" pin="ANT"/>
+<pinref part="JP3" gate="G$1" pin="TP"/>
+<wire x1="142.24" y1="213.36" x2="137.16" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="213.36" x2="137.16" y2="218.44" width="0.1524" layer="91"/>
+<label x="137.16" y="213.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="MPU_AUX_CL" class="0">
@@ -38819,7 +38830,7 @@ www.ciseco.co.uk</description>
 <pinref part="IC2" gate="G$1" pin="AUX_CL"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="SCL"/>
+<pinref part="IC7" gate="G$1" pin="SCL"/>
 <wire x1="314.96" y1="83.82" x2="312.42" y2="83.82" width="0.1524" layer="91"/>
 <label x="314.96" y="83.82" size="1.778" layer="95"/>
 </segment>
@@ -38895,7 +38906,7 @@ www.ciseco.co.uk</description>
 <pinref part="IC2" gate="G$1" pin="AUX_DA"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="SDA"/>
+<pinref part="IC7" gate="G$1" pin="SDA"/>
 <wire x1="314.96" y1="81.28" x2="312.42" y2="81.28" width="0.1524" layer="91"/>
 <label x="314.96" y="81.28" size="1.778" layer="95"/>
 </segment>
@@ -39044,11 +39055,11 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="C119" gate="G$1" pin="2"/>
-<wire x1="495.3" y1="231.14" x2="495.3" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="231.14" x2="490.22" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="L103" gate="G$1" pin="2"/>
-<wire x1="495.3" y1="236.22" x2="487.68" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="500.38" y1="236.22" x2="495.3" y2="236.22" width="0.1524" layer="91"/>
-<junction x="495.3" y="236.22"/>
+<wire x1="490.22" y1="236.22" x2="485.14" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="500.38" y1="236.22" x2="490.22" y2="236.22" width="0.1524" layer="91"/>
+<junction x="490.22" y="236.22"/>
 <label x="500.38" y="236.22" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -39065,7 +39076,7 @@ www.ciseco.co.uk</description>
 <label x="533.4" y="233.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="9"/>
+<pinref part="JP7" gate="G$1" pin="9"/>
 <wire x1="419.1" y1="63.5" x2="421.64" y2="63.5" width="0.1524" layer="91"/>
 <label x="419.1" y="63.5" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39077,7 +39088,7 @@ www.ciseco.co.uk</description>
 <label x="546.1" y="208.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="!SHDN"/>
+<pinref part="IC8" gate="A" pin="!SHDN"/>
 <wire x1="12.7" y1="160.02" x2="15.24" y2="160.02" width="0.1524" layer="91"/>
 <label x="12.7" y="160.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39091,7 +39102,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="50.8" x2="762" y2="50.8" width="0.1524" layer="91"/>
 <label x="764.54" y="50.8" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="!RESET"/>
+<pinref part="J3" gate="G$1" pin="!RESET"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="1"/>
@@ -39119,19 +39130,19 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="C120" gate="G$1" pin="2"/>
-<wire x1="419.1" y1="208.28" x2="414.02" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="414.02" y1="208.28" x2="414.02" y2="210.82" width="0.1524" layer="91"/>
-<junction x="414.02" y="208.28"/>
-<wire x1="414.02" y1="203.2" x2="414.02" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="419.1" y1="205.74" x2="414.02" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="205.74" x2="414.02" y2="208.28" width="0.1524" layer="91"/>
+<junction x="414.02" y="205.74"/>
+<wire x1="414.02" y1="203.2" x2="414.02" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="SJ6" gate="1" pin="1"/>
-<label x="419.1" y="208.28" size="1.778" layer="95"/>
+<label x="419.1" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ERASE_CMD" class="0">
 <segment>
 <pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="203.2" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
-<label x="205.74" y="177.8" size="1.778" layer="95"/>
+<wire x1="203.2" y1="175.26" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
+<label x="205.74" y="175.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q8" gate="G$1" pin="G"/>
@@ -39148,7 +39159,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="45.72" x2="706.12" y2="45.72" width="0.1524" layer="91"/>
 <label x="703.58" y="45.72" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D12"/>
+<pinref part="J3" gate="G$1" pin="D12"/>
 </segment>
 </net>
 <net name="PWM11" class="0">
@@ -39160,7 +39171,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="48.26" x2="706.12" y2="48.26" width="0.1524" layer="91"/>
 <label x="703.58" y="48.26" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D11"/>
+<pinref part="J3" gate="G$1" pin="D11"/>
 </segment>
 </net>
 <net name="RXD0" class="0">
@@ -39176,7 +39187,7 @@ www.ciseco.co.uk</description>
 <pinref part="IC1" gate="G$1" pin="PD4"/>
 <label x="657.86" y="167.64" size="1.778" layer="95"/>
 <pinref part="TP15" gate="G$1" pin="TP"/>
-<wire x1="670.56" y1="167.64" x2="635" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="665.48" y1="167.64" x2="635" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXL" class="0">
@@ -39210,15 +39221,15 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="55.88" x2="762" y2="55.88" width="0.1524" layer="91"/>
 <label x="764.54" y="55.88" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="5V"/>
+<pinref part="J3" gate="G$1" pin="5V"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="14"/>
+<pinref part="JP7" gate="G$1" pin="14"/>
 <wire x1="439.42" y1="58.42" x2="436.88" y2="58.42" width="0.1524" layer="91"/>
 <label x="439.42" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="VOUT"/>
+<pinref part="J6" gate="G$1" pin="VOUT"/>
 <wire x1="78.74" y1="152.4" x2="76.2" y2="152.4" width="0.1524" layer="91"/>
 <label x="76.2" y="152.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39227,14 +39238,14 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="63.5" x2="762" y2="63.5" width="0.1524" layer="91"/>
 <label x="764.54" y="63.5" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="VIN"/>
+<pinref part="J3" gate="G$1" pin="VIN"/>
 </segment>
 </net>
 <net name="AD0" class="0">
 <segment>
 <wire x1="764.54" y1="68.58" x2="762" y2="68.58" width="0.1524" layer="91"/>
 <label x="764.54" y="68.58" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A0"/>
+<pinref part="J3" gate="G$1" pin="A0"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA16"/>
@@ -39246,7 +39257,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="71.12" x2="762" y2="71.12" width="0.1524" layer="91"/>
 <label x="764.54" y="71.12" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A1"/>
+<pinref part="J3" gate="G$1" pin="A1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA24"/>
@@ -39258,7 +39269,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="73.66" x2="762" y2="73.66" width="0.1524" layer="91"/>
 <label x="764.54" y="73.66" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A2"/>
+<pinref part="J3" gate="G$1" pin="A2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA23"/>
@@ -39270,7 +39281,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="78.74" x2="762" y2="78.74" width="0.1524" layer="91"/>
 <label x="764.54" y="78.74" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A4"/>
+<pinref part="J3" gate="G$1" pin="A4"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA6"/>
@@ -39282,7 +39293,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="76.2" x2="762" y2="76.2" width="0.1524" layer="91"/>
 <label x="764.54" y="76.2" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A3"/>
+<pinref part="J3" gate="G$1" pin="A3"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA22"/>
@@ -39294,7 +39305,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="764.54" y1="81.28" x2="762" y2="81.28" width="0.1524" layer="91"/>
 <label x="764.54" y="81.28" size="1.778" layer="95"/>
-<pinref part="U10" gate="G$1" pin="A5"/>
+<pinref part="J3" gate="G$1" pin="A5"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA4"/>
@@ -39306,7 +39317,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="78.74" x2="706.12" y2="78.74" width="0.1524" layer="91"/>
 <label x="703.58" y="78.74" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D0"/>
+<pinref part="J3" gate="G$1" pin="D0"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA8"/>
@@ -39315,8 +39326,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="172.72" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
-<label x="205.74" y="172.72" size="1.778" layer="95"/>
+<wire x1="203.2" y1="167.64" x2="205.74" y2="167.64" width="0.1524" layer="91"/>
+<label x="205.74" y="167.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R32" gate="G$1" pin="2"/>
@@ -39328,7 +39339,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="76.2" x2="706.12" y2="76.2" width="0.1524" layer="91"/>
 <label x="703.58" y="76.2" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D1"/>
+<pinref part="J3" gate="G$1" pin="D1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA9"/>
@@ -39337,8 +39348,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="205.74" y1="165.1" x2="203.2" y2="165.1" width="0.1524" layer="91"/>
-<label x="205.74" y="165.1" size="1.778" layer="95"/>
+<wire x1="205.74" y1="160.02" x2="203.2" y2="160.02" width="0.1524" layer="91"/>
+<label x="205.74" y="160.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -39350,7 +39361,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="73.66" x2="706.12" y2="73.66" width="0.1524" layer="91"/>
 <label x="703.58" y="73.66" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D2"/>
+<pinref part="J3" gate="G$1" pin="D2"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB25"/>
@@ -39362,7 +39373,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="71.12" x2="706.12" y2="71.12" width="0.1524" layer="91"/>
 <label x="703.58" y="71.12" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D3"/>
+<pinref part="J3" gate="G$1" pin="D3"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC28"/>
@@ -39374,7 +39385,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="68.58" x2="706.12" y2="68.58" width="0.1524" layer="91"/>
 <label x="703.58" y="68.58" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D4"/>
+<pinref part="J3" gate="G$1" pin="D4"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC26"/>
@@ -39386,7 +39397,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="66.04" x2="706.12" y2="66.04" width="0.1524" layer="91"/>
 <label x="703.58" y="66.04" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D5"/>
+<pinref part="J3" gate="G$1" pin="D5"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC25"/>
@@ -39398,7 +39409,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="60.96" x2="706.12" y2="60.96" width="0.1524" layer="91"/>
 <label x="703.58" y="60.96" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D7"/>
+<pinref part="J3" gate="G$1" pin="D7"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC23"/>
@@ -39410,7 +39421,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="63.5" x2="706.12" y2="63.5" width="0.1524" layer="91"/>
 <label x="703.58" y="63.5" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D6"/>
+<pinref part="J3" gate="G$1" pin="D6"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC24"/>
@@ -39427,7 +39438,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="55.88" x2="706.12" y2="55.88" width="0.1524" layer="91"/>
 <label x="703.58" y="55.88" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D8"/>
+<pinref part="J3" gate="G$1" pin="D8"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC22"/>
@@ -39439,7 +39450,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="53.34" x2="706.12" y2="53.34" width="0.1524" layer="91"/>
 <label x="703.58" y="53.34" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D9"/>
+<pinref part="J3" gate="G$1" pin="D9"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC21"/>
@@ -39451,7 +39462,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="50.8" x2="706.12" y2="50.8" width="0.1524" layer="91"/>
 <label x="703.58" y="50.8" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D10"/>
+<pinref part="J3" gate="G$1" pin="D10"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC29"/>
@@ -39463,7 +39474,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="43.18" x2="706.12" y2="43.18" width="0.1524" layer="91"/>
 <label x="703.58" y="43.18" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="D13"/>
+<pinref part="J3" gate="G$1" pin="D13"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB27"/>
@@ -39475,12 +39486,12 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="38.1" x2="706.12" y2="38.1" width="0.1524" layer="91"/>
 <label x="703.58" y="38.1" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="AREF"/>
+<pinref part="J3" gate="G$1" pin="AREF"/>
 </segment>
 <segment>
-<wire x1="462.28" y1="231.14" x2="462.28" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="462.28" y1="228.6" x2="459.74" y2="228.6" width="0.1524" layer="91"/>
-<label x="459.74" y="228.6" size="1.778" layer="95" rot="MR0"/>
+<wire x1="454.66" y1="231.14" x2="454.66" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="454.66" y1="228.6" x2="452.12" y2="228.6" width="0.1524" layer="91"/>
+<label x="452.12" y="228.6" size="1.778" layer="95" rot="MR0"/>
 <pinref part="SJ8" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -39488,7 +39499,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="35.56" x2="706.12" y2="35.56" width="0.1524" layer="91"/>
 <label x="703.58" y="35.56" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="SDA"/>
+<pinref part="J3" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA17"/>
@@ -39500,7 +39511,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="703.58" y1="33.02" x2="706.12" y2="33.02" width="0.1524" layer="91"/>
 <label x="703.58" y="33.02" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U10" gate="G$1" pin="SCL"/>
+<pinref part="J3" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA18"/>
@@ -39588,22 +39599,22 @@ www.ciseco.co.uk</description>
 <label x="256.54" y="238.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="DI"/>
+<pinref part="J5" gate="G$1" pin="DI"/>
 <wire x1="759.46" y1="236.22" x2="762" y2="236.22" width="0.1524" layer="91"/>
 <label x="759.46" y="236.22" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="MOSI"/>
+<pinref part="IC5" gate="G$1" pin="MOSI"/>
 <wire x1="160.02" y1="17.78" x2="157.48" y2="17.78" width="0.1524" layer="91"/>
 <label x="160.02" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="MOSI"/>
+<pinref part="J3" gate="G$1" pin="MOSI"/>
 <wire x1="736.6" y1="93.98" x2="736.6" y2="91.44" width="0.1524" layer="91"/>
 <label x="736.6" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="SI"/>
+<pinref part="IC6" gate="G$1" pin="SI"/>
 <wire x1="185.42" y1="25.4" x2="187.96" y2="25.4" width="0.1524" layer="91"/>
 <label x="185.42" y="25.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39620,22 +39631,22 @@ www.ciseco.co.uk</description>
 <label x="256.54" y="236.22" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="DO"/>
+<pinref part="J5" gate="G$1" pin="DO"/>
 <wire x1="759.46" y1="226.06" x2="762" y2="226.06" width="0.1524" layer="91"/>
 <label x="759.46" y="226.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="MISO"/>
+<pinref part="IC5" gate="G$1" pin="MISO"/>
 <wire x1="129.54" y1="22.86" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
 <label x="129.54" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="MISO"/>
+<pinref part="J3" gate="G$1" pin="MISO"/>
 <wire x1="728.98" y1="93.98" x2="728.98" y2="91.44" width="0.1524" layer="91"/>
 <label x="728.98" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="SO"/>
+<pinref part="IC6" gate="G$1" pin="SO"/>
 <wire x1="210.82" y1="25.4" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
 <label x="210.82" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -39648,8 +39659,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="TX" gate="G$1" pin="C"/>
-<wire x1="411.48" y1="243.84" x2="414.02" y2="243.84" width="0.1524" layer="91"/>
-<label x="411.48" y="243.84" size="1.778" layer="95" rot="MR0"/>
+<wire x1="411.48" y1="246.38" x2="414.02" y2="246.38" width="0.1524" layer="91"/>
+<label x="411.48" y="246.38" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="VBG" class="0">
@@ -39687,7 +39698,7 @@ www.ciseco.co.uk</description>
 <label x="482.6" y="170.18" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="D+"/>
+<pinref part="J1" gate="G$1" pin="D+"/>
 <wire x1="436.88" y1="165.1" x2="416.56" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="Z1" gate="G$1" pin="1"/>
 <wire x1="436.88" y1="165.1" x2="436.88" y2="160.02" width="0.1524" layer="91"/>
@@ -39716,7 +39727,7 @@ www.ciseco.co.uk</description>
 <label x="482.6" y="175.26" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="D-"/>
+<pinref part="J1" gate="G$1" pin="D-"/>
 <pinref part="Z2" gate="G$1" pin="1"/>
 <wire x1="416.56" y1="167.64" x2="447.04" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="447.04" y1="167.64" x2="447.04" y2="160.02" width="0.1524" layer="91"/>
@@ -39792,14 +39803,14 @@ www.ciseco.co.uk</description>
 <net name="SS3" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB23"/>
-<wire x1="596.9" y1="40.64" x2="596.9" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="596.9" y1="50.8" x2="596.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="596.9" y="63.5" size="1.778" layer="95" rot="MR270"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="DTR" class="0">
 <segment>
-<pinref part="JP8" gate="G$1" pin="6"/>
+<pinref part="JP6" gate="G$1" pin="6"/>
 <label x="22.86" y="193.04" size="1.778" layer="95"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="38.1" y1="200.66" x2="30.48" y2="200.66" width="0.1524" layer="91"/>
@@ -39809,7 +39820,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="TX_FTDI" class="0">
 <segment>
-<pinref part="JP8" gate="G$1" pin="5"/>
+<pinref part="JP6" gate="G$1" pin="5"/>
 <label x="22.86" y="190.5" size="1.778" layer="95"/>
 <wire x1="20.32" y1="190.5" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="190.5" x2="35.56" y2="193.04" width="0.1524" layer="91"/>
@@ -39819,7 +39830,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="RX_FTDI" class="0">
 <segment>
-<pinref part="JP8" gate="G$1" pin="4"/>
+<pinref part="JP6" gate="G$1" pin="4"/>
 <label x="22.86" y="187.96" size="1.778" layer="95"/>
 <wire x1="20.32" y1="187.96" x2="35.56" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="187.96" x2="35.56" y2="185.42" width="0.1524" layer="91"/>
@@ -39834,7 +39845,7 @@ www.ciseco.co.uk</description>
 <label x="546.1" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="2"/>
+<pinref part="JP7" gate="G$1" pin="2"/>
 <wire x1="439.42" y1="73.66" x2="436.88" y2="73.66" width="0.1524" layer="91"/>
 <label x="439.42" y="73.66" size="1.778" layer="95"/>
 </segment>
@@ -39846,7 +39857,7 @@ www.ciseco.co.uk</description>
 <label x="551.18" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="6"/>
+<pinref part="JP7" gate="G$1" pin="6"/>
 <wire x1="439.42" y1="68.58" x2="436.88" y2="68.58" width="0.1524" layer="91"/>
 <label x="439.42" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -39858,7 +39869,7 @@ www.ciseco.co.uk</description>
 <label x="558.8" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="5"/>
+<pinref part="JP7" gate="G$1" pin="5"/>
 <wire x1="419.1" y1="68.58" x2="421.64" y2="68.58" width="0.1524" layer="91"/>
 <label x="419.1" y="68.58" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39870,7 +39881,7 @@ www.ciseco.co.uk</description>
 <label x="561.34" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="7"/>
+<pinref part="JP7" gate="G$1" pin="7"/>
 <wire x1="419.1" y1="66.04" x2="421.64" y2="66.04" width="0.1524" layer="91"/>
 <label x="419.1" y="66.04" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39882,7 +39893,7 @@ www.ciseco.co.uk</description>
 <label x="548.64" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="4"/>
+<pinref part="JP7" gate="G$1" pin="4"/>
 <wire x1="439.42" y1="71.12" x2="436.88" y2="71.12" width="0.1524" layer="91"/>
 <label x="439.42" y="71.12" size="1.778" layer="95"/>
 </segment>
@@ -39894,7 +39905,7 @@ www.ciseco.co.uk</description>
 <label x="513.08" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="11"/>
+<pinref part="JP7" gate="G$1" pin="11"/>
 <wire x1="419.1" y1="60.96" x2="421.64" y2="60.96" width="0.1524" layer="91"/>
 <label x="419.1" y="60.96" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39906,7 +39917,7 @@ www.ciseco.co.uk</description>
 <label x="553.72" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="1"/>
+<pinref part="JP7" gate="G$1" pin="1"/>
 <wire x1="419.1" y1="73.66" x2="421.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="419.1" y="73.66" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39918,7 +39929,7 @@ www.ciseco.co.uk</description>
 <label x="556.26" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="3"/>
+<pinref part="JP7" gate="G$1" pin="3"/>
 <wire x1="419.1" y1="71.12" x2="421.64" y2="71.12" width="0.1524" layer="91"/>
 <label x="419.1" y="71.12" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39930,7 +39941,7 @@ www.ciseco.co.uk</description>
 <label x="538.48" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="12"/>
+<pinref part="JP7" gate="G$1" pin="12"/>
 <wire x1="439.42" y1="60.96" x2="436.88" y2="60.96" width="0.1524" layer="91"/>
 <label x="439.42" y="60.96" size="1.778" layer="95"/>
 </segment>
@@ -39942,7 +39953,7 @@ www.ciseco.co.uk</description>
 <label x="541.02" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="10"/>
+<pinref part="JP7" gate="G$1" pin="10"/>
 <wire x1="439.42" y1="63.5" x2="436.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="439.42" y="63.5" size="1.778" layer="95"/>
 </segment>
@@ -39954,7 +39965,7 @@ www.ciseco.co.uk</description>
 <label x="543.56" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="8"/>
+<pinref part="JP7" gate="G$1" pin="8"/>
 <wire x1="439.42" y1="66.04" x2="436.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="439.42" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -39966,7 +39977,7 @@ www.ciseco.co.uk</description>
 <label x="637.54" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="13"/>
+<pinref part="JP7" gate="G$1" pin="13"/>
 <wire x1="419.1" y1="58.42" x2="421.64" y2="58.42" width="0.1524" layer="91"/>
 <label x="419.1" y="58.42" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -39978,12 +39989,12 @@ www.ciseco.co.uk</description>
 <label x="530.86" y="208.28" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VBUS"/>
+<pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="416.56" y1="170.18" x2="421.64" y2="170.18" width="0.1524" layer="91"/>
 <label x="421.64" y="170.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="Q13" gate="G$1" pin="D"/>
+<pinref part="Q11" gate="G$1" pin="D"/>
 <wire x1="15.24" y1="114.3" x2="12.7" y2="114.3" width="0.1524" layer="91"/>
 <label x="10.16" y="114.3" size="1.778" layer="95" rot="MR0"/>
 <pinref part="R28" gate="G$1" pin="1"/>
@@ -40036,7 +40047,7 @@ www.ciseco.co.uk</description>
 <label x="637.54" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="SHIELD@1"/>
+<pinref part="J5" gate="G$1" pin="SHIELD@1"/>
 <wire x1="759.46" y1="218.44" x2="762" y2="218.44" width="0.1524" layer="91"/>
 <label x="759.46" y="218.44" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -40044,18 +40055,18 @@ www.ciseco.co.uk</description>
 <net name="N$16" class="0">
 <segment>
 <pinref part="C134" gate="G$1" pin="2"/>
-<wire x1="469.9" y1="231.14" x2="469.9" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="231.14" x2="462.28" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="L103" gate="G$1" pin="1"/>
-<wire x1="469.9" y1="236.22" x2="477.52" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="236.22" x2="467.36" y2="236.22" width="0.1524" layer="91"/>
-<junction x="469.9" y="236.22"/>
+<wire x1="462.28" y1="236.22" x2="474.98" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="462.28" y1="236.22" x2="459.74" y2="236.22" width="0.1524" layer="91"/>
+<junction x="462.28" y="236.22"/>
 <pinref part="SJ8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="TX" gate="G$1" pin="A"/>
-<wire x1="424.18" y1="243.84" x2="421.64" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="246.38" x2="421.64" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -40068,7 +40079,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="FLASH_CS" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="CS"/>
+<pinref part="IC5" gate="G$1" pin="CS"/>
 <wire x1="129.54" y1="25.4" x2="132.08" y2="25.4" width="0.1524" layer="91"/>
 <label x="129.54" y="25.4" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -40078,14 +40089,14 @@ www.ciseco.co.uk</description>
 <label x="513.08" y="78.74" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="CS"/>
+<pinref part="IC6" gate="G$1" pin="CS"/>
 <wire x1="185.42" y1="17.78" x2="187.96" y2="17.78" width="0.1524" layer="91"/>
 <label x="185.42" y="17.78" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="SCK"/>
+<pinref part="IC5" gate="G$1" pin="SCK"/>
 <wire x1="160.02" y1="20.32" x2="157.48" y2="20.32" width="0.1524" layer="91"/>
 <label x="160.02" y="20.32" size="1.778" layer="95"/>
 </segment>
@@ -40100,24 +40111,24 @@ www.ciseco.co.uk</description>
 <label x="256.54" y="241.3" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="SCK"/>
+<pinref part="J5" gate="G$1" pin="SCK"/>
 <wire x1="759.46" y1="231.14" x2="762" y2="231.14" width="0.1524" layer="91"/>
 <label x="759.46" y="231.14" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U10" gate="G$1" pin="SCK"/>
+<pinref part="J3" gate="G$1" pin="SCK"/>
 <wire x1="734.06" y1="93.98" x2="734.06" y2="91.44" width="0.1524" layer="91"/>
 <label x="734.06" y="93.98" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="SCK"/>
+<pinref part="IC6" gate="G$1" pin="SCK"/>
 <wire x1="185.42" y1="22.86" x2="187.96" y2="22.86" width="0.1524" layer="91"/>
 <label x="185.42" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="FLASH_HOLD" class="0">
 <segment>
-<pinref part="IC4" gate="G$1" pin="HOLD"/>
+<pinref part="IC5" gate="G$1" pin="HOLD"/>
 <wire x1="160.02" y1="22.86" x2="157.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="160.02" y="22.86" size="1.778" layer="95"/>
 </segment>
@@ -40127,14 +40138,14 @@ www.ciseco.co.uk</description>
 <label x="637.54" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="RST"/>
+<pinref part="IC6" gate="G$1" pin="RST"/>
 <wire x1="185.42" y1="20.32" x2="187.96" y2="20.32" width="0.1524" layer="91"/>
 <label x="185.42" y="20.32" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="ISP_!RESET" class="0">
 <segment>
-<pinref part="U10" gate="G$1" pin="!RESET@ISP"/>
+<pinref part="J3" gate="G$1" pin="!RESET@ISP"/>
 <pinref part="SJ3" gate="G$1" pin="2"/>
 <wire x1="739.14" y1="91.44" x2="739.14" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="739.14" y1="93.98" x2="764.54" y2="93.98" width="0.1524" layer="91"/>
@@ -40159,7 +40170,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="759.46" y1="139.7" x2="756.92" y2="139.7" width="0.1524" layer="91"/>
 <label x="759.46" y="139.7" size="1.778" layer="95"/>
-<pinref part="JP7" gate="G$1" pin="1"/>
+<pinref part="JP5" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="CANRX0" class="0">
@@ -40171,7 +40182,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="759.46" y1="142.24" x2="756.92" y2="142.24" width="0.1524" layer="91"/>
 <label x="759.46" y="142.24" size="1.778" layer="95"/>
-<pinref part="JP7" gate="G$1" pin="2"/>
+<pinref part="JP5" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DAC1" class="0">
@@ -40183,7 +40194,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="759.46" y1="152.4" x2="756.92" y2="152.4" width="0.1524" layer="91"/>
 <label x="759.46" y="152.4" size="1.778" layer="95"/>
-<pinref part="JP6" gate="G$1" pin="1"/>
+<pinref part="JP4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DAC0" class="0">
@@ -40195,7 +40206,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="759.46" y1="154.94" x2="756.92" y2="154.94" width="0.1524" layer="91"/>
 <label x="759.46" y="154.94" size="1.778" layer="95"/>
-<pinref part="JP6" gate="G$1" pin="2"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="SJ7" gate="1" pin="2"/>
@@ -40210,7 +40221,7 @@ www.ciseco.co.uk</description>
 <label x="563.88" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="ENOTG"/>
+<pinref part="IC4" gate="G$1" pin="ENOTG"/>
 <wire x1="60.96" y1="60.96" x2="60.96" y2="63.5" width="0.1524" layer="91"/>
 <label x="60.96" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
@@ -40222,10 +40233,10 @@ www.ciseco.co.uk</description>
 <label x="566.42" y="63.5" size="1.778" layer="95" rot="MR270"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="USBID"/>
+<pinref part="J1" gate="G$1" pin="USBID"/>
 <wire x1="416.56" y1="162.56" x2="426.72" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="162.56" x2="426.72" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="Z5" gate="G$1" pin="1"/>
+<pinref part="Z3" gate="G$1" pin="1"/>
 <wire x1="426.72" y1="162.56" x2="452.12" y2="162.56" width="0.1524" layer="91"/>
 <junction x="426.72" y="162.56"/>
 <label x="452.12" y="162.56" size="1.778" layer="95"/>
@@ -40305,7 +40316,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="IR_TX_A" class="0">
 <segment>
-<pinref part="LED3" gate="G$1" pin="A"/>
+<pinref part="IR_TX" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="15.24" x2="266.7" y2="15.24" width="0.1524" layer="91"/>
 </segment>
@@ -40313,13 +40324,13 @@ www.ciseco.co.uk</description>
 <net name="IR_TX_C" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="D"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="IR_TX" gate="G$1" pin="C"/>
 <wire x1="251.46" y1="15.24" x2="256.54" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IR_RX" class="0">
 <segment>
-<pinref part="U9" gate="G$1" pin="OUT"/>
+<pinref part="IR_RX" gate="G$1" pin="OUT"/>
 <wire x1="231.14" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="231.14" y="53.34" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -40423,17 +40434,17 @@ www.ciseco.co.uk</description>
 </net>
 <net name="VBATT" class="0">
 <segment>
-<pinref part="J10" gate="-1" pin="S"/>
+<pinref part="J4" gate="-1" pin="S"/>
 <wire x1="99.06" y1="185.42" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
 <label x="99.06" y="185.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="BAT"/>
+<pinref part="IC4" gate="G$1" pin="BAT"/>
 <pinref part="Q12" gate="G$1" pin="D"/>
 <wire x1="81.28" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="83.82" x2="99.06" y2="86.36" width="0.1524" layer="91"/>
 <junction x="99.06" y="83.82"/>
-<pinref part="CBAT1" gate="G$1" pin="2"/>
+<pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="78.74" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="83.82" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
@@ -40454,7 +40465,7 @@ www.ciseco.co.uk</description>
 <label x="513.08" y="76.2" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="U8" gate="G$1" pin="CS"/>
+<pinref part="J5" gate="G$1" pin="CS"/>
 <wire x1="759.46" y1="238.76" x2="762" y2="238.76" width="0.1524" layer="91"/>
 <label x="759.46" y="238.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
@@ -40463,7 +40474,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="162.56" y1="58.42" x2="165.1" y2="58.42" width="0.1524" layer="91"/>
 <label x="165.1" y="58.42" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="CENT"/>
+<pinref part="S7" gate="G$1" pin="CENT"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA15"/>
@@ -40475,7 +40486,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="162.56" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="165.1" y="63.5" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="LEFT"/>
+<pinref part="S7" gate="G$1" pin="LEFT"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD0"/>
@@ -40487,7 +40498,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="137.16" y1="63.5" x2="134.62" y2="63.5" width="0.1524" layer="91"/>
 <label x="134.62" y="63.5" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP5" gate="G$1" pin="UP"/>
+<pinref part="S7" gate="G$1" pin="UP"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD2"/>
@@ -40499,7 +40510,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="137.16" y1="60.96" x2="134.62" y2="60.96" width="0.1524" layer="91"/>
 <label x="134.62" y="60.96" size="1.778" layer="95" rot="MR0"/>
-<pinref part="JP5" gate="G$1" pin="DOWN"/>
+<pinref part="S7" gate="G$1" pin="DOWN"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD1"/>
@@ -40512,10 +40523,10 @@ www.ciseco.co.uk</description>
 <wire x1="142.24" y1="43.18" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="45.72" x2="139.7" y2="45.72" width="0.1524" layer="91"/>
 <label x="139.7" y="45.72" size="1.778" layer="95" rot="MR0"/>
-<pinref part="S5\" gate="S" pin="1"/>
+<pinref part="S5" gate="S" pin="1"/>
 <wire x1="144.78" y1="45.72" x2="142.24" y2="45.72" width="0.1524" layer="91"/>
 <junction x="142.24" y="45.72"/>
-<pinref part="S5\" gate="S" pin="2"/>
+<pinref part="S5" gate="S" pin="2"/>
 <wire x1="144.78" y1="43.18" x2="142.24" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -40545,7 +40556,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="162.56" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <label x="165.1" y="60.96" size="1.778" layer="95"/>
-<pinref part="JP5" gate="G$1" pin="RIGHT"/>
+<pinref part="S7" gate="G$1" pin="RIGHT"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD3"/>
@@ -40582,57 +40593,57 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB26"/>
 <wire x1="604.52" y1="40.64" x2="604.52" y2="66.04" width="0.1524" layer="91"/>
-<label x="604.52" y="50.8" size="1.778" layer="95" rot="MR270"/>
+<label x="604.52" y="58.42" size="1.778" layer="95" rot="MR270"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="RXD2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA10"/>
-<label x="500.38" y="124.46" size="1.778" layer="95" rot="MR0"/>
+<label x="505.46" y="124.46" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP14" gate="G$1" pin="TP"/>
-<wire x1="515.62" y1="124.46" x2="487.68" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="124.46" x2="495.3" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA11"/>
-<label x="500.38" y="121.92" size="1.778" layer="95" rot="MR0"/>
+<label x="505.46" y="121.92" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP13" gate="G$1" pin="TP"/>
-<wire x1="515.62" y1="121.92" x2="485.14" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="121.92" x2="490.22" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA12"/>
-<label x="500.38" y="119.38" size="1.778" layer="95" rot="MR0"/>
+<label x="505.46" y="119.38" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
-<wire x1="515.62" y1="119.38" x2="482.6" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="119.38" x2="485.14" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD1" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA13"/>
-<label x="500.38" y="116.84" size="1.778" layer="95" rot="MR0"/>
+<label x="505.46" y="116.84" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP11" gate="G$1" pin="TP"/>
 <wire x1="515.62" y1="116.84" x2="480.06" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SRF_P2_3" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="P2_3"/>
+<pinref part="IC3" gate="G$1" pin="P2_3"/>
 <wire x1="200.66" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
 <label x="200.66" y="213.36" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="193.04" y1="177.8" x2="190.5" y2="177.8" width="0.1524" layer="91"/>
-<label x="190.5" y="177.8" size="1.778" layer="95" rot="MR0"/>
+<wire x1="193.04" y1="175.26" x2="190.5" y2="175.26" width="0.1524" layer="91"/>
+<label x="190.5" y="175.26" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SRF_P2_0/AT_COMMAND" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="P2_0"/>
+<pinref part="IC3" gate="G$1" pin="P2_0"/>
 <wire x1="200.66" y1="205.74" x2="198.12" y2="205.74" width="0.1524" layer="91"/>
 <label x="200.66" y="205.74" size="1.778" layer="95"/>
 </segment>
@@ -40644,16 +40655,18 @@ www.ciseco.co.uk</description>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="P1_6/MOSI"/>
+<pinref part="IC3" gate="G$1" pin="P1_6/MOSI"/>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-<wire x1="139.7" y1="203.2" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="195.58" x2="132.08" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="203.2" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="P1_5/SCK"/>
+<pinref part="IC3" gate="G$1" pin="P1_5/SCK"/>
 <pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="137.16" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="190.5" x2="134.62" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -40692,14 +40705,14 @@ www.ciseco.co.uk</description>
 <wire x1="83.82" y1="58.42" x2="73.66" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <junction x="83.82" y="58.42"/>
-<pinref part="IC3" gate="G$1" pin="NTC"/>
+<pinref part="IC4" gate="G$1" pin="NTC"/>
 <label x="73.66" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="SW" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="2"/>
-<pinref part="IC3" gate="G$1" pin="SW"/>
+<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="IC4" gate="G$1" pin="SW"/>
 <wire x1="88.9" y1="106.68" x2="81.28" y2="106.68" width="0.1524" layer="91"/>
 <label x="83.82" y="106.68" size="1.778" layer="95"/>
 </segment>
@@ -40707,7 +40720,7 @@ www.ciseco.co.uk</description>
 <net name="IDGATE" class="0">
 <segment>
 <pinref part="Q12" gate="G$1" pin="G"/>
-<pinref part="IC3" gate="G$1" pin="IDGATE"/>
+<pinref part="IC4" gate="G$1" pin="IDGATE"/>
 <wire x1="93.98" y1="93.98" x2="81.28" y2="93.98" width="0.1524" layer="91"/>
 <label x="83.82" y="93.98" size="1.778" layer="95"/>
 </segment>
@@ -40716,17 +40729,17 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="78.74" x2="83.82" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="NTCBIAS"/>
+<pinref part="IC4" gate="G$1" pin="NTCBIAS"/>
 <wire x1="83.82" y1="78.74" x2="81.28" y2="78.74" width="0.1524" layer="91"/>
 <label x="83.82" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBACKUP" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="LDO3V3"/>
+<pinref part="IC4" gate="G$1" pin="LDO3V3"/>
 <wire x1="81.28" y1="114.3" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <label x="101.6" y="114.3" size="1.778" layer="95"/>
-<pinref part="CBAC" gate="G$1" pin="2"/>
+<pinref part="C34" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="114.3" x2="101.6" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="116.84" x2="93.98" y2="114.3" width="0.1524" layer="91"/>
 <junction x="93.98" y="114.3"/>
@@ -40753,11 +40766,11 @@ www.ciseco.co.uk</description>
 <wire x1="350.52" y1="33.02" x2="353.06" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="S1"/>
+<pinref part="IC7" gate="G$1" pin="S1"/>
 <wire x1="284.48" y1="78.74" x2="287.02" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VDD"/>
+<pinref part="IC7" gate="G$1" pin="VDD"/>
 <wire x1="284.48" y1="83.82" x2="287.02" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="IC6" gate="G$1" pin="VDDIO"/>
+<pinref part="IC7" gate="G$1" pin="VDDIO"/>
 <wire x1="284.48" y1="81.28" x2="287.02" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="83.82" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="78.74" x2="284.48" y2="81.28" width="0.1524" layer="91"/>
@@ -40778,22 +40791,22 @@ www.ciseco.co.uk</description>
 </net>
 <net name="VBUS1" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="VBUS"/>
+<pinref part="IC4" gate="G$1" pin="VBUS"/>
 <wire x1="40.64" y1="114.3" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="CBUS1" gate="G$1" pin="1"/>
+<pinref part="C33" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="116.84" x2="27.94" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="114.3" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <junction x="27.94" y="114.3"/>
-<pinref part="Q13" gate="G$1" pin="S"/>
+<pinref part="Q11" gate="G$1" pin="S"/>
 <label x="38.1" y="114.3" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="OVGAT" class="0">
 <segment>
-<pinref part="Q13" gate="G$1" pin="G"/>
+<pinref part="Q11" gate="G$1" pin="G"/>
 <wire x1="22.86" y1="109.22" x2="22.86" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="22.86" y1="106.68" x2="40.64" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OVGATE"/>
+<pinref part="IC4" gate="G$1" pin="OVGATE"/>
 <label x="38.1" y="106.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
@@ -40802,13 +40815,13 @@ www.ciseco.co.uk</description>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="101.6" x2="12.7" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="99.06" x2="40.64" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="OVSENS"/>
+<pinref part="IC4" gate="G$1" pin="OVSENS"/>
 <label x="38.1" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="PROG" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="PROG"/>
+<pinref part="IC4" gate="G$1" pin="PROG"/>
 <pinref part="R29" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="83.82" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="86.36" x2="40.64" y2="86.36" width="0.1524" layer="91"/>
@@ -40817,7 +40830,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="!VUSBGD" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="!VUSBGD"/>
+<pinref part="IC4" gate="G$1" pin="!VUSBGD"/>
 <wire x1="33.02" y1="53.34" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 <label x="33.02" y="71.12" size="1.778" layer="95" rot="MR270"/>
@@ -40832,7 +40845,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="!FAULT" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="!FAULT"/>
+<pinref part="IC4" gate="G$1" pin="!FAULT"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
 <label x="35.56" y="71.12" size="1.778" layer="95" rot="MR270"/>
@@ -40847,7 +40860,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="!CHRG" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="!CHRG"/>
+<pinref part="IC4" gate="G$1" pin="!CHRG"/>
 <wire x1="38.1" y1="38.1" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
 <label x="38.1" y="71.12" size="1.778" layer="95" rot="MR270"/>
@@ -40862,7 +40875,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="ILIM0" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="ILIM0"/>
+<pinref part="IC4" gate="G$1" pin="ILIM0"/>
 <wire x1="55.88" y1="60.96" x2="55.88" y2="63.5" width="0.1524" layer="91"/>
 <label x="55.88" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
@@ -40874,7 +40887,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="ILIM1" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="ILIM1"/>
+<pinref part="IC4" gate="G$1" pin="ILIM1"/>
 <wire x1="58.42" y1="60.96" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
 <label x="58.42" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
@@ -40886,7 +40899,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="ID" class="0">
 <segment>
-<pinref part="IC3" gate="G$1" pin="ID"/>
+<pinref part="IC4" gate="G$1" pin="ID"/>
 <wire x1="66.04" y1="60.96" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
 <label x="66.04" y="60.96" size="1.778" layer="95" rot="MR270"/>
 </segment>
@@ -40896,7 +40909,7 @@ www.ciseco.co.uk</description>
 <pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="R30" gate="G$1" pin="1"/>
 <wire x1="17.78" y1="91.44" x2="17.78" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="CLPROG"/>
+<pinref part="IC4" gate="G$1" pin="CLPROG"/>
 <wire x1="7.62" y1="91.44" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
 <junction x="17.78" y="96.52"/>
 <wire x1="17.78" y1="96.52" x2="7.62" y2="96.52" width="0.1524" layer="91"/>
@@ -40908,30 +40921,30 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="Q12" gate="G$1" pin="S"/>
 <wire x1="99.06" y1="96.52" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="G$1" pin="VOUT"/>
+<pinref part="IC4" gate="G$1" pin="VOUT"/>
 <wire x1="99.06" y1="101.6" x2="81.28" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="101.6" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="99.06" y="101.6"/>
-<pinref part="L2" gate="G$1" pin="1"/>
+<pinref part="L1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="101.6" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="106.68" x2="104.14" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="106.68" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="104.14" y="101.6"/>
-<pinref part="CSYS1" gate="G$1" pin="2"/>
+<pinref part="C36" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="78.74" x2="104.14" y2="101.6" width="0.1524" layer="91"/>
 <junction x="104.14" y="101.6"/>
 <label x="106.68" y="101.6" size="1.778" layer="95"/>
 <label x="83.82" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="A" pin="VIN"/>
+<pinref part="IC8" gate="A" pin="VIN"/>
 <label x="12.7" y="165.1" size="1.778" layer="95" rot="MR0"/>
 <wire x1="15.24" y1="165.1" x2="12.7" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PWRGD" class="0">
 <segment>
-<pinref part="U3" gate="A" pin="PWRGD"/>
+<pinref part="IC8" gate="A" pin="PWRGD"/>
 <wire x1="48.26" y1="160.02" x2="45.72" y2="160.02" width="0.1524" layer="91"/>
 <label x="48.26" y="160.02" size="1.778" layer="95"/>
 <pinref part="R26" gate="G$1" pin="1"/>
@@ -40940,7 +40953,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="C1" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="C1"/>
+<pinref part="IC7" gate="G$1" pin="C1"/>
 <pinref part="C28" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="73.66" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
 <label x="284.48" y="73.66" size="1.778" layer="95" rot="MR0"/>
@@ -40948,7 +40961,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="STEP" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="SETP"/>
+<pinref part="IC7" gate="G$1" pin="SETP"/>
 <label x="314.96" y="76.2" size="1.778" layer="95"/>
 <pinref part="C31" gate="G$1" pin="2"/>
 <wire x1="320.04" y1="76.2" x2="312.42" y2="76.2" width="0.1524" layer="91"/>
@@ -40956,7 +40969,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="SETC" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="SETC"/>
+<pinref part="IC7" gate="G$1" pin="SETC"/>
 <label x="314.96" y="73.66" size="1.778" layer="95"/>
 <wire x1="312.42" y1="73.66" x2="330.2" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="73.66" x2="330.2" y2="76.2" width="0.1524" layer="91"/>
@@ -40966,7 +40979,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="HMC_DRDY" class="0">
 <segment>
-<pinref part="IC6" gate="G$1" pin="DRDY"/>
+<pinref part="IC7" gate="G$1" pin="DRDY"/>
 <wire x1="314.96" y1="68.58" x2="312.42" y2="68.58" width="0.1524" layer="91"/>
 <label x="314.96" y="68.58" size="1.778" layer="95"/>
 </segment>
@@ -40991,7 +41004,7 @@ www.ciseco.co.uk</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="444.5" y1="256.54" x2="444.5" y2="233.68" width="0.1524" layer="91" style="longdash"/>
+<wire x1="444.5" y1="256.54" x2="444.5" y2="231.14" width="0.1524" layer="91" style="longdash"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -41032,25 +41045,25 @@ www.ciseco.co.uk</description>
 <net name="D23" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PA14"/>
-<label x="487.68" y="114.3" size="1.778" layer="95" rot="MR0"/>
+<label x="505.46" y="114.3" size="1.778" layer="95" rot="MR0"/>
 <pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="515.62" y1="114.3" x2="477.52" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="114.3" x2="474.98" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="459.74" y1="239.776" x2="464.312" y2="239.776" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="464.312" y1="239.776" x2="464.312" y2="235.204" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="464.312" y1="235.204" x2="459.74" y2="235.204" width="0.1524" layer="91" style="shortdash"/>
-<wire x1="459.74" y1="235.204" x2="459.74" y2="239.776" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="452.12" y1="239.776" x2="456.692" y2="239.776" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="456.692" y1="239.776" x2="456.692" y2="235.204" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="456.692" y1="235.204" x2="452.12" y2="235.204" width="0.1524" layer="91" style="shortdash"/>
+<wire x1="452.12" y1="235.204" x2="452.12" y2="239.776" width="0.1524" layer="91" style="shortdash"/>
 </segment>
 </net>
 <net name="PB24" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB24"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
-<wire x1="599.44" y1="40.64" x2="599.44" y2="66.04" width="0.1524" layer="91"/>
-<label x="599.44" y="48.26" size="1.778" layer="95" rot="MR270"/>
+<wire x1="599.44" y1="45.72" x2="599.44" y2="66.04" width="0.1524" layer="91"/>
+<label x="599.44" y="58.42" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="PB22" class="0">
@@ -41058,14 +41071,14 @@ www.ciseco.co.uk</description>
 <pinref part="IC1" gate="G$1" pin="PB22"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
 <wire x1="594.36" y1="40.64" x2="594.36" y2="66.04" width="0.1524" layer="91"/>
-<label x="594.36" y="48.26" size="1.778" layer="95" rot="MR270"/>
+<label x="594.36" y="58.42" size="1.778" layer="95" rot="MR270"/>
 </segment>
 </net>
 <net name="PC10" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC10"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<wire x1="652.78" y1="101.6" x2="635" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="668.02" y1="101.6" x2="635" y2="101.6" width="0.1524" layer="91"/>
 <label x="647.7" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
