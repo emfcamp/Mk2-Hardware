@@ -18868,6 +18868,18 @@ Through-hole SPDT Switch&lt;br&gt;
 <wire x1="5.45" y1="-5.7" x2="5.45" y2="-6.534315625" width="0" layer="49"/>
 <wire x1="5.45" y1="-6.534315625" x2="5.56715625" y2="-6.81715625" width="0" layer="49" curve="44.999683"/>
 </package>
+<package name="4,5-LWK">
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.1524" layer="51"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.7686" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<hole x="0" y="0" drill="4.5"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -32098,6 +32110,11 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="4.5-LWK" package="4,5-LWK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -37133,8 +37150,8 @@ www.ciseco.co.uk</description>
 <part name="TP18" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value="D18"/>
 <part name="TP19" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value="3V3"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
-<part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="3.6" value=""/>
-<part name="H2" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="3.6" value=""/>
+<part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
+<part name="H2" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37241,6 +37258,8 @@ www.ciseco.co.uk</description>
 <text x="675.64" y="248.92" size="1.778" layer="97">Do not need fuse as PMIC handles that</text>
 <text x="157.48" y="149.86" size="3.81" layer="97" ratio="15">Batt Voltage Mon</text>
 <text x="71.12" y="20.32" size="3.81" layer="97" ratio="15">Power switch</text>
+<text x="740.41" y="198.12" size="3.81" layer="97" ratio="15">Conductive</text>
+<text x="740.41" y="193.04" size="3.81" layer="97" ratio="15">Thread Pads</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -37682,11 +37701,11 @@ www.ciseco.co.uk</description>
 <instance part="TP15" gate="G$1" x="668.02" y="167.64" rot="R270"/>
 <instance part="TP16" gate="G$1" x="675.64" y="170.18" rot="R270"/>
 <instance part="S8" gate="1" x="96.52" y="12.7"/>
-<instance part="TP1" gate="G$1" x="713.74" y="177.8" rot="R90"/>
-<instance part="TP17" gate="G$1" x="718.82" y="182.88" rot="R90"/>
-<instance part="TP18" gate="G$1" x="723.9" y="187.96" rot="R90"/>
-<instance part="TP19" gate="G$1" x="728.98" y="193.04" rot="R90"/>
-<instance part="GND57" gate="1" x="718.82" y="175.26"/>
+<instance part="TP1" gate="G$1" x="741.68" y="182.88"/>
+<instance part="TP17" gate="G$1" x="751.84" y="182.88"/>
+<instance part="TP18" gate="G$1" x="762" y="182.88"/>
+<instance part="TP19" gate="G$1" x="772.16" y="182.88"/>
+<instance part="GND57" gate="1" x="741.68" y="175.26"/>
 <instance part="H1" gate="G$1" x="375.92" y="22.86"/>
 <instance part="H2" gate="G$1" x="381" y="22.86"/>
 </instances>
@@ -38380,7 +38399,7 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="718.82" y1="177.8" x2="716.28" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="741.68" y1="177.8" x2="741.68" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND57" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -39047,8 +39066,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="TP19" gate="G$1" pin="TP"/>
-<wire x1="734.06" y1="193.04" x2="731.52" y2="193.04" width="0.1524" layer="91"/>
-<label x="734.06" y="193.04" size="1.778" layer="95"/>
+<wire x1="772.16" y1="177.8" x2="772.16" y2="180.34" width="0.1524" layer="91"/>
+<label x="772.16" y="177.8" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="EPD_PANEL_ON" class="0">
@@ -39308,7 +39327,8 @@ www.ciseco.co.uk</description>
 <wire x1="731.52" y1="218.44" x2="673.1" y2="218.44" width="0.1524" layer="91" style="longdash"/>
 <wire x1="673.1" y1="218.44" x2="673.1" y2="254" width="0.1524" layer="91" style="longdash"/>
 <wire x1="701.04" y1="137.16" x2="701.04" y2="167.64" width="0.1524" layer="91" style="longdash"/>
-<wire x1="701.04" y1="167.64" x2="739.14" y2="167.64" width="0.1524" layer="91" style="longdash"/>
+<wire x1="701.04" y1="167.64" x2="741.68" y2="167.64" width="0.1524" layer="91" style="longdash"/>
+<wire x1="734.06" y1="170.18" x2="734.06" y2="200.66" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="25.4" x2="68.58" y2="25.4" width="0.1524" layer="91" style="longdash"/>
@@ -41080,8 +41100,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="TP18" gate="G$1" pin="TP"/>
-<wire x1="728.98" y1="187.96" x2="726.44" y2="187.96" width="0.1524" layer="91"/>
-<label x="728.98" y="187.96" size="1.778" layer="95"/>
+<wire x1="762" y1="177.8" x2="762" y2="180.34" width="0.1524" layer="91"/>
+<label x="762" y="177.8" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="TXD2" class="0">
@@ -41092,8 +41112,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="TP17" gate="G$1" pin="TP"/>
-<wire x1="723.9" y1="182.88" x2="721.36" y2="182.88" width="0.1524" layer="91"/>
-<label x="723.9" y="182.88" size="1.778" layer="95"/>
+<wire x1="751.84" y1="177.8" x2="751.84" y2="180.34" width="0.1524" layer="91"/>
+<label x="751.84" y="177.8" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
 <net name="RXD1" class="0">
