@@ -36908,7 +36908,7 @@ www.ciseco.co.uk</description>
 <part name="GND15" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="U$2" library="TiLDA Mk2 Parts" deviceset="BATTERY-OUTLINE" device="-55X44"/>
 <part name="JP8" library="TiLDA Mk2 Parts" deviceset="M04X2" device="-PAD" value="SRF Reprogram"/>
-<part name="J5" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="-105027-LWK" value="114-00841-68 (NP)"/>
+<part name="J5" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="-105027-LWK" value="1050270001"/>
 <part name="C2" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
 <part name="GND16" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="JP3" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value="ANT"/>
