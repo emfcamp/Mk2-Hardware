@@ -3042,6 +3042,18 @@
 <rectangle x1="12.915" y1="8.245" x2="14.015" y2="8.295" layer="21"/>
 <rectangle x1="15.715" y1="8.245" x2="20.565" y2="8.295" layer="21"/>
 </package>
+<package name="CRYSTAL-5X3.2">
+<wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="0.2" x2="2.5" y2="-0.2" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="-1.6" x2="-0.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0.2" x2="-2.5" y2="-0.2" width="0.2032" layer="21"/>
+<smd name="1" x="-1.9" y="-1.1" dx="1.5" dy="1.2" layer="1"/>
+<smd name="3" x="1.9" y="1.1" dx="1.5" dy="1.2" layer="1"/>
+<smd name="4" x="-1.9" y="1.1" dx="1.5" dy="1.2" layer="1"/>
+<smd name="2" x="1.9" y="-1.1" dx="1.5" dy="1.2" layer="1"/>
+<text x="-2.54" y="1.905" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 <package name="CRYSTAL-3.2-2.5">
 <wire x1="-1.6" y1="1.2" x2="1.6" y2="1.2" width="0.127" layer="51"/>
 <wire x1="1.6" y1="1.2" x2="1.6" y2="-1.2" width="0.127" layer="51"/>
@@ -18920,6 +18932,18 @@ Through-hole SPDT Switch&lt;br&gt;
 <wire x1="59" y1="37" x2="0" y2="37" width="0.127" layer="49"/>
 <wire x1="0" y1="37" x2="0" y2="0" width="0.127" layer="49"/>
 </package>
+<package name="CRYSTAL-SMD-5X3">
+<wire x1="-0.6" y1="1.6" x2="0.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="0.3" x2="2.5" y2="-0.3" width="0.2032" layer="21"/>
+<wire x1="0.6" y1="-1.6" x2="-0.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="0.3" x2="-2.5" y2="-0.3" width="0.2032" layer="21"/>
+<smd name="1" x="-1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
+<smd name="3" x="1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
+<smd name="4" x="-1.85" y="1.15" dx="1.9" dy="1.1" layer="1"/>
+<smd name="2" x="1.85" y="-1.15" dx="1.9" dy="1.1" layer="1"/>
+<text x="-2.54" y="1.905" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -25181,12 +25205,34 @@ Various fiducial points for machine vision alignment.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CRYSTAL-3.2-2.5" prefix="X">
+<deviceset name="CRYSTAL" prefix="X">
 <gates>
 <gate name="G$1" symbol="CRYSTAL-KX7" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CRYSTAL-3.2-2.5">
+<device name="-3.2-2.5" package="CRYSTAL-3.2-2.5">
+<connects>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5X3.2" package="CRYSTAL-5X3.2">
+<connects>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="GND@1" pad="2"/>
+<connect gate="G$1" pin="GND@2" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-5X3" package="CRYSTAL-SMD-5X3">
 <connects>
 <connect gate="G$1" pin="C1" pad="1"/>
 <connect gate="G$1" pin="C2" pad="3"/>
@@ -36923,7 +36969,7 @@ www.ciseco.co.uk</description>
 <part name="LOGO2" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-SYMBOL"/>
 <part name="OUTLINE3" library="TiLDA Mk2 Parts" deviceset="EPD-OUTLINE" device="-2.7&quot;-UNDER"/>
 <part name="IC3" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.2" value="SRF-V1.2"/>
-<part name="X1" library="TiLDA Mk2 Parts" deviceset="CRYSTAL-3.2-2.5" device="" value="12Mhz KX-7 20pF"/>
+<part name="X1" library="TiLDA Mk2 Parts" deviceset="CRYSTAL" device="-5X3.2" value="12Mhz 13pF 30ppm (7pf caps)"/>
 <part name="IC1" library="TiLDA Mk2 Parts" deviceset="ATSAM3X/A" device="AU" value="ATSAM3X8EA-AU"/>
 <part name="J2" library="TiLDA Mk2 Parts" deviceset="EPD" device="-62684" value="FCI 62684-401100ALF"/>
 <part name="GND1" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37020,8 +37066,8 @@ www.ciseco.co.uk</description>
 <part name="SJ2" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="SRF ERASE"/>
 <part name="Q8" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="JP1" library="TiLDA Mk2 Parts" deviceset="M02" device="PTH" value="ERASE"/>
-<part name="C121" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
-<part name="C122" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
+<part name="C121" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/7p/"/>
+<part name="C122" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/7p/"/>
 <part name="GND25" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND26" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND27" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37029,8 +37075,8 @@ www.ciseco.co.uk</description>
 <part name="R5" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="R6" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="X2" library="TiLDA Mk2 Parts" deviceset="RESONATOR_EPSON_FC_145" device="" value="32.768Khz"/>
-<part name="C124" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
-<part name="C123" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
+<part name="C124" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/15p/"/>
+<part name="C123" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/15p/"/>
 <part name="GND28" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="JP2" library="TiLDA Mk2 Parts" deviceset="PINHEAD_PINHD-2X5" device="PASSO127" value="JTAG M50-3500542"/>
 <part name="GND29" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37111,7 +37157,7 @@ www.ciseco.co.uk</description>
 <part name="R22" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="R23" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="R24" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
-<part name="C125" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
+<part name="C125" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/15p/"/>
 <part name="R107" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0603-ROUND" value="0603/6K8/1%"/>
 <part name="GND49" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="TP2" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="SRF Reset"/>
