@@ -36942,12 +36942,12 @@ www.ciseco.co.uk</description>
 <part name="GND2" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND3" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R9" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/2K/5%"/>
-<part name="C21" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
+<part name="C21" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND4" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C22" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
 <part name="C23" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
-<part name="C24" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
-<part name="C25" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
+<part name="C24" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
+<part name="C25" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND5" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND6" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND7" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37134,7 +37134,7 @@ www.ciseco.co.uk</description>
 <part name="TR2" library="TiLDA Mk2 Parts" deviceset="THERMISTOR_" device="-0402-ROUND" value="NTC/100K/3380"/>
 <part name="GND54" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND62" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C34" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/6V/X5R"/>
+<part name="C34" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND63" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND64" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C33" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
@@ -37219,7 +37219,7 @@ www.ciseco.co.uk</description>
 <part name="H2" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
 <part name="C37" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
 <part name="GND58" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C38" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/6V/X5R"/>
+<part name="C38" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND59" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 </parts>
 <sheets>
