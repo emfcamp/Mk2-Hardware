@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -18880,6 +18880,46 @@ Through-hole SPDT Switch&lt;br&gt;
 <circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
 <hole x="0" y="0" drill="4.5"/>
 </package>
+<package name="BATTERY-32X50">
+<wire x1="0" y1="0" x2="50" y2="0" width="0.127" layer="49"/>
+<wire x1="50" y1="0" x2="50" y2="34" width="0.127" layer="49"/>
+<wire x1="50" y1="34" x2="0" y2="34" width="0.127" layer="49"/>
+<wire x1="0" y1="34" x2="0" y2="0" width="0.127" layer="49"/>
+</package>
+<package name="BATTERY-52X64">
+<wire x1="0" y1="0" x2="64" y2="0" width="0.127" layer="49"/>
+<wire x1="64" y1="0" x2="64" y2="52" width="0.127" layer="49"/>
+<wire x1="64" y1="52" x2="0" y2="52" width="0.127" layer="49"/>
+<wire x1="0" y1="52" x2="0" y2="0" width="0.127" layer="49"/>
+</package>
+<package name="BATTERY-32X50-52X64">
+<wire x1="0" y1="0" x2="64" y2="0" width="0.127" layer="49"/>
+<wire x1="64" y1="0" x2="64" y2="52" width="0.127" layer="49"/>
+<wire x1="64" y1="52" x2="0" y2="52" width="0.127" layer="49"/>
+<wire x1="0" y1="52" x2="0" y2="43" width="0.127" layer="49"/>
+<wire x1="0" y1="9" x2="0" y2="0" width="0.127" layer="49"/>
+<wire x1="0" y1="9" x2="51" y2="9" width="0.127" layer="49"/>
+<wire x1="51" y1="9" x2="51" y2="43" width="0.127" layer="49"/>
+<wire x1="51" y1="43" x2="0" y2="43" width="0.127" layer="49"/>
+<wire x1="0" y1="43" x2="0" y2="9" width="0.127" layer="49"/>
+</package>
+<package name="BATTERY-50X32-52X64">
+<wire x1="0" y1="0" x2="64" y2="0" width="0.127" layer="49"/>
+<wire x1="64" y1="0" x2="64" y2="52" width="0.127" layer="49"/>
+<wire x1="64" y1="52" x2="0" y2="52" width="0.127" layer="49"/>
+<wire x1="0" y1="52" x2="0" y2="51" width="0.127" layer="49"/>
+<wire x1="0" y1="1" x2="0" y2="0" width="0.127" layer="49"/>
+<wire x1="0" y1="1" x2="34" y2="1" width="0.127" layer="49"/>
+<wire x1="34" y1="1" x2="34" y2="51" width="0.127" layer="49"/>
+<wire x1="34" y1="51" x2="0" y2="51" width="0.127" layer="49"/>
+<wire x1="0" y1="51" x2="0" y2="1" width="0.127" layer="49"/>
+</package>
+<package name="BATTERY-37X59">
+<wire x1="0" y1="0" x2="59" y2="0" width="0.127" layer="49"/>
+<wire x1="59" y1="0" x2="59" y2="37" width="0.127" layer="49"/>
+<wire x1="59" y1="37" x2="0" y2="37" width="0.127" layer="49"/>
+<wire x1="0" y1="37" x2="0" y2="0" width="0.127" layer="49"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -25008,12 +25048,12 @@ DIN A3, landscape with location and doc. field</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-WIDE" package="TILDA_BADGEBOARDBARE-WIDE">
+<device name="-VERYWIDE" package="TILDA_BADGEBOARDBARE-VERYWIDE">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="-VERYWIDE" package="TILDA_BADGEBOARDBARE-VERYWIDE">
+<device name="-WIDE" package="TILDA_BADGEBOARDBARE-WIDE">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -27723,12 +27763,37 @@ Spark Fun Electronics SKU : Comp-Buzzer</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BATTERY-OUTLINE">
+<deviceset name="BATTERY-OUTLINE" prefix="OUTLINE">
 <gates>
 <gate name="G$1" symbol="BATTERY-OUTLINE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="-55X44" package="BATTERY-55X44">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-32X50" package="BATTERY-32X50">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-52X64" package="BATTERY-52X64">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="32X50-52X64" package="BATTERY-32X50-52X64">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-50X32-52X64" package="BATTERY-50X32-52X64">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-37X59" package="BATTERY-37X59">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -36850,19 +36915,19 @@ www.ciseco.co.uk</description>
 </classes>
 <parts>
 <part name="FRAME1" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
-<part name="U5" library="TiLDA Mk2 Parts" deviceset="TILDA_BOARDOUTLINE" device="-VERYWIDE"/>
+<part name="OUTLINE1" library="TiLDA Mk2 Parts" deviceset="TILDA_BOARDOUTLINE" device="-VERYWIDE"/>
 <part name="LOGO1" library="TiLDA Mk2 Parts" deviceset="OSHW-LOGO" device="M"/>
 <part name="FID1" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID2" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID4" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="LOGO2" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-SYMBOL"/>
-<part name="U1" library="TiLDA Mk2 Parts" deviceset="EPD-OUTLINE" device="-2.7&quot;-UNDER"/>
+<part name="OUTLINE3" library="TiLDA Mk2 Parts" deviceset="EPD-OUTLINE" device="-2.7&quot;-UNDER"/>
 <part name="IC3" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.2" value="SRF-V1.2"/>
 <part name="X1" library="TiLDA Mk2 Parts" deviceset="CRYSTAL-3.2-2.5" device="" value="12Mhz KX-7 20pF"/>
 <part name="IC1" library="TiLDA Mk2 Parts" deviceset="ATSAM3X/A" device="AU" value="ATSAM3X8EA-AU"/>
-<part name="J2" library="TiLDA Mk2 Parts" deviceset="EPD" device="-62684"/>
+<part name="J2" library="TiLDA Mk2 Parts" deviceset="EPD" device="-62684" value="FCI 62684-401100ALF"/>
 <part name="GND1" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="R3" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NC)"/>
+<part name="R3" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NP)"/>
 <part name="C10" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/10V/Y5V"/>
 <part name="C11" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
 <part name="C12" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
@@ -36879,7 +36944,7 @@ www.ciseco.co.uk</description>
 <part name="R9" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/2K/5%"/>
 <part name="C21" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
 <part name="GND4" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C22" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25v/y5v"/>
+<part name="C22" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
 <part name="C23" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
 <part name="C24" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
 <part name="C25" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/1u/10V/X7R"/>
@@ -36889,19 +36954,19 @@ www.ciseco.co.uk</description>
 <part name="GND8" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R11" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/2K/5%"/>
 <part name="Q6" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
-<part name="R10" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
+<part name="R10" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="R12" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
 <part name="Q4" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
 <part name="Q5" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
 <part name="GND9" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND10" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="D1" library="TiLDA Mk2 Parts" deviceset="BAT54S" device=""/>
-<part name="C26" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/16V/X7R"/>
+<part name="C26" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND11" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="S2" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="Left"/>
-<part name="S1" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="Light"/>
-<part name="S3" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="Right"/>
-<part name="S4" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="Reset"/>
+<part name="S2" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
+<part name="S1" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
+<part name="S3" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
+<part name="S4" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
 <part name="FRAME2" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
 <part name="LED1" library="TiLDA Mk2 Parts" deviceset="LED-RGB_CLV1A-FKB" device="" value="CLV1A-FKB"/>
 <part name="LED2" library="TiLDA Mk2 Parts" deviceset="LED-RGB_CLV1A-FKB" device="" value="CLV1A-FKB"/>
@@ -36915,79 +36980,79 @@ www.ciseco.co.uk</description>
 <part name="SG1" library="TiLDA Mk2 Parts" deviceset="BUZZER" device="-PKLCS1212E" value="PKLCS1212E4001-R1"/>
 <part name="C1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/10V/Y5V"/>
 <part name="R13" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
-<part name="R2" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/33K/5%/(NC)"/>
+<part name="R2" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/33K/5%/(NP)"/>
 <part name="Q2" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
-<part name="C3" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/16V/Y5V"/>
+<part name="C3" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="R1" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/33K/5%"/>
 <part name="GND12" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND13" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND14" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND15" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="U$2" library="TiLDA Mk2 Parts" deviceset="BATTERY-OUTLINE" device="-55X44"/>
+<part name="OUTINE2" library="TiLDA Mk2 Parts" deviceset="BATTERY-OUTLINE" device="32X50-52X64"/>
 <part name="JP8" library="TiLDA Mk2 Parts" deviceset="M04X2" device="-PAD" value="SRF Reprogram"/>
-<part name="J5" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="-105027-LWK" value="1050270001"/>
-<part name="C2" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="J5" library="TiLDA Mk2 Parts" deviceset="USD-SOCKET" device="-105027-LWK" value="1050270001 (NP)"/>
+<part name="C2" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND16" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="JP3" library="TiLDA Mk2 Parts" deviceset="TP" device="PAD1-13" value="ANT"/>
-<part name="C4" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/4V/X7R"/>
+<part name="C4" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND18" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND19" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND21" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C5" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/2.2n/50V/X7R"/>
-<part name="C6" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/2V/X7R"/>
+<part name="C6" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND24" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="Q1" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="DMG2301U"/>
 <part name="Q3" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="Q7" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="C8" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/4V/X7R"/>
 <part name="IC2" library="TiLDA Mk2 Parts" deviceset="MPU-6050" device=""/>
-<part name="J1" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK" value="FCI 62684-401100ALF"/>
+<part name="J1" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK" value="ZX62-AB-5PA(11)"/>
 <part name="GND17" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND20" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C133" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="SMCB" value="SMC_B/10u/"/>
-<part name="C132" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C132" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND22" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND23" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="R104" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K"/>
+<part name="R104" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="J4" library="TiLDA Mk2 Parts" deviceset="53?-02" device="261" value="10114830-10102LF"/>
 <part name="LOGO3" library="Ciseco Footprints" deviceset="CISECOLOGO" device="-1.3MM"/>
 <part name="SJ1" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="SRF RESET"/>
 <part name="SJ2" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="SRF ERASE"/>
-<part name="Q8" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BC847BSDM??"/>
+<part name="Q8" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="JP1" library="TiLDA Mk2 Parts" deviceset="M02" device="PTH" value="ERASE"/>
 <part name="C121" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="C122" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="GND25" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND26" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND27" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C29" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C29" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="R5" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="R6" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="X2" library="TiLDA Mk2 Parts" deviceset="RESONATOR_EPSON_FC_145" device="" value="32.768Khz"/>
 <part name="C124" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="C123" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="GND28" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="JP2" library="TiLDA Mk2 Parts" deviceset="PINHEAD_PINHD-2X5" device="PASSO127" value="JTAG"/>
+<part name="JP2" library="TiLDA Mk2 Parts" deviceset="PINHEAD_PINHD-2X5" device="PASSO127" value="JTAG M50-3500542"/>
 <part name="GND29" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND30" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R7" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="GND31" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C104" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C104" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
-<part name="C112" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C113" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C114" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C115" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C116" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C117" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C118" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C105" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C106" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C107" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C108" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C109" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C110" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C112" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C113" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C114" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C115" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C116" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C117" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C118" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C105" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C106" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C107" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C108" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C109" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C110" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="L101" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="L102" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="C101" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="SMCB" value="SMC_B/10u/"/>
@@ -36997,18 +37062,18 @@ www.ciseco.co.uk</description>
 <part name="L105" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="R108" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NP)"/>
 <part name="GND34" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C119" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
-<part name="C134" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C119" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
+<part name="C134" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="L103" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="GND35" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND36" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="TX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603/LED/RED"/>
-<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603//LED/RED"/>
+<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603/LED/RED"/>
 <part name="R105" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
 <part name="R106" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
 <part name="IC5" library="TiLDA Mk2 Parts" deviceset="SPI_FLASH-X25XX" device="SMD1" value="S25FL216K0PMFI011"/>
 <part name="GND37" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="J3" library="TiLDA Mk2 Parts" deviceset="ARDUINOSPI" device="-REFRENCE"/>
+<part name="J3" library="TiLDA Mk2 Parts" deviceset="ARDUINOSPI" device="-REFRENCE" value="Arduino Headers"/>
 <part name="SJ3" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="ISP_RESET"/>
 <part name="Z3" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
 <part name="Z1" library="TiLDA Mk2 Parts" deviceset="VARISTOR" device="CN0603" value="CG0603MLC-05E"/>
@@ -37020,7 +37085,7 @@ www.ciseco.co.uk</description>
 <part name="GND40" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R8" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K/5%"/>
 <part name="R14" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K/5%"/>
-<part name="C120" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/10v"/>
+<part name="C120" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/10v/Y5V"/>
 <part name="GND41" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND42" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND43" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37035,17 +37100,17 @@ www.ciseco.co.uk</description>
 <part name="R19" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/12R/5%"/>
 <part name="R20" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/82R/5%"/>
 <part name="SJ4" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="TRACE" value="IR_TX"/>
-<part name="S5" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="A"/>
-<part name="S6" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="B"/>
+<part name="S5" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
+<part name="S6" library="TiLDA Mk2 Parts" deviceset="TAC_SWITCH" device="SMD" value="SKQGAKE010"/>
 <part name="GND46" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND47" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND48" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="S7" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="-APLS"/>
+<part name="S7" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="-APLS" value="SKRHAAE010"/>
 <part name="SJ5" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="RESET SELECT"/>
-<part name="R21" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
-<part name="R22" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
-<part name="R23" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
-<part name="R24" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/5%"/>
+<part name="R21" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
+<part name="R22" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
+<part name="R23" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
+<part name="R24" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="C125" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/22p/"/>
 <part name="R107" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0603-ROUND" value="0603/6K8/1%"/>
 <part name="GND49" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37057,12 +37122,12 @@ www.ciseco.co.uk</description>
 <part name="C127" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="SMCB" value="SMC_B/10u/"/>
 <part name="C135" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="SMCB" value="SMC_B/10u/"/>
 <part name="GND52" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="R102" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K"/>
+<part name="R102" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="GND53" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R25" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K/5%"/>
 <part name="IC4" library="TiLDA Mk2 Parts" deviceset="LTC4160" device=""/>
 <part name="L1" library="TiLDA Mk2 Parts" deviceset="L-EU" device="LPS4018" value="LPS4018-332MLB"/>
-<part name="Q12" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="FDMA905P"/>
+<part name="Q12" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="SI2333DS-T1-E3"/>
 <part name="C35" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/10u/6.3V/X5R"/>
 <part name="C36" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
 <part name="R27" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
@@ -37083,14 +37148,14 @@ www.ciseco.co.uk</description>
 <part name="C7" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="IC8" library="TiLDA Mk2 Parts" deviceset="MCP1825T-3302E/DC" device=""/>
 <part name="GND68" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C9" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C9" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND69" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND70" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="J6" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF" value="B016 - NCP11402 5V0"/>
 <part name="IC7" library="TiLDA Mk2 Parts" deviceset="HMC5883L" device="SMD" value="HMC5883LSMD (NP)"/>
-<part name="C27" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C27" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="C28" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/4u7/10V/Y5V"/>
-<part name="C31" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/u22/10V/X5R"/>
+<part name="C31" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/0u22/10V/X5R"/>
 <part name="GND73" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="JP7" library="TiLDA Mk2 Parts" deviceset="M08X2" device="" value="ETH"/>
 <part name="GND71" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37101,7 +37166,7 @@ www.ciseco.co.uk</description>
 <part name="R26" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="IC6" library="TiLDA Mk2 Parts" deviceset="AT45DB041B" device="-EIAJ" value="AT45DB161E-SSHFHA (NP)"/>
 <part name="GND55" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C32" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/Y5V"/>
+<part name="C32" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND56" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="SJ7" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="TRACE" value="Buzzer"/>
 <part name="R33" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K5/5%"/>
@@ -37152,6 +37217,10 @@ www.ciseco.co.uk</description>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
 <part name="H2" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
+<part name="C37" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="GND58" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
+<part name="C38" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/6V/X5R"/>
+<part name="GND59" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -37177,9 +37246,7 @@ www.ciseco.co.uk</description>
 <text x="490.22" y="78.74" size="1.778" layer="91">(ETH)</text>
 <text x="490.22" y="76.2" size="1.778" layer="91">(SD)</text>
 <text x="10.16" y="200.66" size="3.81" layer="97" ratio="15">FTDI</text>
-<text x="33.02" y="177.8" size="1.778" layer="97">74LVC1G125DCK ??</text>
 <text x="116.84" y="157.48" size="1.778" layer="97">Option to isolate TX and RX</text>
-<text x="33.02" y="180.34" size="1.778" layer="97">Do we need 5V0 protection?</text>
 <text x="116.84" y="35.56" size="2.54" layer="97" ratio="15">SPI FLASH</text>
 <text x="187.96" y="38.1" size="1.778" layer="97">and space needed</text>
 <text x="690.88" y="129.54" size="3.81" layer="97" ratio="15">Arduino Shield Headers</text>
@@ -37233,7 +37300,7 @@ www.ciseco.co.uk</description>
 <text x="619.76" y="170.18" size="1.778" layer="91" rot="MR0">RXD0</text>
 <text x="201.168" y="187.96" size="1.778" layer="97">Open</text>
 <text x="201.168" y="178.308" size="1.778" layer="97">Open</text>
-<text x="238.76" y="27.94" size="1.778" layer="97" rot="R90">Closed</text>
+<text x="231.14" y="27.94" size="1.778" layer="97" rot="R90">Closed</text>
 <text x="690.88" y="121.92" size="1.778" layer="97">via FET for voltage protection</text>
 <text x="675.64" y="251.46" size="3.81" layer="97" ratio="15">USB power filter</text>
 <text x="358.14" y="91.44" size="3.81" layer="97" ratio="15">Buzzer</text>
@@ -37263,13 +37330,13 @@ www.ciseco.co.uk</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="U5" gate="G$1" x="289.56" y="20.32"/>
+<instance part="OUTLINE1" gate="G$1" x="289.56" y="20.32"/>
 <instance part="LOGO1" gate="G$1" x="330.2" y="15.24"/>
 <instance part="FID1" gate="G$1" x="345.44" y="22.86"/>
 <instance part="FID2" gate="G$1" x="350.52" y="22.86"/>
 <instance part="FID4" gate="G$1" x="355.6" y="22.86"/>
 <instance part="LOGO2" gate="G$1" x="690.88" y="2.54"/>
-<instance part="U1" gate="G$1" x="289.56" y="17.78"/>
+<instance part="OUTLINE3" gate="G$1" x="289.56" y="17.78"/>
 <instance part="IC3" gate="G$1" x="170.18" y="200.66"/>
 <instance part="X1" gate="G$1" x="477.52" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="476.504" y="200.66" size="1.778" layer="95" rot="R90"/>
@@ -37279,7 +37346,10 @@ www.ciseco.co.uk</description>
 <attribute name="NAME" x="561.34" y="134.62" size="1.778" layer="94"/>
 <attribute name="VALUE" x="561.34" y="132.08" size="1.778" layer="94"/>
 </instance>
-<instance part="J2" gate="G$1" x="375.92" y="200.66"/>
+<instance part="J2" gate="G$1" x="375.92" y="200.66" smashed="yes">
+<attribute name="NAME" x="363.22" y="252.73" size="1.778" layer="95"/>
+<attribute name="VALUE" x="378.46" y="180.34" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="GND1" gate="1" x="337.82" y="243.84" rot="R270"/>
 <instance part="R3" gate="G$1" x="327.66" y="231.14"/>
 <instance part="C10" gate="G$1" x="281.94" y="228.6" rot="R270"/>
@@ -37327,7 +37397,7 @@ www.ciseco.co.uk</description>
 <instance part="FRAME2" gate="G$1" x="401.32" y="0"/>
 <instance part="LED1" gate="G$1" x="154.94" y="88.9" rot="R90"/>
 <instance part="LED2" gate="G$1" x="154.94" y="111.76" rot="R90"/>
-<instance part="IR_TX" gate="G$1" x="261.62" y="15.24" rot="R270"/>
+<instance part="IR_TX" gate="G$1" x="251.46" y="15.24" rot="R270"/>
 <instance part="FID3" gate="G$1" x="360.68" y="22.86"/>
 <instance part="FID5" gate="G$1" x="365.76" y="22.86"/>
 <instance part="FID6" gate="G$1" x="370.84" y="22.86"/>
@@ -37357,7 +37427,7 @@ www.ciseco.co.uk</description>
 <instance part="GND13" gate="1" x="71.12" y="210.82"/>
 <instance part="GND14" gate="1" x="50.8" y="210.82"/>
 <instance part="GND15" gate="1" x="35.56" y="210.82"/>
-<instance part="U$2" gate="G$1" x="289.56" y="15.24"/>
+<instance part="OUTINE2" gate="G$1" x="289.56" y="15.24"/>
 <instance part="JP8" gate="G$1" x="167.64" y="246.38"/>
 <instance part="J5" gate="G$1" x="769.62" y="228.6" smashed="yes">
 <attribute name="NAME" x="767.08" y="244.348" size="1.778" layer="95"/>
@@ -37392,7 +37462,10 @@ www.ciseco.co.uk</description>
 <instance part="GND22" gate="1" x="635" y="218.44"/>
 <instance part="GND23" gate="1" x="535.94" y="210.82" rot="R180"/>
 <instance part="R104" gate="G$1" x="541.02" y="215.9" rot="R90"/>
-<instance part="J4" gate="-1" x="93.98" y="185.42" rot="MR0"/>
+<instance part="J4" gate="-1" x="93.98" y="185.42" smashed="yes" rot="MR0">
+<attribute name="NAME" x="91.44" y="184.658" size="1.524" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="80.518" y="191.643" size="1.778" layer="96" rot="MR180"/>
+</instance>
 <instance part="J4" gate="-2" x="93.98" y="182.88" rot="MR0"/>
 <instance part="LOGO3" gate="G$1" x="144.78" y="223.52"/>
 <instance part="SJ1" gate="1" x="198.12" y="185.42" smashed="yes">
@@ -37420,7 +37493,10 @@ www.ciseco.co.uk</description>
 <instance part="C124" gate="G$1" x="462.28" y="177.8" rot="R90"/>
 <instance part="C123" gate="G$1" x="462.28" y="187.96" rot="R90"/>
 <instance part="GND28" gate="1" x="452.12" y="182.88" rot="R270"/>
-<instance part="JP2" gate="G$1" x="416.56" y="104.14"/>
+<instance part="JP2" gate="G$1" x="416.56" y="104.14" smashed="yes">
+<attribute name="NAME" x="414.02" y="111.379" size="1.778" layer="95"/>
+<attribute name="VALUE" x="414.02" y="87.63" size="1.778" layer="96"/>
+</instance>
 <instance part="GND29" gate="1" x="408.94" y="91.44"/>
 <instance part="GND30" gate="1" x="419.1" y="50.8"/>
 <instance part="R7" gate="G$1" x="431.8" y="93.98"/>
@@ -37545,9 +37621,9 @@ www.ciseco.co.uk</description>
 <instance part="Z1" gate="G$1" x="436.88" y="154.94" rot="R90"/>
 <instance part="Z2" gate="G$1" x="447.04" y="154.94" rot="R90"/>
 <instance part="GND38" gate="1" x="436.88" y="142.24"/>
-<instance part="GND39" gate="1" x="236.22" y="15.24" rot="R270"/>
-<instance part="R4" gate="G$1" x="271.78" y="15.24"/>
-<instance part="Q9" gate="G$1" x="246.38" y="17.78" rot="R270"/>
+<instance part="GND39" gate="1" x="228.6" y="15.24" rot="R270"/>
+<instance part="R4" gate="G$1" x="261.62" y="15.24"/>
+<instance part="Q9" gate="G$1" x="238.76" y="17.78" rot="R270"/>
 <instance part="GND40" gate="1" x="226.06" y="60.96" rot="R270"/>
 <instance part="R8" gate="G$1" x="429.26" y="246.38"/>
 <instance part="R14" gate="G$1" x="429.26" y="236.22"/>
@@ -37568,14 +37644,14 @@ www.ciseco.co.uk</description>
 <instance part="R18" gate="G$1" x="170.18" y="96.52"/>
 <instance part="R19" gate="G$1" x="170.18" y="88.9"/>
 <instance part="R20" gate="G$1" x="170.18" y="81.28"/>
-<instance part="SJ4" gate="1" x="243.84" y="30.48" rot="R90"/>
+<instance part="SJ4" gate="1" x="236.22" y="30.48" rot="R90"/>
 <instance part="S5" gate="S" x="149.86" y="45.72" smashed="yes">
 <attribute name="NAME" x="147.32" y="52.07" size="1.778" layer="95"/>
-<attribute name="VALUE" x="149.86" y="41.91" size="1.778" layer="96"/>
+<attribute name="VALUE" x="149.86" y="41.148" size="1.778" layer="96"/>
 </instance>
 <instance part="S6" gate="S" x="195.58" y="45.72" smashed="yes" rot="MR0">
 <attribute name="NAME" x="198.12" y="52.07" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="195.58" y="41.91" size="1.778" layer="96" rot="MR0"/>
+<attribute name="VALUE" x="195.58" y="42.672" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="GND46" gate="1" x="134.62" y="53.34"/>
 <instance part="GND47" gate="1" x="162.56" y="45.72" rot="R90"/>
@@ -37685,9 +37761,9 @@ www.ciseco.co.uk</description>
 <instance part="R35" gate="G$1" x="22.86" y="53.34" rot="MR0"/>
 <instance part="R36" gate="G$1" x="22.86" y="45.72" rot="MR0"/>
 <instance part="R37" gate="G$1" x="22.86" y="38.1" rot="MR0"/>
-<instance part="R38" gate="G$1" x="180.34" y="137.16" rot="MR0"/>
-<instance part="R39" gate="G$1" x="195.58" y="137.16"/>
-<instance part="GND51" gate="1" x="213.36" y="129.54"/>
+<instance part="R38" gate="G$1" x="185.42" y="137.16" rot="MR0"/>
+<instance part="R39" gate="G$1" x="200.66" y="137.16"/>
+<instance part="GND51" gate="1" x="218.44" y="129.54"/>
 <instance part="SJ8" gate="G$1" x="454.66" y="236.22" rot="R180"/>
 <instance part="TP4" gate="G$1" x="604.52" y="38.1" rot="R180"/>
 <instance part="TP5" gate="G$1" x="599.44" y="43.18" rot="R180"/>
@@ -37708,6 +37784,10 @@ www.ciseco.co.uk</description>
 <instance part="GND57" gate="1" x="741.68" y="175.26"/>
 <instance part="H1" gate="G$1" x="375.92" y="22.86"/>
 <instance part="H2" gate="G$1" x="381" y="22.86"/>
+<instance part="C37" gate="G$1" x="264.16" y="20.32" rot="R270"/>
+<instance part="GND58" gate="1" x="254" y="20.32" rot="R270"/>
+<instance part="C38" gate="G$1" x="40.64" y="177.8" rot="R270"/>
+<instance part="GND59" gate="1" x="66.04" y="177.8" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -38156,7 +38236,7 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="Q9" gate="G$1" pin="S"/>
-<wire x1="238.76" y1="15.24" x2="241.3" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="15.24" x2="233.68" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
@@ -38393,14 +38473,24 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
-<wire x1="200.66" y1="137.16" x2="213.36" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="137.16" x2="213.36" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="137.16" x2="218.44" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND51" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
 <wire x1="741.68" y1="177.8" x2="741.68" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND57" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C37" gate="G$1" pin="2"/>
+<pinref part="GND58" gate="1" pin="GND"/>
+<wire x1="256.54" y1="20.32" x2="259.08" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="GND59" gate="1" pin="GND"/>
+<wire x1="63.5" y1="177.8" x2="43.18" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BORDER" class="0">
@@ -38867,8 +38957,11 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="JP6" gate="G$1" pin="3"/>
-<wire x1="22.86" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
 <label x="22.86" y="185.42" size="1.778" layer="95"/>
+<pinref part="C38" gate="G$1" pin="2"/>
+<wire x1="33.02" y1="177.8" x2="35.56" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="177.8" x2="33.02" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP2" gate="G$1" pin="1"/>
@@ -38987,8 +39080,13 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="15.24" x2="279.4" y2="15.24" width="0.1524" layer="91"/>
-<label x="279.4" y="15.24" size="1.778" layer="95"/>
+<wire x1="266.7" y1="15.24" x2="269.24" y2="15.24" width="0.1524" layer="91"/>
+<label x="271.78" y="15.24" size="1.778" layer="95"/>
+<wire x1="269.24" y1="15.24" x2="271.78" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="15.24" x2="269.24" y2="20.32" width="0.1524" layer="91"/>
+<junction x="269.24" y="15.24"/>
+<pinref part="C37" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="20.32" x2="266.7" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IR_RX" gate="G$1" pin="VS"/>
@@ -39951,8 +40049,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="SJ4" gate="1" pin="2"/>
-<wire x1="243.84" y1="35.56" x2="243.84" y2="38.1" width="0.1524" layer="91"/>
-<label x="243.84" y="38.1" size="1.778" layer="95" rot="R90"/>
+<wire x1="236.22" y1="35.56" x2="236.22" y2="38.1" width="0.1524" layer="91"/>
+<label x="236.22" y="38.1" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="PWM8" class="0">
@@ -40839,14 +40937,14 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="IR_TX" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="264.16" y1="15.24" x2="266.7" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="254" y1="15.24" x2="256.54" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IR_TX_C" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="D"/>
 <pinref part="IR_TX" gate="G$1" pin="C"/>
-<wire x1="251.46" y1="15.24" x2="256.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="15.24" x2="246.38" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IR_RX" class="0">
@@ -40949,8 +41047,8 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="Q9" gate="G$1" pin="G"/>
 <pinref part="SJ4" gate="1" pin="1"/>
-<wire x1="243.84" y1="20.32" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
-<label x="243.84" y="22.86" size="1.778" layer="95" rot="MR0"/>
+<wire x1="236.22" y1="20.32" x2="236.22" y2="25.4" width="0.1524" layer="91"/>
+<label x="236.22" y="22.86" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
@@ -41532,12 +41630,12 @@ www.ciseco.co.uk</description>
 <segment>
 <pinref part="R39" gate="G$1" pin="1"/>
 <pinref part="R38" gate="G$1" pin="1"/>
-<wire x1="190.5" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="137.16" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
-<junction x="187.96" y="137.16"/>
-<label x="190.5" y="144.78" size="1.778" layer="95"/>
-<wire x1="187.96" y1="144.78" x2="190.5" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="137.16" x2="193.04" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="137.16" x2="193.04" y2="144.78" width="0.1524" layer="91"/>
+<junction x="193.04" y="137.16"/>
+<label x="195.58" y="144.78" size="1.778" layer="95"/>
+<wire x1="193.04" y1="144.78" x2="195.58" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB20"/>
@@ -41610,8 +41708,8 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="R38" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
-<label x="172.72" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<wire x1="180.34" y1="137.16" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
+<label x="177.8" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <pinref part="S8" gate="1" pin="P"/>
