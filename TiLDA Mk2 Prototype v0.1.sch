@@ -36974,24 +36974,24 @@ www.ciseco.co.uk</description>
 <part name="J2" library="TiLDA Mk2 Parts" deviceset="EPD" device="-62684" value="FCI 62684-401100ALF"/>
 <part name="GND1" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R3" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NP)"/>
-<part name="C10" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/10V/Y5V"/>
-<part name="C11" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C12" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C13" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
-<part name="C14" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C15" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
-<part name="C16" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
-<part name="C17" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C18" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C19" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
-<part name="C20" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/16V/Y5V"/>
+<part name="C10" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/10V/Y5V"/>
+<part name="C11" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C12" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C13" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/25V/Y5V"/>
+<part name="C14" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C15" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/25V/Y5V"/>
+<part name="C16" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/25V/Y5V"/>
+<part name="C17" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C18" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C19" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
+<part name="C20" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/16V/Y5V"/>
 <part name="GND2" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND3" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R9" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/2K/5%"/>
 <part name="C21" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND4" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C22" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
-<part name="C23" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/25V/Y5V"/>
+<part name="C22" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/25V/Y5V"/>
+<part name="C23" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/25V/Y5V"/>
 <part name="C24" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="C25" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND5" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -37024,7 +37024,7 @@ www.ciseco.co.uk</description>
 <part name="IR_RX" library="TiLDA Mk2 Parts" deviceset="IR-RECEIVER" device="TSOP75438TT" value="TSOP75238TT"/>
 <part name="JP6" library="TiLDA Mk2 Parts" deviceset="M06" device="SIP" value="FTDI"/>
 <part name="SG1" library="TiLDA Mk2 Parts" deviceset="BUZZER" device="-PKLCS1212E" value="PKLCS1212E4001-R1"/>
-<part name="C1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2.2u/10V/Y5V"/>
+<part name="C1" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805K" value="0805/2u2/10V/Y5V"/>
 <part name="R13" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="R2" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/33K/5%/(NP)"/>
 <part name="Q2" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
@@ -37044,7 +37044,7 @@ www.ciseco.co.uk</description>
 <part name="GND18" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND19" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND21" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C5" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/2.2n/50V/X7R"/>
+<part name="C5" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/2n2/50V/X7R"/>
 <part name="C6" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND24" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="Q1" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="DMG2301U"/>
@@ -37174,7 +37174,7 @@ www.ciseco.co.uk</description>
 <part name="IC4" library="TiLDA Mk2 Parts" deviceset="LTC4160" device=""/>
 <part name="L1" library="TiLDA Mk2 Parts" deviceset="L-EU" device="LPS4018" value="LPS4018-332MLB"/>
 <part name="Q12" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="SI2333DS-T1-E3"/>
-<part name="C35" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6.3V/X5R"/>
+<part name="C35" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6V3/X5R"/>
 <part name="C36" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
 <part name="R27" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="TR2" library="TiLDA Mk2 Parts" deviceset="THERMISTOR_" device="-0402-ROUND" value="NTC/100K/3380"/>
@@ -37200,7 +37200,7 @@ www.ciseco.co.uk</description>
 <part name="J6" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF" value="B016 - NCP11402 5V0"/>
 <part name="IC7" library="TiLDA Mk2 Parts" deviceset="HMC5883L" device="SMD" value="HMC5883LSMD (NP)"/>
 <part name="C27" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
-<part name="C28" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/4u7/10V/Y5V"/>
+<part name="C28" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/4u7/6V3/Y5V"/>
 <part name="C31" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/0u22/10V/X5R"/>
 <part name="GND73" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="JP7" library="TiLDA Mk2 Parts" deviceset="M08X2" device="" value="ETH"/>
@@ -37208,7 +37208,7 @@ www.ciseco.co.uk</description>
 <part name="R31" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="R32" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%"/>
 <part name="SJ6" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="RESET BUTTON"/>
-<part name="C30" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6.3V/X5R"/>
+<part name="C30" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6V3/X5R"/>
 <part name="R26" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="IC6" library="TiLDA Mk2 Parts" deviceset="AT45DB041B" device="-EIAJ" value="AT45DB161E-SSHFHA (NP)"/>
 <part name="GND55" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>

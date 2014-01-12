@@ -1,205 +1,210 @@
 Partlist
 
-Exported from TiLDA Mk2 Prototype v0.1.sch at 05/01/2014 05:11
+Exported from TiLDA Mk2 Prototype v0.1.sch at 12/01/2014 19:18
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
 Assembly variant: 
 
-Part     Value                  Device                    Package                  Library           Sheet
+Part     Value                       Device                    Package                  Library           Sheet
 
-C1       0805/2.2u/10V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C2       0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C3       0402/100n/16V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C4       0402/100n/4V/X7R       C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C5       0402/2.2n/50V/X7R      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C6       0402/100n/2V/X7R       C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C7       0402/100n/10V/X5R      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C8       0402/10n/4V/X7R        C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C9       0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C10      0805/2.2u/10V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C11      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C12      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C13      0805/2.2u/25V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C14      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C15      0805/2.2u/25V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C16      0805/2.2u/25V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C17      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C18      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C19      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C20      0805/2.2u/16V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C21      0805/1u/10V/X7R        C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C22      0805/2.2u/25v/y5v      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C23      0805/2.2u/25V/Y5V      C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C24      0805/1u/10V/X7R        C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C25      0805/1u/10V/X7R        C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
-C26      0402/100n/16V/X7R      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C27      0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C28      0603/4u7/10V/Y5V       C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
-C29      0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C30      0603/10u/6.3V/X5R      C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
-C31      0402/u22/10V/X5R       C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C32      0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C33      0805/22u/25V/X5R       C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
-C34      0603/1u/6V/X5R         C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
-C35      0603/10u/6.3V/X5R      C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
-C36      0805/22u/25V/X5R       C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
-C101     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C102     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C103     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C104     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C105     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C106     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C107     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C108     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C109     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C110     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C111     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C112     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C113     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C114     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C115     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C116     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C117     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C118     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C119     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C120     0402/10n/10v           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C121     0402/22p/              C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C122     0402/22p/              C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C123     0402/22p/              C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C124     0402/22p/              C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C125     0402/22p/              C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C126     0402/10n/10V/Y5V       C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C127     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C132     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C133     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-C134     0402/100n/10V/Y5V      C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-C135     SMC_B/10u/             CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
-D1       BAT54S                 BAT54S                    SC70-3-R                 TiLDA Mk2 Parts   1
-IC1      ATSAM3X8EA-AU          ATSAM3X/AAU               LQFP144                  TiLDA Mk2 Parts   1
-IC2      MPU-6050               MPU-6050                  QFN-24-NODIE             TiLDA Mk2 Parts   1
-IC3      SRF-V1.2               SRF-LANDING-1.2           SRF-LANDING-1.2          Ciseco Footprints 1
-IC4      LTC4160                LTC4160                   QFN-20                   TiLDA Mk2 Parts   1
-IC5      S25FL216K0PMFI011      SPI_FLASH-X25XXSMD1       SO08-EIAJ                TiLDA Mk2 Parts   1
-IC6      AT45DB161E-SSHFHA (NP) AT45DB041B-EIAJ           SO08-EIAJ                TiLDA Mk2 Parts   1
-IC7      HMC5883LSMD (NP)       HMC5883LSMD               16LPCC                   TiLDA Mk2 Parts   1
-IC8      MCP1825T-3302E/DC      MCP1825T-3302E/DC         SOT127P700X180-6N        TiLDA Mk2 Parts   1
-IR_RX    TSOP75238TT            IR-RECEIVERTSOP75438TT    TSOP75X                  TiLDA Mk2 Parts   1
-IR_TX    VSMB3940X01-GS08       IR-SENDER-PLCC            P-LCC-2                  TiLDA Mk2 Parts   1
-J1       FCI 62684-401100ALF    USB-AB-LWK                USB-AB-MICRO-SMD_LWK     TiLDA Mk2 Parts   1
-J2       EPD-62684              EPD-62684                 62684-401100             TiLDA Mk2 Parts   1
-J3       ARDUINOSPI-REFRENCE    ARDUINOSPI-REFRENCE       ARDUINOR3-LWKTXT-REF-SPI TiLDA Mk2 Parts   1
-J4       53261-02               53261-02                  53261-02                 TiLDA Mk2 Parts   1
-J5       114-00841-68 (NP)      USD-SOCKETUSD             USD-SOCKET-PP            TiLDA Mk2 Parts   1
-J6       B016 - NCP11402 5V0    POWER-POD-EMF             POWER-POD-EMF            TiLDA Mk2 Parts   1
-JP1      ERASE                  M02PTH                    1X02                     TiLDA Mk2 Parts   1
-JP2      JTAG                   PINHEAD_PINHD-2X5PASSO127 PINHEAD_2X05_127         TiLDA Mk2 Parts   1
-JP3      ANT                    TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
-JP4      DAC                    M021X02_NO_SILK           1X02_NO_SILK             TiLDA Mk2 Parts   1
-JP5      CAN                    M021X02_NO_SILK           1X02_NO_SILK             TiLDA Mk2 Parts   1
-JP6      FTDI                   M06SIP                    1X06                     TiLDA Mk2 Parts   1
-JP7      ETH                    M08X2                     2X8                      TiLDA Mk2 Parts   1
-JP8      SRF Re-Program         M04X2-PAD                 2X4-PAD                  TiLDA Mk2 Parts   1
-L1       LPS4018-332MLB         L-EULPS4018               LPS4018                  TiLDA Mk2 Parts   1
-L101     MH2029-300Y            WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
-L102     MH2029-300Y            WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
-L103     MH2029-300Y            WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
-L105     MH2029-300Y            WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
-LED1     CLV1A-FKB              LED-RGB_CLV1A-FKB         LED-RGB_CLV1A-FKB        TiLDA Mk2 Parts   1
-LED2     CLV1A-FKB              LED-RGB_CLV1A-FKB         LED-RGB_CLV1A-FKB        TiLDA Mk2 Parts   1
-Q1       DMG2301U               MOSFET-P-SOT23            SOT23-R                  TiLDA Mk2 Parts   1
-Q2       2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q3       BSS84W                 MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
-Q4       2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q5       2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q6       2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q7       BSS84W                 MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
-Q8       BC847BSDM??            MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
-Q9       2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q10      2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q11      2N7002KW               MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
-Q12      FDMA905P               MOSFET-P-SOT23            SOT23-R                  TiLDA Mk2 Parts   1
-R1       0402/33K/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R2       0402/33K/5%/(NC)       R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R3       0402/0R/5%/(NC)        R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R4       0402/20R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R5       0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R6       0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R7       0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R8       0402/1K/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R9       0402/2K/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R10      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R11      0402/2K/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R12      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R13      0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R14      0402/1K/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R15      0402/12R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R16      0402/12R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R17      0402/82R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R18      0402/12R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R19      0402/12R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R20      0402/82R/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R21      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R22      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R23      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R24      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R25      0402/1K/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R26      0402/10K/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R27      0402/100K/1%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R28      0402/6K2/1%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R29      0402/100K/1%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R30      0402/3K01/1%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R31      0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R32      0402/0R/5%             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R33      0402/1K5/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R34      0402/1K5/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R35      0402/10K/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R36      0402/10K/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R37      0402/10K/5%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R38      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R39      0402/100K/5%           R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R102     0402/10K               R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R104     0402/100K              R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R105     0402/39R/1%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R106     0402/39R/1%            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-R107     0603/6K8/1%            R-EU_R0603-ROUND          R0603-ROUND              TiLDA Mk2 Parts   1
-R108     0402/0R/5%/(NP)        R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-RX       0603//LED/RED          LED0603-CORRECT           LED-0603-CORRECT         TiLDA Mk2 Parts   1
-S1       Light                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S2       Left                   TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S3       Right                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S4       Reset                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S5       A                      TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S6       B                      TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
-S7       JOYSTICK_MINI-APLS     JOYSTICK_MINI-APLS        JOYSTICK_MINI_ALPS       TiLDA Mk2 Parts   1
-SG1      PKLCS1212E4001-R1      BUZZER-PKLCS1212E         BUZZER-PKLCS1212E        TiLDA Mk2 Parts   1
-SJ1      SRF RESET              SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
-SJ2      SRF ERASE              SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
-SJ3      ISP_RESET              SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
-SJ4      IR_TX                  SOLDERJUMPERTRACE         SJ_2S-TRACE              TiLDA Mk2 Parts   1
-SJ5      RESET SELECT           SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
-SJ6      RESET BUTTON           SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
-SJ7      Buzzer                 SOLDERJUMPERTRACE         SJ_2S-TRACE              TiLDA Mk2 Parts   1
-SJ8      AREF                   SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
-TP2      SRF Reset              TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP3      SRF Reset              TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP4      D22                    TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP5      PB24                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP6      SS3                    TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP7      PB22                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP8      PC10                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP9      PC27                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP10     D23                    TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP11     TXD1                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP12     RXD1                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP13     TXD2                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP14     RXD2                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP15     TXD0                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TP16     RXD0                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
-TR2      NTC/100K/3380          THERMISTOR_-0402-ROUND    R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
-TX       0603/LED/RED           LED0603-CORRECT           LED-0603-CORRECT         TiLDA Mk2 Parts   1
-X1       12Mhz KX-7 20pF        CRYSTAL-3.2-2.5           CRYSTAL-3.2-2.5          TiLDA Mk2 Parts   1
-X2       32.768Khz              RESONATOR_EPSON_FC_145    RESONATOR_EPSON_FC_145   TiLDA Mk2 Parts   1
-Z1       CG0603MLC-05E          VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
-Z2       CG0603MLC-05E          VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
-Z3       CG0603MLC-05E          VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
+C1       0805/2u2/10V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C2       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C3       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C4       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C5       0402/2n2/50V/X7R            C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C6       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C7       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C8       0402/10n/4V/X7R             C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C9       0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C10      0805/2u2/10V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C11      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C12      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C13      0805/2u2/25V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C14      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C15      0805/2u2/25V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C16      0805/2u2/25V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C17      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C18      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C19      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C20      0805/2u2/16V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C21      0603/1u/10V/X5R             C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C22      0805/2u2/25V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C23      0805/2u2/25V/Y5V            C-EUC0805K                C0805K                   TiLDA Mk2 Parts   1
+C24      0603/1u/10V/X5R             C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C25      0603/1u/10V/X5R             C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C26      0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C27      0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C28      0603/4u7/6V3/Y5V            C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C29      0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C30      0805/10u/6V3/X5R            C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
+C31      0402/0u22/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C32      0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C33      0805/22u/25V/X5R            C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
+C34      0603/1u/10V/X5R             C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C35      0805/10u/6V3/X5R            C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
+C36      0805/22u/25V/X5R            C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
+C37      0805/22u/25V/X5R            C-EUC0805RND              C0805RND                 TiLDA Mk2 Parts   1
+C38      0603/1u/10V/X5R             C-EUC0603-ROUND           C0603-ROUND              TiLDA Mk2 Parts   1
+C101     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C102     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C103     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C104     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C105     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C106     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C107     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C108     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C109     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C110     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C111     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C112     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C113     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C114     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C115     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C116     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C117     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C118     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C119     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C120     0402/10n/10v/Y5V            C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C121     0402/7p/                    C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C122     0402/7p/                    C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C123     0402/15p/                   C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C124     0402/15p/                   C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C125     0402/15p/                   C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C126     0402/10n/10V/Y5V            C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C127     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C132     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C133     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+C134     0402/100n/10V/X5R           C-EUC0402-ARDUINO-ROUND   C0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+C135     SMC_B/10u/                  CPOL-EUSMCB               SMC_B                    TiLDA Mk2 Parts   1
+D1       BAT54S                      BAT54S                    SC70-3-R                 TiLDA Mk2 Parts   1
+IC1      ATSAM3X8EA-AU               ATSAM3X/AAU               LQFP144                  TiLDA Mk2 Parts   1
+IC2      MPU-6050                    MPU-6050                  QFN-24-NODIE             TiLDA Mk2 Parts   1
+IC3      SRF-V1.2                    SRF-LANDING-1.2           SRF-LANDING-1.2          Ciseco Footprints 1
+IC4      LTC4160                     LTC4160                   QFN-20                   TiLDA Mk2 Parts   1
+IC5      S25FL216K0PMFI011           SPI_FLASH-X25XXSMD1       SO08-EIAJ                TiLDA Mk2 Parts   1
+IC6      AT45DB161E-SSHFHA (NP)      AT45DB041B-EIAJ           SO08-EIAJ                TiLDA Mk2 Parts   1
+IC7      HMC5883LSMD (NP)            HMC5883LSMD               16LPCC                   TiLDA Mk2 Parts   1
+IC8      MCP1825T-3302E/DC           MCP1825T-3302E/DC         SOT127P700X180-6N        TiLDA Mk2 Parts   1
+IR_RX    TSOP75238TT                 IR-RECEIVERTSOP75438TT    TSOP75X                  TiLDA Mk2 Parts   1
+IR_TX    VSMB3940X01-GS08            IR-SENDER-PLCC            P-LCC-2                  TiLDA Mk2 Parts   1
+J1       ZX62-AB-5PA(11)             USB-AB-LWK                USB-AB-MICRO-SMD_LWK     TiLDA Mk2 Parts   1
+J2       FCI 62684-401100ALF         EPD-62684                 62684-401100             TiLDA Mk2 Parts   1
+J3       Arduino Headers             ARDUINOSPI-REFRENCE       ARDUINOR3-LWKTXT-REF-SPI TiLDA Mk2 Parts   1
+J4       10114830-10102LF            53261-02                  53261-02                 TiLDA Mk2 Parts   1
+J5       1050270001 (NP)             USD-SOCKET-105027-LWK     105027-LWK               TiLDA Mk2 Parts   1
+J6       B016 - NCP11402 5V0         POWER-POD-EMF             POWER-POD-EMF            TiLDA Mk2 Parts   1
+JP1      ERASE                       M02PTH                    1X02                     TiLDA Mk2 Parts   1
+JP2      JTAG M50-3500542            PINHEAD_PINHD-2X5PASSO127 PINHEAD_2X05_127         TiLDA Mk2 Parts   1
+JP3      ANT                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
+JP4      DAC                         M021X02_NO_SILK           1X02_NO_SILK             TiLDA Mk2 Parts   1
+JP5      CAN                         M021X02_NO_SILK           1X02_NO_SILK             TiLDA Mk2 Parts   1
+JP6      FTDI                        M06SIP                    1X06                     TiLDA Mk2 Parts   1
+JP7      ETH                         M08X2                     2X8                      TiLDA Mk2 Parts   1
+JP8      SRF Reprogram               M04X2-PAD                 2X4-PAD                  TiLDA Mk2 Parts   1
+L1       LPS4018-332MLB              L-EULPS4018               LPS4018                  TiLDA Mk2 Parts   1
+L101     MH2029-300Y                 WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
+L102     MH2029-300Y                 WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
+L103     MH2029-300Y                 WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
+L105     MH2029-300Y                 WE-CBF_0805               WUERTH-0805              TiLDA Mk2 Parts   1
+LED1     CLV1A-FKB                   LED-RGB_CLV1A-FKB         LED-RGB_CLV1A-FKB        TiLDA Mk2 Parts   1
+LED2     CLV1A-FKB                   LED-RGB_CLV1A-FKB         LED-RGB_CLV1A-FKB        TiLDA Mk2 Parts   1
+Q1       DMG2301U                    MOSFET-P-SOT23            SOT23-R                  TiLDA Mk2 Parts   1
+Q2       2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q3       BSS84W                      MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
+Q4       2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q5       2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q6       2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q7       BSS84W                      MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
+Q8       BSS84W                      MOSFET-P-SC70-3           SC70-3-R                 TiLDA Mk2 Parts   1
+Q9       2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q10      2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q11      2N7002KW                    MOSFET-NSC70-3            SC70-3-R                 TiLDA Mk2 Parts   1
+Q12      SI2333DS-T1-E3              MOSFET-P-SOT23            SOT23-R                  TiLDA Mk2 Parts   1
+R1       0402/33K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R2       0402/33K/5%/(NP)            R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R3       0402/0R/5%/(NP)             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R4       0402/20R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R5       0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R6       0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R7       0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R8       0402/1K/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R9       0402/2K/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R10      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R11      0402/2K/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R12      0402/100K/5%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R13      0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R14      0402/1K/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R15      0402/12R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R16      0402/12R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R17      0402/82R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R18      0402/12R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R19      0402/12R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R20      0402/82R/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R21      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R22      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R23      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R24      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R25      0402/1K/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R26      0402/10K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R27      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R28      0402/6K2/1%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R29      0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R30      0402/3K01/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R31      0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R32      0402/0R/5%                  R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R33      0402/1K5/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R34      0402/1K5/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R35      0402/10K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R36      0402/10K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R37      0402/10K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R38      0402/100K/5%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R39      0402/100K/5%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R102     0402/10K/5%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R104     0402/100K/1%                R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R105     0402/39R/1%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R106     0402/39R/1%                 R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+R107     0603/6K8/1%                 R-EU_R0603-ROUND          R0603-ROUND              TiLDA Mk2 Parts   1
+R108     0402/0R/5%/(NP)             R-EU_R0402-ARDUINO-ROUND  R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+RX       0603/LED/RED                LED0603-CORRECT           LED-0603-CORRECT         TiLDA Mk2 Parts   1
+S1       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S2       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S3       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S4       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S5       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S6       SKQGAKE010                  TAC_SWITCHSMD             TACTILE_SWITCH_SMD       TiLDA Mk2 Parts   1
+S7       SKRHAAE010                  JOYSTICK_MINI-APLS        JOYSTICK_MINI_ALPS       TiLDA Mk2 Parts   1
+S8       CUS-12TB                    SWITCH-SPST-SMD-A         SWITCH-SPST-SMD-A        TiLDA Mk2 Parts   1
+SG1      PKLCS1212E4001-R1           BUZZER-PKLCS1212E         BUZZER-PKLCS1212E        TiLDA Mk2 Parts   1
+SJ1      SRF RESET                   SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
+SJ2      SRF ERASE                   SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
+SJ3      ISP_RESET                   SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
+SJ4      IR_TX                       SOLDERJUMPERTRACE         SJ_2S-TRACE              TiLDA Mk2 Parts   1
+SJ5      RESET SELECT                SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
+SJ6      RESET BUTTON                SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
+SJ7      Buzzer                      SOLDERJUMPERTRACE         SJ_2S-TRACE              TiLDA Mk2 Parts   1
+SJ8      AREF                        SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
+TP1      GND                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
+TP2      SRF Reset                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP3      SRF Reset                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP4      D22                         TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP5      PB24                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP6      SS3                         TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP7      PB22                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP8      PC10                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP9      PC27                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP10     D23                         TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP11     TXD1                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP12     RXD1                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP15     TXD0                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP16     RXD0                        TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
+TP17     D19                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
+TP18     D18                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
+TP19     3V3                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
+TR2      NTC/100K/3380               THERMISTOR_-0402-ROUND    R0402-ARDUINO-ROUND      TiLDA Mk2 Parts   1
+TX       0603/LED/RED                LED0603-CORRECT           LED-0603-CORRECT         TiLDA Mk2 Parts   1
+X1       12Mhz 13pF 30ppm (7pf caps) CRYSTAL-5X3.2             CRYSTAL-5X3.2            TiLDA Mk2 Parts   1
+X2       32.768Khz                   RESONATOR_EPSON_FC_145    RESONATOR_EPSON_FC_145   TiLDA Mk2 Parts   1
+Z1       CG0603MLC-05E               VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
+Z2       CG0603MLC-05E               VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
+Z3       CG0603MLC-05E               VARISTORCN0603            CT/CN0603                TiLDA Mk2 Parts   1
