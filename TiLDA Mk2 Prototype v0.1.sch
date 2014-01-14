@@ -41120,7 +41120,7 @@ www.ciseco.co.uk</description>
 <label x="513.08" y="111.76" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="BUTTON_LEFT" class="0">
+<net name="BUTTON_RIGHT" class="0">
 <segment>
 <wire x1="162.56" y1="63.5" x2="165.1" y2="63.5" width="0.1524" layer="91"/>
 <label x="165.1" y="63.5" size="1.778" layer="95"/>
@@ -41190,7 +41190,7 @@ www.ciseco.co.uk</description>
 <label x="637.54" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="BUTTON_RIGHT" class="0">
+<net name="BUTTON_LEFT" class="0">
 <segment>
 <wire x1="162.56" y1="60.96" x2="165.1" y2="60.96" width="0.1524" layer="91"/>
 <label x="165.1" y="60.96" size="1.778" layer="95"/>
