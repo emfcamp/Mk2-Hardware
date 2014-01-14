@@ -17705,8 +17705,8 @@ Source: WE-TPC 744053220.pdf</description>
 <wire x1="-6" y1="-2.3" x2="-6" y2="-6" width="0.127" layer="21"/>
 <wire x1="-6" y1="-6" x2="6" y2="-6" width="0.127" layer="21"/>
 <wire x1="6" y1="6" x2="-6" y2="6" width="0.127" layer="21"/>
-<smd name="P$1" x="-5.6" y="0" dx="1.2" dy="4" layer="1"/>
-<smd name="P$2" x="5.6" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="P$1" x="-5.8" y="0" dx="1.6" dy="4" layer="1"/>
+<smd name="P$2" x="5.8" y="0" dx="1.6" dy="4" layer="1"/>
 <wire x1="6" y1="6" x2="6" y2="2.3" width="0.127" layer="21"/>
 <wire x1="6" y1="-2.3" x2="6" y2="-6" width="0.127" layer="21"/>
 <polygon width="0.127" layer="21">
