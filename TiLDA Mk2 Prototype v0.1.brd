@@ -402,6 +402,12 @@
 <text x="4" y="98.2" size="0.8128" layer="22" ratio="15" rot="MR0">3V3</text>
 <text x="58.2" y="2.6" size="0.6096" layer="22" ratio="15" rot="MR90">C37</text>
 <text x="61" y="73.7" size="0.6096" layer="22" ratio="15" rot="MR0">C38</text>
+<text x="55" y="35" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
+<text x="55" y="30" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
+<text x="55" y="25" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
+<text x="55" y="20" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
+<text x="55" y="15" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
+<text x="55" y="10" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.1</text>
 <text x="62.15" y="64.3" size="1.016" layer="21" ratio="15" rot="R90">SJ9</text>
 </plain>
 <libraries>
