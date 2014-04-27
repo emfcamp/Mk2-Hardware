@@ -1,6 +1,6 @@
 Partlist
 
-Exported from TiLDA Mk2 Prototype v0.1.sch at 12/01/2014 19:18
+Exported from TiLDA Mk2 Prototype v0.1.sch at 18/01/2014 12:49:16
 
 EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
 
@@ -184,6 +184,7 @@ SJ5      RESET SELECT                SOLDERJUMPER_2WAYS        SJ_3             
 SJ6      RESET BUTTON                SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
 SJ7      Buzzer                      SOLDERJUMPERTRACE         SJ_2S-TRACE              TiLDA Mk2 Parts   1
 SJ8      AREF                        SOLDERJUMPER_2WAYS        SJ_3                     TiLDA Mk2 Parts   1
+SJ9      FTDI Power                  SOLDERJUMPERNO            SJ_2S-NO                 TiLDA Mk2 Parts   1
 TP1      GND                         TPPAD1-13                 P1-13                    TiLDA Mk2 Parts   1
 TP2      SRF Reset                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
 TP3      SRF Reset                   TPB1,27                   B1,27                    TiLDA Mk2 Parts   1
