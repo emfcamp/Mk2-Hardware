@@ -35049,7 +35049,20 @@ www.ciseco.co.uk</description>
 <text x="740.41" y="198.12" size="3.81" layer="97" ratio="15">Conductive</text>
 <text x="740.41" y="193.04" size="3.81" layer="97" ratio="15">Thread Pads</text>
 <text x="48.768" y="177.8" size="1.778" layer="97">Open</text>
-<text x="535.94" y="109.22" size="5.08" layer="91" ratio="17">NEED IR_RX_PWR PIN</text>
+<text x="535.94" y="154.94" size="5.08" layer="91" ratio="17">NEED IR_RX_PWR PIN</text>
+<text x="581.66" y="81.28" size="1.778" layer="91" rot="R90">PMIC</text>
+<text x="584.2" y="81.28" size="1.778" layer="91" rot="R90">PMIC</text>
+<text x="586.74" y="81.28" size="1.778" layer="91" rot="R90">PMIC</text>
+<text x="614.68" y="109.22" size="1.778" layer="91">PMIC</text>
+<text x="614.68" y="106.68" size="1.778" layer="91">PMIC</text>
+<text x="563.88" y="81.28" size="1.778" layer="91" rot="R90">PMIC</text>
+<text x="614.68" y="182.88" size="1.778" layer="91">EPD</text>
+<text x="617.22" y="96.52" size="1.778" layer="91">EPD</text>
+<text x="617.22" y="91.44" size="1.778" layer="91">EPD</text>
+<text x="617.22" y="83.82" size="1.778" layer="91">EPD</text>
+<text x="617.22" y="81.28" size="1.778" layer="91">EPD</text>
+<text x="617.22" y="78.74" size="1.778" layer="91">EPD</text>
+<text x="591.82" y="81.28" size="1.778" layer="91" rot="R90">EPD</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -36082,13 +36095,6 @@ www.ciseco.co.uk</description>
 <label x="637.54" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EPD_BORDER_CONTROL" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC8"/>
-<wire x1="637.54" y1="96.52" x2="635" y2="96.52" width="0.1524" layer="91"/>
-<label x="637.54" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="3V3" class="0">
 <segment>
 <pinref part="JP8" gate="G$1" pin="2"/>
@@ -36343,11 +36349,6 @@ www.ciseco.co.uk</description>
 </net>
 <net name="LCD_POWER" class="0">
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC1"/>
-<wire x1="637.54" y1="78.74" x2="635" y2="78.74" width="0.1524" layer="91"/>
-<label x="637.54" y="78.74" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <wire x1="254" y1="165.1" x2="256.54" y2="165.1" width="0.1524" layer="91"/>
 <label x="254" y="165.1" size="1.778" layer="95" rot="MR0"/>
@@ -36355,6 +36356,11 @@ www.ciseco.co.uk</description>
 <wire x1="256.54" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="165.1" x2="256.54" y2="167.64" width="0.1524" layer="91"/>
 <junction x="256.54" y="165.1"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC8"/>
+<wire x1="637.54" y1="96.52" x2="635" y2="96.52" width="0.1524" layer="91"/>
+<label x="637.54" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SRF_P2_2/DC" class="0">
@@ -38977,6 +38983,13 @@ www.ciseco.co.uk</description>
 <pinref part="C46" gate="G$1" pin="2"/>
 <wire x1="363.22" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="185.42" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="EPD_PANEL_ON" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC1"/>
+<wire x1="637.54" y1="78.74" x2="635" y2="78.74" width="0.1524" layer="91"/>
+<label x="637.54" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
