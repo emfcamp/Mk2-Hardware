@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="10" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -337,11 +337,11 @@
 <text x="4" y="98.2" size="0.8128" layer="22" ratio="15" rot="MR0">3V3</text>
 <text x="58.2" y="1.4" size="0.6096" layer="22" ratio="15" rot="MR90">C37</text>
 <text x="61" y="73.8" size="0.6096" layer="22" ratio="15" rot="MR0">C38</text>
-<text x="105" y="30" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
-<text x="105" y="25" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
-<text x="105" y="20" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
-<text x="105" y="15" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
-<text x="105" y="10" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
+<text x="55" y="30" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
+<text x="55" y="25" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
+<text x="55" y="20" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
+<text x="55" y="15" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
+<text x="55" y="10" size="2.54" layer="21" ratio="20" rot="R135">Boogaloo Prototype v0.2</text>
 <text x="62.15" y="64.3" size="1.016" layer="21" ratio="15" rot="R90">SJ9</text>
 <text x="59.7" y="5" size="0.6096" layer="22" ratio="15" rot="MR90">R40</text>
 <text x="15.7" y="11.7" size="0.6096" layer="22" ratio="15" rot="MR0">R46</text>
