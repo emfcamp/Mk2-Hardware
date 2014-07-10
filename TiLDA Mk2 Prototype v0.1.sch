@@ -17176,6 +17176,20 @@ Through-hole SPDT Switch&lt;br&gt;
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
+<package name="TILDA_BADGEBOARDBARE-VERYWIDE-MITER">
+<wire x1="0" y1="1.65" x2="0" y2="57.75" width="0.127" layer="20"/>
+<wire x1="100" y1="66.4" x2="100" y2="10.25" width="0.127" layer="20"/>
+<wire x1="1.425" y1="0.8" x2="0" y2="1.65" width="0.127" layer="20" curve="-126.87"/>
+<wire x1="50" y1="4" x2="98" y2="6.9" width="0.127" layer="20" curve="49.766989"/>
+<wire x1="98.575" y1="67.2" x2="100" y2="66.35" width="0.127" layer="20" curve="-126.87"/>
+<wire x1="0" y1="57.75" x2="2" y2="61.1" width="0.127" layer="20" curve="-64.0816"/>
+<wire x1="100" y1="10.25" x2="98" y2="6.9" width="0.127" layer="20" curve="-64.0816"/>
+<wire x1="50" y1="4" x2="2" y2="1.1" width="0.127" layer="20" curve="49.766989"/>
+<wire x1="1.425" y1="0.8" x2="2" y2="1.1" width="0.127" layer="20"/>
+<wire x1="50" y1="64" x2="98" y2="66.9" width="0.127" layer="20" curve="49.766989"/>
+<wire x1="50" y1="64" x2="2" y2="61.1" width="0.127" layer="20" curve="49.766989"/>
+<wire x1="98.575" y1="67.2" x2="98" y2="66.9" width="0.127" layer="20"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -23228,7 +23242,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="TILDA_BOARDOUTLINE">
+<deviceset name="TILDA_BOARDOUTLINE" prefix="OUTLINE">
 <gates>
 <gate name="G$1" symbol="TILDA_BOARD" x="0" y="0"/>
 </gates>
@@ -23244,6 +23258,11 @@ DIN A3, landscape with location and doc. field</description>
 </technologies>
 </device>
 <device name="-WIDE" package="TILDA_BADGEBOARDBARE-WIDE">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-MITER" package="TILDA_BADGEBOARDBARE-VERYWIDE-MITER">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -30483,7 +30502,7 @@ www.ciseco.co.uk</description>
 </classes>
 <parts>
 <part name="FRAME1" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
-<part name="OUTLINE1" library="TiLDA Mk2 Parts" deviceset="TILDA_BOARDOUTLINE" device="-VERYWIDE"/>
+<part name="OUTLINE1" library="TiLDA Mk2 Parts" deviceset="TILDA_BOARDOUTLINE" device="-MITER"/>
 <part name="LOGO1" library="TiLDA Mk2 Parts" deviceset="OSHW-LOGO" device="M"/>
 <part name="FID1" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID2" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
@@ -30522,7 +30541,7 @@ www.ciseco.co.uk</description>
 <part name="J1" library="TiLDA Mk2 Parts" deviceset="USB-AB" device="-LWK" value="ZX62-AB-5PA(11)"/>
 <part name="GND17" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND20" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C133" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
+<part name="C133" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
 <part name="C132" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="GND22" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND23" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -30566,10 +30585,10 @@ www.ciseco.co.uk</description>
 <part name="C110" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/100n/10V/X5R"/>
 <part name="L101" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="L102" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
-<part name="C101" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
-<part name="C111" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
-<part name="C102" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
-<part name="C103" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
+<part name="C101" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
+<part name="C111" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
+<part name="C102" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
+<part name="C103" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
 <part name="L105" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="R108" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/0R/5%/(NP)"/>
 <part name="GND34" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -30630,17 +30649,17 @@ www.ciseco.co.uk</description>
 <part name="Q10" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="C126" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0402-ARDUINO-ROUND" value="0402/10n/10V/Y5V"/>
-<part name="C127" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
-<part name="C135" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
+<part name="C127" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R/(NP)"/>
+<part name="C135" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R/(NP)"/>
 <part name="GND52" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R102" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="GND53" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="R25" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/1K/5%"/>
-<part name="C36" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="C36" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6V3/X5R"/>
 <part name="C34" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND63" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND64" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="C33" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="C33" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6V3/X5R"/>
 <part name="GND65" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="IC8" library="TiLDA Mk2 Parts" deviceset="MCP1825T-3302E/DC" device=""/>
 <part name="GND68" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -30707,7 +30726,7 @@ www.ciseco.co.uk</description>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
 <part name="H1" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
 <part name="H2" library="TiLDA Mk2 Parts" deviceset="MOUNT-HOLE" device="4.5-LWK" value=""/>
-<part name="C37" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/22u/25V/X5R"/>
+<part name="C37" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0805RND" value="0805/10u/6V3/X5R"/>
 <part name="GND58" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="C38" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="GND59" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
@@ -30718,7 +30737,7 @@ www.ciseco.co.uk</description>
 <part name="Q13" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SC70-3" value="BSS84W"/>
 <part name="R49" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="U2" library="TiLDA Mk2 Parts" deviceset="JHD12864-G13BSW-OUTLINE" device=""/>
-<part name="J8" library="TiLDA Mk2 Parts" deviceset="M02" device="RA"/>
+<part name="J8" library="TiLDA Mk2 Parts" deviceset="M02" device="RA" value="1x02 RA Pin"/>
 <part name="J7" library="TiLDA Mk2 Parts" deviceset="JHD12863-G13BSW-CONNECTOR" device="-SFV30R-2STE1HLF" value="SFV30R-2STE1HLF"/>
 <part name="C39" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
 <part name="C40" library="TiLDA Mk2 Parts" deviceset="C-EU" device="C0603-ROUND" value="0603/1u/10V/X5R"/>
@@ -30771,10 +30790,10 @@ www.ciseco.co.uk</description>
 <part name="TP26" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PD10">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
-<part name="U1" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF"/>
+<part name="J6" library="TiLDA Mk2 Parts" deviceset="POWER-POD" device="-EMF" value="B016 - PowerPOD NCP1402 5V0"/>
 <part name="R47" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
 <part name="R48" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/10K/5%"/>
-<part name="C50" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="SMC_B/10u/"/>
+<part name="C50" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
 <part name="GND9" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -31334,7 +31353,7 @@ www.ciseco.co.uk</description>
 <instance part="SJ10" gate="G$1" x="568.96" y="223.52" rot="R90"/>
 <instance part="TP25" gate="G$1" x="673.1" y="83.82" rot="R270"/>
 <instance part="TP26" gate="G$1" x="670.56" y="182.88" rot="R270"/>
-<instance part="U1" gate="G$1" x="88.9" y="144.78"/>
+<instance part="J6" gate="G$1" x="88.9" y="144.78"/>
 <instance part="R47" gate="G$1" x="127" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.27" y="143.7386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="141.478" size="1.778" layer="96"/>
@@ -31868,7 +31887,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="78.74" y1="147.32" x2="76.2" y2="147.32" width="0.1524" layer="91"/>
 <label x="76.2" y="147.32" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="J6" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C28" gate="G$1" pin="1"/>
@@ -32187,7 +32206,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="78.74" y1="149.86" x2="76.2" y2="149.86" width="0.1524" layer="91"/>
 <label x="76.2" y="149.86" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
+<pinref part="J6" gate="G$1" pin="VIN"/>
 </segment>
 <segment>
 <pinref part="TP19" gate="G$1" pin="TP"/>
@@ -32896,7 +32915,7 @@ www.ciseco.co.uk</description>
 <segment>
 <wire x1="78.74" y1="144.78" x2="76.2" y2="144.78" width="0.1524" layer="91"/>
 <label x="76.2" y="144.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
+<pinref part="J6" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="VIN" class="0">
