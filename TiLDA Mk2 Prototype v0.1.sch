@@ -30931,6 +30931,8 @@ www.ciseco.co.uk</description>
 <text x="462.28" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="474.98" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="487.68" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
+<text x="795.02" y="147.32" size="1.778" layer="91">v0.3</text>
+<text x="797.56" y="144.78" size="1.778" layer="91">Miter board outline</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
