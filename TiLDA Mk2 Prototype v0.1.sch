@@ -30926,10 +30926,16 @@ www.ciseco.co.uk</description>
 <text x="462.28" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="474.98" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="487.68" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
-<text x="795.02" y="147.32" size="1.778" layer="91">v0.3</text>
+<text x="795.02" y="147.32" size="1.778" layer="91">v0.333333333333333333</text>
 <text x="797.56" y="144.78" size="1.778" layer="91">Miter board outline</text>
-<text x="88.9" y="7.62" size="1.778" layer="91">On</text>
-<text x="88.9" y="17.78" size="1.778" layer="91">Off</text>
+<text x="73.66" y="7.62" size="1.778" layer="91">On/Battery</text>
+<text x="73.66" y="17.78" size="1.778" layer="91">Off/USB</text>
+<text x="797.56" y="142.24" size="1.778" layer="91">Silk screen updates </text>
+<text x="797.56" y="139.7" size="1.778" layer="91">Curve all the tracks</text>
+<text x="797.56" y="137.16" size="1.778" layer="91">Allow power from USB</text>
+<text x="800.1" y="134.62" size="1.778" layer="91">On posotion power is taken from the battery</text>
+<text x="800.1" y="132.08" size="1.778" layer="91">Off posotion power is taken from USB</text>
+<text x="800.1" y="129.54" size="1.778" layer="91">Battery is charged in both cases</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -33703,6 +33709,11 @@ www.ciseco.co.uk</description>
 <wire x1="43.18" y1="96.52" x2="43.18" y2="104.14" width="0.1524" layer="91"/>
 <junction x="43.18" y="104.14"/>
 </segment>
+<segment>
+<pinref part="S8" gate="1" pin="O"/>
+<wire x1="109.22" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
+<label x="109.22" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="JTAG_RESET" class="0">
 <segment>
@@ -34716,13 +34727,6 @@ www.ciseco.co.uk</description>
 <wire x1="33.02" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="SJ9" gate="1" pin="1"/>
 <junction x="40.64" y="175.26"/>
-</segment>
-</net>
-<net name="4V2" class="0">
-<segment>
-<pinref part="S8" gate="1" pin="O"/>
-<wire x1="109.22" y1="15.24" x2="101.6" y2="15.24" width="0.1524" layer="91"/>
-<label x="109.22" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IR_RX_PWR" class="0">
