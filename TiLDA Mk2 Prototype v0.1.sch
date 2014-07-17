@@ -17183,6 +17183,43 @@ Through-hole SPDT Switch&lt;br&gt;
 <wire x1="7.85" y1="3.05" x2="9.65" y2="3.05" width="0.1016" layer="49"/>
 <wire x1="-7.45" y1="-1.1" x2="7.45" y2="-1.1" width="0.1016" layer="49"/>
 </package>
+<package name="JOYSTICK_MULTICOMP">
+<wire x1="-3.75" y1="-3.75" x2="-3.75" y2="-2.1" width="0.254" layer="21"/>
+<wire x1="-3.75" y1="-2.1" x2="-3.75" y2="2.1" width="0.254" layer="51"/>
+<wire x1="-3.75" y1="2.1" x2="-3.75" y2="3.75" width="0.254" layer="21"/>
+<wire x1="3.75" y1="3.75" x2="3.75" y2="2.1" width="0.254" layer="21"/>
+<wire x1="3.75" y1="2.1" x2="3.75" y2="-2.1" width="0.254" layer="51"/>
+<wire x1="3.75" y1="-2.1" x2="3.75" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="3.75" y1="-3.75" x2="1.3" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="1.3" y1="-3.75" x2="-1.3" y2="-3.75" width="0.254" layer="51"/>
+<wire x1="-1.3" y1="-3.75" x2="-3.75" y2="-3.75" width="0.254" layer="21"/>
+<wire x1="0" y1="-2" x2="2" y2="0" width="0.254" layer="51"/>
+<wire x1="2" y1="0" x2="0" y2="2" width="0.254" layer="51"/>
+<wire x1="0" y1="2" x2="-2" y2="0" width="0.254" layer="51"/>
+<wire x1="-2" y1="0" x2="0" y2="-2" width="0.254" layer="51"/>
+<wire x1="-3.75" y1="3.75" x2="-1.3" y2="3.75" width="0.254" layer="21"/>
+<wire x1="-1.2" y1="3.75" x2="-0.3" y2="2.85" width="0.254" layer="51"/>
+<wire x1="0.3" y1="2.85" x2="1.2" y2="3.75" width="0.254" layer="51"/>
+<wire x1="1.3" y1="3.75" x2="3.75" y2="3.75" width="0.254" layer="21"/>
+<wire x1="-2.4" y1="2.6" x2="-1.4" y2="1.6" width="0.254" layer="51"/>
+<wire x1="-2.4" y1="2.6" x2="-2.4" y2="2.095" width="0.254" layer="51"/>
+<wire x1="-2.4" y1="2.6" x2="-1.885" y2="2.6" width="0.254" layer="51"/>
+<smd name="A" x="-4" y="1.275" dx="2" dy="1" layer="1"/>
+<smd name="B" x="4" y="1.275" dx="2" dy="1" layer="1"/>
+<smd name="C" x="-4" y="-1.275" dx="2" dy="1" layer="1"/>
+<smd name="CTR" x="-4" y="0" dx="2" dy="1" layer="1"/>
+<smd name="D" x="4" y="-1.275" dx="2" dy="1" layer="1"/>
+<smd name="GND" x="4" y="0" dx="2" dy="1" layer="1"/>
+<smd name="NC" x="0" y="4.05" dx="2" dy="1.8" layer="1"/>
+<smd name="NC@0" x="0" y="-4.05" dx="2" dy="1.8" layer="1"/>
+<text x="-3.8" y="4" size="0.4064" layer="25">&gt;Name</text>
+<text x="1.5" y="4" size="0.4064" layer="27">&gt;Value</text>
+<text x="-3.6" y="2.745" size="0.889" layer="51">Up</text>
+<hole x="0" y="1.9" drill="0.75"/>
+<hole x="0" y="-1.9" drill="1.05"/>
+<wire x1="0" y1="2.55" x2="-0.3" y2="2.85" width="0.254" layer="21"/>
+<wire x1="0.3" y1="2.85" x2="0" y2="2.55" width="0.254" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -29040,6 +29077,19 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <technology name=""/>
 </technologies>
 </device>
+<device name="_MULTICOMP" package="JOYSTICK_MULTICOMP">
+<connects>
+<connect gate="G$1" pin="CENT" pad="CTR"/>
+<connect gate="G$1" pin="DOWN" pad="D"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="LEFT" pad="B"/>
+<connect gate="G$1" pin="RIGHT" pad="C"/>
+<connect gate="G$1" pin="UP" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="MCP1825T-3302E/DC" prefix="U">
@@ -30630,7 +30680,7 @@ www.ciseco.co.uk</description>
 <part name="GND46" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND47" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND48" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="S7" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="-APLS" value="SKRHAAE010"/>
+<part name="S7" library="TiLDA Mk2 Parts" deviceset="JOYSTICK_MINI" device="_MULTICOMP" value="SKRHAAE010"/>
 <part name="SJ5" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="RESET SELECT"/>
 <part name="R21" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
 <part name="R22" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/100K/1%"/>
