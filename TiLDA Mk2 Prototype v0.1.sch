@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="6" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="6" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -6243,7 +6243,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="30.099" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">13</text>
 <text x="32.639" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">12</text>
 <text x="35.179" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">11</text>
-<text x="37.719" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">10</text>
+<text x="37.719" y="49.53" size="0.8128" layer="51" font="vector" ratio="15" rot="R180">10</text>
 <text x="39.751" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">9</text>
 <text x="42.291" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">8</text>
 <text x="46.355" y="49.53" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">7</text>
@@ -16573,10 +16573,10 @@ Through-hole SPDT Switch&lt;br&gt;
 <wire x1="64" y1="0" x2="64" y2="45.8" width="0.127" layer="21"/>
 <wire x1="64" y1="45.8" x2="0" y2="45.8" width="0.127" layer="21"/>
 <wire x1="0" y1="45.8" x2="0" y2="0" width="0.127" layer="21"/>
-<hole x="1.5" y="2.8" drill="1.6"/>
-<hole x="62.5" y="2.8" drill="1.6"/>
-<hole x="1.5" y="44.5" drill="1.6"/>
-<hole x="62" y="44.5" drill="1.6"/>
+<hole x="1.5" y="2.5" drill="1.6"/>
+<hole x="62.5" y="2.5" drill="1.6"/>
+<hole x="1.5" y="44.2" drill="1.6"/>
+<hole x="62" y="44.2" drill="1.6"/>
 <pad name="A" x="47.4" y="1.35" drill="0.9" shape="long" rot="R180"/>
 <pad name="K" x="16.6" y="1.35" drill="0.9" shape="long" rot="R180"/>
 <wire x1="24.25" y1="1" x2="24.25" y2="33" width="0.127" layer="49"/>
@@ -30839,6 +30839,9 @@ www.ciseco.co.uk</description>
 <part name="C50" library="TiLDA Mk2 Parts" deviceset="CPOL-EU" device="-C0805RNDPOL" value="0805/10u/6V3/X5R"/>
 <part name="GND9" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="Q12" library="TiLDA Mk2 Parts" deviceset="MOSFET-N" device="SC70-3" value="2N7002KW"/>
+<part name="TP27" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PB10">
+<attribute name="TP_SIGNAL_NAME" value=""/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -30985,6 +30988,9 @@ www.ciseco.co.uk</description>
 <text x="800.1" y="134.62" size="1.778" layer="91">On posotion power is taken from the battery</text>
 <text x="800.1" y="132.08" size="1.778" layer="91">Off posotion power is taken from USB</text>
 <text x="800.1" y="129.54" size="1.778" layer="91">Battery is charged in both cases</text>
+<text x="797.56" y="127" size="1.778" layer="91">TP27 for UOTGVBOF</text>
+<text x="474.98" y="142.24" size="1.778" layer="91">Light</text>
+<text x="477.52" y="99.06" size="1.778" layer="91">SRF_P2_0/AT_COMMAND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -31420,11 +31426,12 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="GND9" gate="1" x="91.44" y="38.1"/>
 <instance part="Q12" gate="G$1" x="60.96" y="220.98" rot="MR270"/>
+<instance part="TP27" gate="G$1" x="563.88" y="45.72" rot="R180"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="LCD_CS" class="0">
+<net name="LCD_!CS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB21"/>
 <wire x1="591.82" y1="66.04" x2="591.82" y2="63.5" width="0.1524" layer="91"/>
@@ -33953,8 +33960,9 @@ www.ciseco.co.uk</description>
 <net name="UOTGVBOF" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB10"/>
-<wire x1="563.88" y1="63.5" x2="563.88" y2="66.04" width="0.1524" layer="91"/>
 <label x="563.88" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<pinref part="TP27" gate="G$1" pin="TP"/>
+<wire x1="563.88" y1="48.26" x2="563.88" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UOTGID" class="0">
@@ -34538,7 +34546,7 @@ www.ciseco.co.uk</description>
 <label x="193.04" y="73.66" size="1.9304" layer="95"/>
 </segment>
 </net>
-<net name="PB19" class="0">
+<net name="A64" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB19"/>
 <label x="586.74" y="58.42" size="1.778" layer="95" rot="MR270"/>
@@ -34546,7 +34554,7 @@ www.ciseco.co.uk</description>
 <wire x1="586.74" y1="48.26" x2="586.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PB18" class="0">
+<net name="A63" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB18"/>
 <label x="584.2" y="58.42" size="1.778" layer="95" rot="MR270"/>
@@ -34554,7 +34562,7 @@ www.ciseco.co.uk</description>
 <pinref part="TP24" gate="G$1" pin="TP"/>
 </segment>
 </net>
-<net name="PC12" class="0">
+<net name="D51" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC12"/>
 <label x="647.7" y="106.68" size="1.778" layer="95"/>
@@ -35016,7 +35024,7 @@ www.ciseco.co.uk</description>
 <pinref part="Q12" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="PC3" class="0">
+<net name="D35" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PC3"/>
 <label x="647.7" y="83.82" size="1.778" layer="95"/>
