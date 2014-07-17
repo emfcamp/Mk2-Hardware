@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,17 +53,17 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="14" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="14" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -30552,7 +30552,6 @@ www.ciseco.co.uk</description>
 <part name="FID1" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID2" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
 <part name="FID4" library="TiLDA Mk2 Parts" deviceset="FIDUCIAL" device="1X2.5-STOP"/>
-<part name="LOGO2" library="TiLDA Mk2 Parts" deviceset="EMFLOGO" device="-SYMBOL"/>
 <part name="IC3" library="Ciseco Footprints" deviceset="SRF" device="-LANDING-1.2" value="SRF-V1.2"/>
 <part name="X1" library="TiLDA Mk2 Parts" deviceset="CRYSTAL" device="-5X3.2" value="12Mhz 13pF 30ppm (7pf caps)"/>
 <part name="IC1" library="TiLDA Mk2 Parts" deviceset="ATSAM3X/A" device="AU" value="ATSAM3X8EA-AU"/>
@@ -30642,8 +30641,8 @@ www.ciseco.co.uk</description>
 <part name="L103" library="TiLDA Mk2 Parts" deviceset="WE-CBF" device="_0805" value="MH2029-300Y"/>
 <part name="GND35" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="GND36" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
-<part name="TX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603/LED/RED"/>
-<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0603-CORRECT" value="0603/LED/RED"/>
+<part name="TX" library="TiLDA Mk2 Parts" deviceset="LED" device="0805-CORRECT" value="0603/LED/RED"/>
+<part name="RX" library="TiLDA Mk2 Parts" deviceset="LED" device="0805-CORRECT" value="0603/LED/RED"/>
 <part name="R105" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
 <part name="R106" library="TiLDA Mk2 Parts" deviceset="R-EU_" device="R0402-ARDUINO-ROUND" value="0402/39R/1%"/>
 <part name="IC5" library="TiLDA Mk2 Parts" deviceset="SPI_FLASH-X25XX" device="SMD1" value="S25FL216K0PMFI011"/>
@@ -30994,7 +30993,6 @@ www.ciseco.co.uk</description>
 <instance part="FID1" gate="G$1" x="345.44" y="22.86"/>
 <instance part="FID2" gate="G$1" x="350.52" y="22.86"/>
 <instance part="FID4" gate="G$1" x="355.6" y="22.86"/>
-<instance part="LOGO2" gate="G$1" x="690.88" y="2.54"/>
 <instance part="IC3" gate="G$1" x="170.18" y="200.66"/>
 <instance part="X1" gate="G$1" x="477.52" y="198.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="476.504" y="200.66" size="1.778" layer="95" rot="R90"/>
