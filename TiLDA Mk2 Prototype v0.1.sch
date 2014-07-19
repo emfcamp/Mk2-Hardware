@@ -30827,7 +30827,7 @@ www.ciseco.co.uk</description>
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
 <part name="SJ10" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER_2WAY" device="S" value="VDDIO"/>
-<part name="TP25" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PC3">
+<part name="TP25" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PC1">
 <attribute name="TP_SIGNAL_NAME" value=""/>
 </part>
 <part name="TP26" library="TiLDA Mk2 Parts" deviceset="TP" device="B1,27" value="PD10">
@@ -31409,7 +31409,7 @@ www.ciseco.co.uk</description>
 <instance part="TP24" gate="G$1" x="584.2" y="40.64" rot="R180"/>
 <instance part="TP23" gate="G$1" x="586.74" y="45.72" rot="R180"/>
 <instance part="SJ10" gate="G$1" x="568.96" y="223.52" rot="R90"/>
-<instance part="TP25" gate="G$1" x="673.1" y="83.82" rot="R270"/>
+<instance part="TP25" gate="G$1" x="673.1" y="78.74" rot="R270"/>
 <instance part="TP26" gate="G$1" x="670.56" y="182.88" rot="R270"/>
 <instance part="J6" gate="G$1" x="88.9" y="144.78"/>
 <instance part="R47" gate="G$1" x="127" y="139.7" smashed="yes" rot="R90">
@@ -34975,9 +34975,9 @@ www.ciseco.co.uk</description>
 <pinref part="Q12" gate="G$1" pin="G"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PC1"/>
-<wire x1="637.54" y1="78.74" x2="635" y2="78.74" width="0.1524" layer="91"/>
-<label x="637.54" y="78.74" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="PC3"/>
+<label x="637.54" y="83.82" size="1.778" layer="95"/>
+<wire x1="637.54" y1="83.82" x2="635" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LCD_V1" class="0">
@@ -35024,19 +35024,19 @@ www.ciseco.co.uk</description>
 <pinref part="Q12" gate="G$1" pin="D"/>
 </segment>
 </net>
-<net name="D35" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PC3"/>
-<label x="647.7" y="83.82" size="1.778" layer="95"/>
-<pinref part="TP25" gate="G$1" pin="TP"/>
-<wire x1="670.56" y1="83.82" x2="635" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="U2" gate="OUTLINE" pin="K"/>
 <pinref part="R45" gate="G$1" pin="1"/>
 <wire x1="27.94" y1="218.44" x2="35.56" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D33" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PC1"/>
+<wire x1="670.56" y1="78.74" x2="635" y2="78.74" width="0.1524" layer="91"/>
+<label x="647.7" y="78.74" size="1.778" layer="95"/>
+<pinref part="TP25" gate="G$1" pin="TP"/>
 </segment>
 </net>
 </nets>
