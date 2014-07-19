@@ -30989,8 +30989,6 @@ www.ciseco.co.uk</description>
 <text x="800.1" y="132.08" size="1.778" layer="91">Off posotion power is taken from USB</text>
 <text x="800.1" y="129.54" size="1.778" layer="91">Battery is charged in both cases</text>
 <text x="797.56" y="127" size="1.778" layer="91">TP27 for UOTGVBOF</text>
-<text x="474.98" y="142.24" size="1.778" layer="91">Light</text>
-<text x="477.52" y="99.06" size="1.778" layer="91">SRF_P2_0/AT_COMMAND</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -34093,9 +34091,9 @@ www.ciseco.co.uk</description>
 <wire x1="127" y1="132.08" x2="127" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA20"/>
-<wire x1="513.08" y1="99.06" x2="515.62" y2="99.06" width="0.1524" layer="91"/>
-<label x="513.08" y="99.06" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="PA3"/>
+<wire x1="515.62" y1="142.24" x2="513.08" y2="142.24" width="0.1524" layer="91"/>
+<label x="513.08" y="142.24" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SCREEN_RIGHT" class="0">
@@ -34386,9 +34384,9 @@ www.ciseco.co.uk</description>
 <label x="200.66" y="205.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="PA3"/>
-<wire x1="515.62" y1="142.24" x2="513.08" y2="142.24" width="0.1524" layer="91"/>
-<label x="513.08" y="142.24" size="1.778" layer="95" rot="MR0"/>
+<pinref part="IC1" gate="G$1" pin="PA20"/>
+<wire x1="513.08" y1="99.06" x2="515.62" y2="99.06" width="0.1524" layer="91"/>
+<label x="513.08" y="99.06" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="N$23" class="0">
