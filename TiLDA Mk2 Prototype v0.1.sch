@@ -30845,6 +30845,7 @@ www.ciseco.co.uk</description>
 <part name="GND10" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="Q14" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="NTR1P02T1G"/>
 <part name="GND11" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
+<part name="FRAME3" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -30900,7 +30901,7 @@ www.ciseco.co.uk</description>
 <text x="741.68" y="248.92" size="1.778" layer="97">No Place/Optional</text>
 <text x="406.4" y="172.72" size="2.54" layer="97" ratio="15">USB AB Socket</text>
 <text x="447.04" y="251.46" size="3.81" layer="97" ratio="15">AREF pin select</text>
-<text x="416.56" y="38.1" size="3.81" layer="97" ratio="15">Decoupling</text>
+<text x="408.94" y="40.64" size="3.81" layer="97" ratio="15">Decoupling</text>
 <text x="553.72" y="139.7" size="3.81" layer="97" ratio="15">SAM3X8E</text>
 <text x="406.4" y="81.28" size="3.81" layer="97" ratio="15">Ethernet Header</text>
 <text x="408.94" y="132.08" size="3.81" layer="97" ratio="15">JTAG 10Pin</text>
@@ -30964,37 +30965,40 @@ www.ciseco.co.uk</description>
 <text x="617.22" y="78.74" size="1.778" layer="91">EPD</text>
 <text x="591.82" y="81.28" size="1.778" layer="91" rot="R90">EPD</text>
 <text x="7.62" y="63.5" size="3.81" layer="97" ratio="15">Charge </text>
-<text x="795.02" y="180.34" size="2.54" layer="91">Revsion Notes</text>
-<text x="795.02" y="175.26" size="1.9304" layer="91">v0.2</text>
-<text x="797.56" y="170.18" size="1.9304" layer="91">Removed EPD and support parts</text>
-<text x="797.56" y="167.64" size="1.9304" layer="91">Removed S2 and S3, Screen left and rght, added TP's</text>
-<text x="797.56" y="165.1" size="1.9304" layer="91">Removed PMIC and support parts</text>
-<text x="797.56" y="162.56" size="1.9304" layer="91">Swapped A and B labels on buttons</text>
-<text x="797.56" y="160.02" size="1.9304" layer="91">Add LCD and support parts</text>
-<text x="797.56" y="157.48" size="1.9304" layer="91">Add TC1015 for VBackup power</text>
-<text x="797.56" y="154.94" size="1.9304" layer="91">Add MCP73831 for charge</text>
+<text x="820.42" y="248.92" size="2.54" layer="91">Revsion Notes</text>
+<text x="820.42" y="243.84" size="1.9304" layer="91">v0.2</text>
+<text x="822.96" y="238.76" size="1.9304" layer="91">Removed EPD and support parts</text>
+<text x="822.96" y="236.22" size="1.9304" layer="91">Removed S2 and S3, Screen left and rght, added TP's</text>
+<text x="822.96" y="233.68" size="1.9304" layer="91">Removed PMIC and support parts</text>
+<text x="822.96" y="231.14" size="1.9304" layer="91">Swapped A and B labels on buttons</text>
+<text x="822.96" y="228.6" size="1.9304" layer="91">Add LCD and support parts</text>
+<text x="822.96" y="226.06" size="1.9304" layer="91">Add TC1015 for VBackup power</text>
+<text x="822.96" y="223.52" size="1.9304" layer="91">Add MCP73831 for charge</text>
 <text x="223.52" y="129.54" size="2.54" layer="97" ratio="15">A B Buttons</text>
-<text x="797.56" y="152.4" size="1.9304" layer="91">Remove Dataflash IC</text>
-<text x="797.56" y="172.72" size="1.9304" layer="91">Add IR_RX power fet</text>
-<text x="431.8" y="20.32" size="1.9304" layer="91" rot="R90">VDDIN</text>
+<text x="822.96" y="220.98" size="1.9304" layer="91">Remove Dataflash IC</text>
+<text x="822.96" y="241.3" size="1.9304" layer="91">Add IR_RX power fet</text>
+<text x="434.34" y="2.54" size="1.9304" layer="91" rot="R90">VDDIN</text>
 <text x="449.58" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="462.28" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="474.98" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="487.68" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
-<text x="795.02" y="147.32" size="1.778" layer="91">v0.333333333333333333</text>
-<text x="797.56" y="144.78" size="1.778" layer="91">Miter board outline</text>
+<text x="820.42" y="215.9" size="1.778" layer="91">v0.333333333333333333</text>
+<text x="822.96" y="213.36" size="1.778" layer="91">Miter board outline</text>
 <text x="73.66" y="7.62" size="1.778" layer="91">On/Battery</text>
 <text x="73.66" y="17.78" size="1.778" layer="91">Off/USB</text>
-<text x="797.56" y="142.24" size="1.778" layer="91">Silk screen updates </text>
-<text x="797.56" y="139.7" size="1.778" layer="91">Curve all the tracks</text>
-<text x="797.56" y="137.16" size="1.778" layer="91">Allow power from USB</text>
-<text x="800.1" y="134.62" size="1.778" layer="91">On posotion power is taken from the battery</text>
-<text x="800.1" y="132.08" size="1.778" layer="91">Off posotion power is taken from USB</text>
-<text x="800.1" y="129.54" size="1.778" layer="91">Battery is charged in both cases</text>
-<text x="797.56" y="127" size="1.778" layer="91">TP27 for UOTGVBOF</text>
+<text x="822.96" y="210.82" size="1.778" layer="91">Silk screen updates </text>
+<text x="822.96" y="208.28" size="1.778" layer="91">Curve all the tracks</text>
+<text x="822.96" y="205.74" size="1.778" layer="91">Allow power from USB</text>
+<text x="825.5" y="203.2" size="1.778" layer="91">On posotion power is taken from the battery</text>
+<text x="825.5" y="200.66" size="1.778" layer="91">Off posotion power is taken from USB</text>
+<text x="825.5" y="198.12" size="1.778" layer="91">Battery is charged in both cases</text>
+<text x="822.96" y="195.58" size="1.778" layer="91">TP27 for UOTGVBOF</text>
 <text x="421.64" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="414.02" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="7.62" y="121.92" size="3.81" layer="97" ratio="15">Polarity Protection</text>
+<text x="822.96" y="193.04" size="1.778" layer="91">Rework VDDIO</text>
+<text x="822.96" y="190.5" size="1.778" layer="91">Add reverse polartity protection</text>
+<text x="553.72" y="7.62" size="1.9304" layer="91">VDDOUT</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -31436,10 +31440,11 @@ www.ciseco.co.uk</description>
 </instance>
 <instance part="GND9" gate="1" x="91.44" y="35.56"/>
 <instance part="Q12" gate="G$1" x="60.96" y="220.98" rot="MR270"/>
-<instance part="TP27" gate="G$1" x="563.88" y="45.72" rot="R180"/>
+<instance part="TP27" gate="G$1" x="563.88" y="40.64" rot="R180"/>
 <instance part="GND10" gate="1" x="441.96" y="241.3" rot="R90"/>
 <instance part="Q14" gate="G$1" x="68.58" y="114.3" rot="R90"/>
 <instance part="GND11" gate="1" x="66.04" y="104.14"/>
+<instance part="FRAME3" gate="G$1" x="812.8" y="0"/>
 </instances>
 <busses>
 </busses>
@@ -32112,7 +32117,7 @@ www.ciseco.co.uk</description>
 <net name="PD10" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD10"/>
-<label x="657.86" y="182.88" size="1.778" layer="95"/>
+<label x="647.7" y="182.88" size="1.778" layer="95"/>
 <pinref part="TP26" gate="G$1" pin="TP"/>
 <wire x1="668.02" y1="182.88" x2="635" y2="182.88" width="0.1524" layer="91"/>
 </segment>
@@ -32148,11 +32153,9 @@ www.ciseco.co.uk</description>
 <label x="759.46" y="233.68" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<wire x1="408.94" y1="35.56" x2="408.94" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="408.94" y1="33.02" x2="434.34" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="434.34" y1="33.02" x2="434.34" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C106" gate="G$1" pin="2"/>
-<label x="408.94" y="35.56" size="1.778" layer="95" rot="R90"/>
+<label x="434.34" y="33.02" size="1.778" layer="95" rot="R90"/>
+<wire x1="434.34" y1="33.02" x2="434.34" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC5" gate="G$1" pin="VCC"/>
@@ -32859,7 +32862,7 @@ www.ciseco.co.uk</description>
 <net name="RXD0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD5"/>
-<label x="657.86" y="170.18" size="1.778" layer="95"/>
+<label x="647.7" y="170.18" size="1.778" layer="95"/>
 <pinref part="TP16" gate="G$1" pin="TP"/>
 <wire x1="673.1" y1="170.18" x2="635" y2="170.18" width="0.1524" layer="91"/>
 </segment>
@@ -32867,7 +32870,7 @@ www.ciseco.co.uk</description>
 <net name="TXD0" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD4"/>
-<label x="657.86" y="167.64" size="1.778" layer="95"/>
+<label x="647.7" y="167.64" size="1.778" layer="95"/>
 <pinref part="TP15" gate="G$1" pin="TP"/>
 <wire x1="665.48" y1="167.64" x2="635" y2="167.64" width="0.1524" layer="91"/>
 </segment>
@@ -33884,9 +33887,9 @@ www.ciseco.co.uk</description>
 <net name="UOTGVBOF" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PB10"/>
-<label x="563.88" y="63.5" size="1.778" layer="95" rot="MR270"/>
+<label x="563.88" y="58.42" size="1.778" layer="95" rot="MR270"/>
 <pinref part="TP27" gate="G$1" pin="TP"/>
-<wire x1="563.88" y1="48.26" x2="563.88" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="563.88" y1="43.18" x2="563.88" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="UOTGID" class="0">
@@ -34230,7 +34233,7 @@ www.ciseco.co.uk</description>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD6"/>
-<label x="657.86" y="172.72" size="1.778" layer="95"/>
+<label x="647.7" y="172.72" size="1.778" layer="95"/>
 <pinref part="TP20" gate="G$1" pin="TP"/>
 <wire x1="680.72" y1="172.72" x2="635" y2="172.72" width="0.1524" layer="91"/>
 </segment>
@@ -34382,6 +34385,8 @@ www.ciseco.co.uk</description>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="584.2" y1="228.6" x2="581.66" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="581.66" y1="228.6" x2="581.66" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="581.66" y1="228.6" x2="581.66" y2="231.14" width="0.1524" layer="91"/>
+<junction x="581.66" y="228.6"/>
 </segment>
 <segment>
 <label x="309.88" y="50.8" size="1.778" layer="95" rot="MR0"/>
@@ -34960,7 +34965,9 @@ www.ciseco.co.uk</description>
 <wire x1="421.64" y1="25.4" x2="408.94" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="25.4" x2="408.94" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="C101" gate="G$1" pin="+"/>
-<label x="408.94" y="25.4" size="1.778" layer="95" rot="R90"/>
+<label x="408.94" y="27.94" size="1.778" layer="95" rot="R90"/>
+<wire x1="408.94" y1="27.94" x2="408.94" y2="25.4" width="0.1524" layer="91"/>
+<junction x="408.94" y="25.4"/>
 </segment>
 <segment>
 <pinref part="C105" gate="G$1" pin="2"/>
@@ -34976,7 +34983,18 @@ www.ciseco.co.uk</description>
 <wire x1="485.14" y1="25.4" x2="472.44" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="C108" gate="G$1" pin="2"/>
 <wire x1="485.14" y1="22.86" x2="485.14" y2="25.4" width="0.1524" layer="91"/>
-<label x="447.04" y="25.4" size="1.778" layer="95" rot="R90"/>
+<label x="447.04" y="35.56" size="1.778" layer="95" rot="R90"/>
+<wire x1="447.04" y1="25.4" x2="447.04" y2="33.02" width="0.1524" layer="91"/>
+<junction x="447.04" y="25.4"/>
+<pinref part="L102" gate="G$1" pin="1"/>
+<wire x1="447.04" y1="33.02" x2="447.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="464.82" y1="33.02" x2="457.2" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="L101" gate="G$1" pin="1"/>
+<wire x1="464.82" y1="40.64" x2="457.2" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="457.2" y1="40.64" x2="457.2" y2="33.02" width="0.1524" layer="91"/>
+<junction x="457.2" y="33.02"/>
+<wire x1="447.04" y1="33.02" x2="457.2" y2="33.02" width="0.1524" layer="91"/>
+<junction x="447.04" y="33.02"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VDDIO4"/>
@@ -35033,16 +35051,6 @@ www.ciseco.co.uk</description>
 <pinref part="R44" gate="G$1" pin="2"/>
 <wire x1="256.54" y1="177.8" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
 <label x="256.54" y="180.34" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="L102" gate="G$1" pin="1"/>
-<wire x1="464.82" y1="33.02" x2="457.2" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="L101" gate="G$1" pin="1"/>
-<wire x1="464.82" y1="40.64" x2="457.2" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="40.64" x2="457.2" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="457.2" y1="33.02" x2="454.66" y2="33.02" width="0.1524" layer="91"/>
-<junction x="457.2" y="33.02"/>
-<label x="454.66" y="33.02" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
 <wire x1="454.66" y1="241.3" x2="454.66" y2="243.84" width="0.1524" layer="91"/>
