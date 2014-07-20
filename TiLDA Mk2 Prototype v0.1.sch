@@ -30988,19 +30988,22 @@ www.ciseco.co.uk</description>
 <text x="73.66" y="7.62" size="1.778" layer="91">On/Battery</text>
 <text x="73.66" y="17.78" size="1.778" layer="91">Off/USB</text>
 <text x="822.96" y="210.82" size="1.778" layer="91">Silk screen updates </text>
-<text x="822.96" y="208.28" size="1.778" layer="91">Curve all the tracks</text>
-<text x="822.96" y="205.74" size="1.778" layer="91">Allow power from USB</text>
-<text x="825.5" y="203.2" size="1.778" layer="91">On posotion power is taken from the battery</text>
-<text x="825.5" y="200.66" size="1.778" layer="91">Off posotion power is taken from USB</text>
-<text x="825.5" y="198.12" size="1.778" layer="91">Battery is charged in both cases</text>
-<text x="822.96" y="195.58" size="1.778" layer="91">TP27 for UOTGVBOF</text>
+<text x="822.96" y="205.74" size="1.778" layer="91">Curve all the tracks</text>
+<text x="822.96" y="203.2" size="1.778" layer="91">Allow power from USB</text>
+<text x="825.5" y="200.66" size="1.778" layer="91">On posotion power is taken from the battery</text>
+<text x="825.5" y="198.12" size="1.778" layer="91">Off posotion power is taken from USB</text>
+<text x="825.5" y="195.58" size="1.778" layer="91">Battery is charged in both cases</text>
+<text x="822.96" y="193.04" size="1.778" layer="91">TP27 for UOTGVBOF</text>
 <text x="421.64" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="414.02" y="2.54" size="1.9304" layer="91" rot="R90">VDDIO</text>
 <text x="7.62" y="121.92" size="3.81" layer="97" ratio="15">Polarity Protection</text>
-<text x="822.96" y="193.04" size="1.778" layer="91">Rework VDDIO</text>
-<text x="822.96" y="190.5" size="1.778" layer="91">Add reverse polartity protection</text>
+<text x="822.96" y="185.42" size="1.778" layer="91">Rework VDDIO</text>
+<text x="822.96" y="182.88" size="1.778" layer="91">Add reverse polartity protection</text>
 <text x="553.72" y="7.62" size="1.9304" layer="91">VDDOUT</text>
 <text x="333.248" y="236.22" size="1.778" layer="97">Closed</text>
+<text x="822.96" y="190.5" size="1.778" layer="91">Swap LIGHT and AT_COMMNAD</text>
+<text x="822.96" y="187.96" size="1.778" layer="91">Move LCD_BACKLIGHT to PWM</text>
+<text x="822.96" y="208.28" size="1.778" layer="91">Correct FPC and LCD footprints</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
