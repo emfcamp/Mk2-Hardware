@@ -30846,6 +30846,7 @@ www.ciseco.co.uk</description>
 <part name="Q14" library="TiLDA Mk2 Parts" deviceset="MOSFET-P" device="-SOT23" value="NTR1P02T1G"/>
 <part name="GND11" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="FRAME3" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
+<part name="SJ11" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="D0-5"/>
 </parts>
 <sheets>
 <sheet>
@@ -30943,7 +30944,7 @@ www.ciseco.co.uk</description>
 <text x="7.62" y="132.08" size="1.778" layer="97">Shutdown during Sleep</text>
 <text x="175.26" y="7.62" size="1.778" layer="97">Supports 512B Page erase</text>
 <text x="175.26" y="5.08" size="1.778" layer="97">But more expensive</text>
-<text x="363.22" y="71.12" size="1.778" layer="97">Closed</text>
+<text x="368.3" y="66.04" size="1.778" layer="97">Closed</text>
 <text x="702.31" y="160.02" size="3.81" layer="97" ratio="15">I2C Pull-Up's</text>
 <text x="675.64" y="248.92" size="1.778" layer="97">Do not need fuse as PMIC handles that</text>
 <text x="157.48" y="149.86" size="3.81" layer="97" ratio="15">Batt Voltage Mon</text>
@@ -30999,6 +31000,7 @@ www.ciseco.co.uk</description>
 <text x="822.96" y="193.04" size="1.778" layer="91">Rework VDDIO</text>
 <text x="822.96" y="190.5" size="1.778" layer="91">Add reverse polartity protection</text>
 <text x="553.72" y="7.62" size="1.9304" layer="91">VDDOUT</text>
+<text x="333.248" y="236.22" size="1.778" layer="97">Closed</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -31445,6 +31447,10 @@ www.ciseco.co.uk</description>
 <instance part="Q14" gate="G$1" x="68.58" y="114.3" rot="R90"/>
 <instance part="GND11" gate="1" x="66.04" y="104.14"/>
 <instance part="FRAME3" gate="G$1" x="812.8" y="0"/>
+<instance part="SJ11" gate="1" x="327.66" y="233.68" smashed="yes">
+<attribute name="NAME" x="325.12" y="236.22" size="1.778" layer="95"/>
+<attribute name="VALUE" x="326.136" y="229.87" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -34882,6 +34888,11 @@ www.ciseco.co.uk</description>
 <wire x1="360.68" y1="213.36" x2="363.22" y2="213.36" width="0.1524" layer="91"/>
 <label x="360.68" y="213.36" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="SJ11" gate="1" pin="1"/>
+<wire x1="322.58" y1="233.68" x2="320.04" y2="233.68" width="0.1524" layer="91"/>
+<label x="320.04" y="233.68" size="1.778" layer="95" rot="MR0"/>
+</segment>
 </net>
 <net name="LCD_BACKLIGHT" class="0">
 <segment>
@@ -35083,6 +35094,34 @@ www.ciseco.co.uk</description>
 <pinref part="S8" gate="1" pin="S"/>
 <wire x1="104.14" y1="10.16" x2="101.6" y2="10.16" width="0.1524" layer="91"/>
 <label x="104.14" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="D5"/>
+<wire x1="363.22" y1="220.98" x2="360.68" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="220.98" x2="360.68" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="223.52" x2="360.68" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="226.06" x2="360.68" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="228.6" x2="360.68" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="231.14" x2="360.68" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="D0"/>
+<wire x1="363.22" y1="233.68" x2="360.68" y2="233.68" width="0.1524" layer="91"/>
+<junction x="360.68" y="233.68"/>
+<pinref part="J7" gate="G$1" pin="D1"/>
+<wire x1="363.22" y1="231.14" x2="360.68" y2="231.14" width="0.1524" layer="91"/>
+<junction x="360.68" y="231.14"/>
+<pinref part="J7" gate="G$1" pin="D2"/>
+<wire x1="363.22" y1="228.6" x2="360.68" y2="228.6" width="0.1524" layer="91"/>
+<junction x="360.68" y="228.6"/>
+<pinref part="J7" gate="G$1" pin="D3"/>
+<wire x1="363.22" y1="226.06" x2="360.68" y2="226.06" width="0.1524" layer="91"/>
+<junction x="360.68" y="226.06"/>
+<pinref part="J7" gate="G$1" pin="D4"/>
+<wire x1="363.22" y1="223.52" x2="360.68" y2="223.52" width="0.1524" layer="91"/>
+<junction x="360.68" y="223.52"/>
+<pinref part="SJ11" gate="1" pin="2"/>
+<wire x1="360.68" y1="233.68" x2="332.74" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
