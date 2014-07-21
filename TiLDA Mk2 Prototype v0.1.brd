@@ -389,6 +389,7 @@
 <text x="46.4" y="38.2" size="0.6096" layer="22" font="vector" ratio="15" rot="MR90">SJ11</text>
 <text x="6.4" y="3.5" size="1.016" layer="22" font="vector" ratio="15" rot="MR90">Batt</text>
 <text x="14" y="47.3" size="0.6096" layer="22" font="vector" ratio="15" rot="MR0">D2</text>
+<text x="60.2" y="14.6" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">VBUS</text>
 </plain>
 <libraries>
 <library name="TiLDA Mk2 Parts">
@@ -11355,6 +11356,20 @@ chip</description>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
+<package name="1X01">
+<wire x1="1.27" y1="0.635" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="-0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<text x="1.1938" y="1.8288" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="Ciseco Footprints">
@@ -11926,6 +11941,7 @@ design rules under a new name.</description>
 <element name="ARTWORK2" library="TiLDA Mk2 Parts" package="TILDA_ARTWORK_ACHIEVEMENT2" value="ARTWORK_ACHIEVEMENT2" x="25" y="25" rot="MR0"/>
 <element name="ARTWORK3" library="TiLDA Mk2 Parts" package="TILDA_ARTWORK_ACHIEVEMENT3" value="ARTWORK_ACHIEVEMENT3" x="42.7" y="53.4" rot="MR0"/>
 <element name="D2" library="TiLDA Mk2 Parts" package="SOT23" value="BAT54C" x="13.6" y="50" rot="MR0"/>
+<element name="JP9" library="TiLDA Mk2 Parts" package="1X01" value="VBUS" x="58.6" y="17" rot="MR0"/>
 </elements>
 <signals>
 <signal name="VDDIO">
@@ -12558,7 +12574,7 @@ design rules under a new name.</description>
 <via x="6.8" y="6.95" extent="1-16" drill="0.5"/>
 <via x="15.5" y="8.8" extent="1-16" drill="0.5"/>
 <via x="60.75" y="13.6" extent="1-16" drill="0.5"/>
-<via x="57.5" y="15.1" extent="1-16" drill="0.5"/>
+<via x="56.7" y="15.1" extent="1-16" drill="0.5"/>
 <via x="40" y="46.45" extent="1-16" drill="0.5"/>
 <wire x1="44.45" y1="15.92" x2="44.45" y2="17.05" width="0.15" layer="16"/>
 <wire x1="44.45" y1="17.05" x2="44.8" y2="17.4" width="0.15" layer="16"/>
@@ -12576,7 +12592,7 @@ design rules under a new name.</description>
 <via x="56.3" y="30" extent="1-16" drill="0.5"/>
 <via x="54.45" y="31.85" extent="1-16" drill="0.5"/>
 <via x="49.25" y="37.15" extent="1-16" drill="0.5"/>
-<via x="59.75" y="17.2" extent="1-16" drill="0.5"/>
+<via x="59.85" y="18.6" extent="1-16" drill="0.5"/>
 <via x="57.15" y="19.2" extent="1-16" drill="0.5"/>
 <via x="58.9" y="33.1" extent="1-16" drill="0.5"/>
 <via x="54" y="23.1" extent="1-16" drill="0.5"/>
@@ -15605,6 +15621,8 @@ design rules under a new name.</description>
 <wire x1="14.4" y1="9.75" x2="14.8001" y2="9.75" width="0.4064" layer="16"/>
 <wire x1="14.8001" y1="9.75" x2="14.8" y2="9.7499" width="0.4064" layer="16" curve="90"/>
 <wire x1="14.8" y1="9.7499" x2="14.8" y2="9.7" width="0.4064" layer="16"/>
+<contactref element="JP9" pad="1"/>
+<wire x1="58.6" y1="15.3" x2="58.6" y2="17" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="JTAG_RESET">
 <contactref element="JP2" pad="10"/>
