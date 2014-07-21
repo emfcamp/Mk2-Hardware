@@ -35927,10 +35927,9 @@ Through-hole SPDT Switch&lt;br&gt;
 <text x="-7.62" y="8.89" size="1.27" layer="95">&gt;Name</text>
 <text x="-7.62" y="-7.62" size="1.27" layer="96">&gt;Value</text>
 </symbol>
-<<<<<<< HEAD
 <symbol name="ARTWORK">
 <text x="0" y="0" size="1.6764" layer="94" ratio="10">Artwork</text>
-=======
+</symbol>
 <symbol name="SDD_AKKA">
 <wire x1="-3.81" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
@@ -35959,7 +35958,6 @@ Through-hole SPDT Switch&lt;br&gt;
 <pin name="A1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="A2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CC" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
->>>>>>> master
 </symbol>
 </symbols>
 <devicesets>
@@ -42223,7 +42221,6 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf</description>
 </device>
 </devices>
 </deviceset>
-<<<<<<< HEAD
 <deviceset name="ARTWORK" prefix="ARTWORK">
 <gates>
 <gate name="G$1" symbol="ARTWORK" x="0" y="0"/>
@@ -42245,7 +42242,12 @@ http://ww1.microchip.com/downloads/en/DeviceDoc/21984a.pdf</description>
 </technologies>
 </device>
 <device name="_FRONT1" package="TILDA_ARTWORK_FRONT1">
-=======
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="BAT54C" prefix="D">
 <description>&lt;b&gt;Schottky Diodes&lt;/b&gt;&lt;p&gt;
 Source: Fairchild .. BAT54.pdf</description>
@@ -42259,7 +42261,7 @@ Source: Fairchild .. BAT54.pdf</description>
 <connect gate="G$1" pin="A2" pad="2"/>
 <connect gate="G$1" pin="CC" pad="3"/>
 </connects>
->>>>>>> master
+
 <technologies>
 <technology name=""/>
 </technologies>
@@ -43565,13 +43567,10 @@ www.ciseco.co.uk</description>
 <part name="GND11" library="TiLDA Mk2 Parts" deviceset="GND" device=""/>
 <part name="FRAME3" library="TiLDA Mk2 Parts" deviceset="A3L-LOC" device=""/>
 <part name="SJ11" library="TiLDA Mk2 Parts" deviceset="SOLDERJUMPER" device="NO" value="D0-5"/>
-<<<<<<< HEAD
 <part name="ARTWORK1" library="TiLDA Mk2 Parts" deviceset="ARTWORK" device="_FRONT1"/>
 <part name="ARTWORK2" library="TiLDA Mk2 Parts" deviceset="ARTWORK" device="_ACHIEVEMENT2"/>
 <part name="ARTWORK3" library="TiLDA Mk2 Parts" deviceset="ARTWORK" device="_ACHIEVEMENT3"/>
-=======
 <part name="D2" library="TiLDA Mk2 Parts" deviceset="BAT54C" device=""/>
->>>>>>> master
 </parts>
 <sheets>
 <sheet>
@@ -44178,13 +44177,10 @@ www.ciseco.co.uk</description>
 <attribute name="NAME" x="325.12" y="236.22" size="1.778" layer="95"/>
 <attribute name="VALUE" x="326.136" y="229.87" size="1.778" layer="96"/>
 </instance>
-<<<<<<< HEAD
 <instance part="ARTWORK1" gate="G$1" x="289.56" y="17.78"/>
 <instance part="ARTWORK2" gate="G$1" x="289.56" y="15.24"/>
 <instance part="ARTWORK3" gate="G$1" x="289.56" y="12.7"/>
-=======
 <instance part="D2" gate="G$1" x="571.5" y="226.06" rot="R180"/>
->>>>>>> master
 </instances>
 <busses>
 </busses>
