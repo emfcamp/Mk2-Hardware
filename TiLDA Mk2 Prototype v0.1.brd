@@ -382,8 +382,6 @@
 <text x="51.45" y="64.6" size="0.6096" layer="22" font="vector" ratio="15" rot="MR0">R48</text>
 <text x="28.8" y="9.3" size="0.6096" layer="22" font="vector" ratio="15" rot="MR90">C50</text>
 <text x="15.05" y="54.3" size="0.8128" layer="22" font="vector" ratio="15" rot="MR0">SJ10</text>
-<text x="1.7" y="52.55" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">VBACKUP</text>
-<text x="-0.3" y="52.55" size="0.8128" layer="22" font="vector" ratio="15" rot="MR90">3V3</text>
 <text x="15.3" y="4.1" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">BLACK</text>
 <text x="15.5" y="6.3" size="1.016" layer="22" font="vector" ratio="15" rot="MR180">RED</text>
 <text x="55.8" y="1" size="1.9304" layer="22" font="vector" ratio="20" rot="MR0">badge.emfcamp.org/2014</text>
@@ -9380,34 +9378,6 @@ design rules under a new name.</description>
 <wire x1="45" y1="36.25" x2="45" y2="36.75" width="0.15" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="5,16,7439778ea5b052e2"/>
-<approved hash="5,16,b7d32168b1ab2bf7"/>
-<approved hash="5,16,2cbbf2277ea10ce3"/>
-<approved hash="5,16,e9f2bb115fd3f639"/>
-<approved hash="5,16,2f879e7321303d58"/>
-<approved hash="5,16,f6ff9fa3c376571b"/>
-<approved hash="5,16,441ea507b4374f0d"/>
-<approved hash="5,16,afdcb7ace204068f"/>
-<approved hash="5,16,154c168f19b1ee97"/>
-<approved hash="5,16,ff3d03eae51be92d"/>
-<approved hash="5,16,7fa7c2761aadf103"/>
-<approved hash="5,16,04e40933e6e08d43"/>
-<approved hash="5,16,b8812d0c15bf6243"/>
-<approved hash="5,16,6fce3b264ca01497"/>
-<approved hash="5,16,3a3862bb27cbde93"/>
-<approved hash="5,16,faf2136418a670b9"/>
-<approved hash="5,16,4596969090e54637"/>
-<approved hash="5,16,b75e0459ebc13db4"/>
-<approved hash="5,16,3981314dfd030977"/>
-<approved hash="5,16,5cf6d6219197d4be"/>
-<approved hash="5,16,eb21ae2f2659d4bf"/>
-<approved hash="5,16,b296b53e7c707aa3"/>
-<approved hash="5,16,55eff2446ba7d4f7"/>
-<approved hash="5,16,8c2fafd355d36631"/>
-<approved hash="5,16,26b87d4c4f607c72"/>
-<approved hash="5,16,41ecd39325a0c38d"/>
-</errors>
 </board>
 </drawing>
 </eagle>
